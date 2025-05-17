@@ -1,0 +1,586 @@
+message,label
+A passenger aircraft is approaching. Descend as soon as possible,4
+A passenger aircraft is nearby. Fly with caution,2
+Abnormal compass function or GPS signal detected. Aircraft switched to ATTI mode,3
+Accelerator is Over Range,3
+Account not logged in. Flight altitude and distance restricted to nnn and nnn. Check and log in,2
+ActiveTrack Flight Ended: Aircraft is entering a restricted area,4
+ActiveTrack Flight Ended: Cannot find subject,3
+ActiveTrack Flight Ended: Control Signal Timeout (RC),3
+ActiveTrack Flight Paused,2
+ActiveTrack Flight Stopped Aircraft Entering Restricted Area,4
+Advanced RTH Image Transmission Recovered. Aircraft is returning home,1
+AE Locked. Metering disabled,2
+Aircraft ActiveTrack available at max speed. Obstacle Avoidance is not available,3
+"Aircraft ActiveTrack available at max speed. When exceeding nnn, Obstacle Avoidance is not available",3
+Aircraft ActiveTrack max speed of nnn and Obstacle Avoidance functions normally,3
+Aircraft ActiveTrack max speed of nnn. Left and right Obstacle Sensing systems are available,3
+Aircraft antenna satellite signal searching error. Fly with caution,3
+Aircraft approaching obstacle sensing blind spot and may be unable to detect obstacles. Fly with caution,2
+Aircraft battery level low. Return to home promptly,3
+Aircraft close to Home Point. go home shifts to landing.,1
+Aircraft Core Board Overheated,4
+Aircraft entered Fixed-Wing Mode. Current flight speed is nnn. Press C2 to exit,2
+Aircraft exceeded distance limit and has exited Hyperlapse mode,3
+Aircraft flight control locked,4
+Aircraft flight control obtained by remote controller A,1
+Aircraft flight control obtained by remote controller B,1
+Aircraft flight control obtained by remote controller UNKNOWN,1
+Aircraft flight control unlocked,1
+Aircraft GPS interference. Aircraft unable to fly stably. Land or return to home promptly,3
+Aircraft GPS signal too weak. Home Point not updated,3
+Aircraft in Altitude Zone. Max altitude set to nnn,1
+Aircraft in Attitude mode. Unable to hover. Fly with caution ,2
+Aircraft in Authorization Zone. Unable to take off before unlocking,4
+Aircraft in high interference environment. Fly with caution,2
+Aircraft in high interference environment. Manually adjust flight route or return to home,2
+Aircraft in Restricted Zone. Unable to take off. Check map to find Recommended Zones,4
+Aircraft in Restricted Zones. Check map to find Recommended Zones,4
+Aircraft is close to Home Point. Return-to-Home Mode is now Auto Landing Mode.,1
+Aircraft is close to the Home Point. Initiating Return to Home will now trigger Auto Landing.,1
+Aircraft is entering a restricted area,4
+Aircraft is flying back to the start point,1
+"Aircraft is in Attitude mode, so that it will not hover. Please fly with caution.",2
+Aircraft is in QuickShot Mode. Ensure your enviornment is free of potential obstacles.,1
+Aircraft is in QuickShot Mode. Ensure your enviornment is free of potential obstacles.,1
+Aircraft is in Sport Mode. Exit this mode and try again,1
+Aircraft is in Tripod Mode. Exit this mode and try again,1
+"Aircraft is landing due to low voltage, which cannot be stopped. You can decelerate the descending speed and avoid obstacles using sticks",4
+Aircraft is now following you.,1
+Aircraft is returning to the Home Point. Minimum RTH Altitude is 30m. You can reset the RTH Altitude in Remote Controller Settings after cancelling RTH if necessary.,1
+Aircraft is returning to the Home Point. Minimum RTH Altitude is 30m. You can reset the RTH Altitude in Remote Controller Settings after cancelling RTH.,1
+Aircraft is returning to the Home Point. Minimum RTH Altitude is 98ft. You can reset the RTH Altitude in Remote Controller Settings after cancelling RTH.,1
+Aircraft is returning to the Home Point. Minimum RTH Altitude is 30m. You can reset the RTH Altitude in Remote Controller Settings after cancelling RTH.,1
+Aircraft is returning to the Home Point. RTH Altitude is 30m. You can reset the RTH Altitude in Remote Controller Settings after cancelling RTH if necessary.,1
+Aircraft is returning to the Home Point. RTH Altitude is nnn. You can reset the RTH Altitude in Remote Controller Settings after cancelling RTH if necessary,1
+Aircraft is returning to the starting point,1
+"Aircraft is tilted, please keep the aircraft stationary and level before flight",2
+Aircraft is too far away,3
+"Aircraft max power load reached. Decrease altitude and fly with caution. If this issue persists, land immediately",2
+Aircraft not in flight. Vision system and obstacle sensing unavailable,2
+Aircraft not linked to phone number. Flight range restricted. Check and link phone number,2
+Aircraft out of Range,3
+Aircraft pitch angle too large. Ensure aircraft is level before taking off,2
+Aircraft power insufficient. Fly with caution,3
+Aircraft processor chip overheated. Power off aircraft and wait for temperature to return to normal,4
+Aircraft processor overheated. Automatically returning to home,4
+Aircraft propulsion system error. Forced landing. Manually control the aircraft and land in an open area,4
+Aircraft settings updated to comply with national regulations,1
+Aircraft switched to ATTI mode,1
+Aircraft takeoff altitude error. Restart aircraft,2
+Aircraft too Far. Cannot enter Follow Me Mode,2
+Aircraft unable to return to home automatically. Lower altitude immediately and return to home manually,3
+Aircraft will automatically descend in nnn,3
+"Aircraft will not enter S-mode if powered on with the remote controller set to S-mode. Please switch to Normal mode, then back to S-mode to enable it",2
+AirSense communication error. Unable to display nearby manned aircraft and anti-collision warnings. Fly with caution,3
+Altitude above the takeoff point exceeds nnn. Always fly in compliance with altitude limitations,2
+Altitude Less than nnn. Cannot enable Follow Me Mode,2
+Altitude Zone nnn,1
+Ambient Light is too weak.,2
+Ambient light too low. Vision system and obstacle sensing unavailable. Fly with caution,2
+Ambient Light too Weak,2
+"Ambient Light too Weak, Backward obstacle sensing is unavailable. please ensure safety during the flight",2
+"Ambient Light too Weak, Forward obstacle sensing is unavailable. please ensure safety during the flight",2
+"Ambient Light too Weak, Vision Positioning obstacle sensing is unavailable. please ensure safety during the flight",2
+"Another aircraft is dangerously close, please descend to a safer altitude",2
+Another aircraft is nearby. Another aircraft is approaching. Descend as soon as possible,4
+Another aircraft is nearby. Fly with caution,2
+APAS has been enabled,1
+API Automatic Return Home,1
+API Automatic Takeoff,1
+Approaching a No-Fly Zone. RTH may be affected. Fly with caution,3
+Approaching NFZ or pre-set distance limit of (nnn). Revise Flight Route,3
+Arrived at destination,1
+Arrived at End Point,1
+Arrived at Start Point. Starting Waypoint Mission,1
+At least two Waypoints are needed,1
+At Least Two Waypoints Required,1
+Attitude is too large.,2
+Attitude is too large. Backward Obstacle Sensing is not functioning,2
+Attitude is too large. Backward obstacle sensing is unavailable,2
+Attitude is too large. Forward obstacle sensing is unavailable,2
+Attitude is too large. Backward Obstacle Sensing is not functioning.,2
+Auto Landing in nnn(s),1
+Auto landing initiated,1
+Auxiliary Bottom Light set to automatic mode,1
+Auxiliary Bottom Light turned off,1
+Auxiliary Bottom Light turned on,1
+Away and Follow in progress.,1
+Backward ambient light too low. Backward obstacle avoidance unavailable. Only infrared sensors available. Fly with caution,2
+Backward Obstacle Sensing is not functioning.,2
+Backward Obstacle Sensing is not functioning. Ambient Light is too weak,2
+Backward sensor(s) blocked. Obstacle avoidance unavailable. Fly with caution,2
+Barometer Dead in Air,4
+Barometer initialization failed. Restart aircraft,2
+Battery Alert Battery installation error. Please check the batteries are inserted correctly,3
+"Battery cell broken, please replace the battery",3
+Battery cells undervoltage,3
+"Battery communication malfunction. Reinstall battery. If the issue persists, replace battery",3
+Battery error. Aircraft returning to home automatically,3
+Battery installed incorrectly. Detach battery and reinstall it,3
+Battery level low. Charge battery,3
+Battery nnn requires maintenance,2
+Battery not installed properly. Return to home immediately. Check and re-install battery,4
+Battery overheating. Stop flying and wait for battery temperature to return to normal,3
+Battery power limit will automatically reduce the aircraft's mobility to ensure flight safety,3
+Battery power low. Check battery status and charge or warm up battery,3
+Battery power restricted. Aircraft performance decreased to ensure flight safety. Return to home promptly,3
+Battery Signal Error. Check battery connection.,3
+Battery temperature is below 15 degrees Celsius. Warm up the battery temperature to above 25 degree Celsius to ensure a safe flight.,3
+Battery temperature too low. Fly with caution,3
+Battery Voltage Difference too large. Check Battery Status,3
+Battery: Battery Error. Return home and land soon. View the checklist after landing,3
+Battery: Connection Error,3
+Battery: Low Voltage Protection,3
+Battery: Overcurrent During Discharge,3
+Braking now! No use to move the stick right. Avoid the obstacle,2
+Braking now! Return sticks to midpoints first.,2
+"Braking now. Return sticks to midpoints, then continue flying.",2
+Cache Space Full,3
+Calibration subject is too close. Recalibrate using a subject that is farther away,2
+Calibration target not far away enough. Please calibrate using infinity,2
+"Camera busy, cannot enter playback",2
+Camera error. AI Spot-Check failed. Restart camera,2
+"Camera Error. Solution: Restart the aircraft, if the problem persists, contact DJI Support",2
+Camera not calibrated. Image quality affected. Contact DJI Support for assistance,2
+Camera RCAM not connected. Image quality affected. Contact DJI Support for assistance,2
+Camera sensor error Hardware malfunction: Contact DJI Support to arrange for repairs,2
+Camera Settings ActiveTrack Optimized,1
+Camera Settings Adjusted,1
+Camera Settings Adjusted to ActiveTrack,1
+Camera storage full,3
+Cancel Landing Failed,2
+Cancel Return-to-Home Failed,2
+Cannot change current flight mode. Enable Multiple Flight Modes in Settings menu to change.,3
+Cannot enable Intelligent Flight Mode: Low Battery,3
+Cannot enter ActiveTrack. Ambient Light is too weak,2
+Cannot Enter TapFly Cannot fly in that direction,2
+Cannot enter TapFly Mode: Max Flight Altitude Reached. Adjust in Main Controller Settings if necessary,2
+Cannot enter the selected flight mode. Try again later.,3
+Cannot exit ActiveTrack,2
+Cannot Identify Subject,2
+Cannot send ActiveTrack command,3
+Cannot start Return to Home due to weak GPS signal,3
+Cannot start Self-Timer. Exposure time is too long,2
+"Cannot switch flight mode. Turn on ""Multiple Flight Modes"" to enable Atti and Sport Modes",3
+"Cannot switch flight mode. Turn on ""Multiple Flight Modes"" to enable Atti and Sport Modes.",3
+Cannot takeoff in a no-fly zone,2
+Cannot Takeoff in Travel Mode. Exit Travel Mode.,2
+Cannot takeoff. Ensure the aircraft battery is properly connected,3
+Cannot Track Subject. Cannot Identify Subject,2
+Cannot track subject: Forward Obstacle Sensing not Responding,2
+Cannot track subject: Gimbal Tilt too Large,2
+Cannot track subject: No image. Please retry,2
+Cannot track subject: Subject too Large. Move Away and retry,2
+Cannot track subject: Subject too Small. Get Closer and retry,2
+Capture Failed Cannot enter Pano mode,2
+Capture Failed Distance limit exceeded. Cannot shoot panorama,2
+Capture Failed Insufficient storage space. Cannot shoot panorama,2
+Capture Failed Shooting interrupted,2
+Capture Failed Shooting is currently not permitted,2
+Capture Failed Stick movement detected. Panorama has stopped,2
+Capture Failed The aircraft is moving. Cannot shoot panorama,2
+Capture Failed The gimbal is moving. Cannot shoot panorama,2
+"Check whether propellers are installed correctly. If the propellers are installed correctly and the aircraft still cannot takeoff, a motor error may exist. Contact DJI Support for assistance",2
+Check whether the propellers are attached to the correct motors based on their markings. Incorrect installation will cause the aircraft to roll over during takeoff,1
+Color display in Liveview is enhanced. Videos and photos will still be shot in D-Log mode,1
+Color display in the Liveview has been enhanced. Videos and photos will still be shot in D-Log mode,1
+Command Failed,3
+Command Timeout,3
+Compass abnormal Solution: 1. Ensure there are no magnets or metal objects near the aircraft. The ground or walls may contain metal. Move away from sources of interference before attempting flight. 2. Calibrate Compass Before Takeoff,2
+Compass data error. Please contact DJI Support,2
+Compass direction is not the same with IMU,3
+Compass Error,2
+Compass error Solution: Move away from ground magnetic interference,2
+"Compass error, calibration required",2
+Compass Error. Compass data error. Please check the Compass installation and interference,2
+Compass Error. Compass data error. Please contact DJI Support,2
+Compass Error. Compass data error. Please contact DJI Support. Compass disconnected,2
+Compass Error. Compass direction is not the same with IMU,2
+Compass Error. Compass disconnected,2
+Compass Error. Compass error Solution: Move away from ground magnetic interference,2
+Compass Error. Compass Error. Compass data error. Please contact DJI Support,2
+Compass Error. Compass Error. Compass disconnected,2
+Compass Error. Compass interference. Please move the aircraft away from potential interference source or calibrate the compass,2
+Compass Error. Compass Redundancy Switch,2
+Compass error. Ensure there are no metal or magnetic objects near the aircraft and calibrate it before use,2
+Compass Error. Exit P-GPS Mode,4
+Compass Error. Magnetic Filed Interference. Exit P-GPS Mode,2
+Compass initialization failed. Restart aircraft,2
+Compass interference. Please move the aircraft away from potential interference source or calibrate the compass,2
+Compass Interference. Temp Max Altitude : 98ft,2
+Compass Interference. Temp Max Altitude: nnn,2
+Compass Redundancy Switch,1
+Compass Stuck. Restart Aircraft. Contact DJI Support if this persists.,2
+Correcting Landing Position,1
+Critical Low Battery,3
+Critical low battery voltage,3
+Critical low battery. Aircraft in Auto Power Off Protection. Forced landing in progress,4
+Critical low battery. Aircraft landing automatically,3
+Critical low battery. Aircraft returning to home,3
+Critical low battery. Recharge promptly,3
+Critical low battery. Return to home or land promptly,3
+Critical low battery. Unable to take off. Recharge promptly,3
+Critically low power. Aircraft is landing,3
+Critically Low Power. Aircraft Landing,3
+Critically Low Power. Aircraft Landing. Throttle up to reduce the speed of descent and use sticks to avoid obstacles,3
+Critically Low Voltage Warning Aircraft will be forced to land,3
+"Critically Low Voltage Warning Land as soon as possible, otherwise the battery will be damaged",3
+Critically Low Voltage. Aircraft will land,3
+CrystalSky is too hot. Cool down the monitor to prevent overheating,3
+Current elevation above nnn. Fly with caution,2
+Current RTH route will pass a No-Fly zone. Pay attention to the aircraft's position to avoid RTH failure.,3
+Data Recorder File Index is 12.,1
+Data Recorder File Index is 13.,1
+Data Recorder File Index is 15.,1
+Data Recorder File Index is 17.,1
+Data Recorder File Index is 18.,1
+Data Recorder File Index is 19.,1
+Data Recorder File Index is 2.,1
+Data Recorder File Index is 21.,1
+Data Recorder File Index is 29.,1
+Data Recorder File Index is 3.,1
+Data Recorder File Index is 30.,1
+Data Recorder File Index is 4.,1
+Data Recorder File Index is 45.,1
+Data Recorder File Index is 46.,1
+Data Recorder File Index is 5.,1
+Data Recorder File Index is 57.,1
+Data Recorder File Index is 65.,1
+Data Recorder File Index is 7.,1
+Data Recorder File Index is 8.,1
+Descending. Exited Visual Avoidance System,1
+Detecting subject,1
+Disable SD card read and write protection or change card,1
+Distance limit enabled. Fly safely,1
+Downlink data connection lost for nnn seconds,2
+Downlink Lost.,2
+Downlink Restored (after 0m 0.9s).,1
+Downlink Restored (after 0m 1.1s).,1
+Downlink Restored (after 0m 1.2s).,1
+Downlink Restored (after 0m 1.4s).,1
+Downlink Restored (after 0m 1.5s).,1
+Downlink Restored (after 0m 1.6s).,1
+Downlink Restored (after 0m 1.7s).,1
+Downlink Restored (after 0m 11.3s).,1
+Downlink Restored (after 0m 11s).,1
+Downlink Restored (after 0m 1s).,1
+Downlink Restored (after 0m 2.2s).,1
+Downlink Restored (after 0m 2.3s).,1
+Downlink Restored (after 0m 2.9s).,1
+Downlink Restored (after 0m 5.6s).,1
+Downlink Restored (after 0m 5.8s).,1
+Downward altitude sensor data error. Please contact DJI Support for help,2
+Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution,2
+Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution. Backward ambient light too low. Backward obstacle avoidance unavailable. Only infrared sensors available. Fly with caution,2
+Downward infrared sensor failure. Land as soon as possible,3
+Downward Obstacle Sensing is not functioning. Ambient Light is too weak,2
+Downward sensor error. Aircraft unstable at low altitude. Please fly with caution,4
+Downward vision sensor calibration error. Auto calibration in progress,4
+Downward vision sensor error. Contact DJI Support for assistance,4
+Drag a box around or tap a target on screen. Then tap Go.,1
+Drone is Vibrating,2
+"During Smart Track, you can control lens zoom within a certain limit",1
+EMMC is full,3
+Ensure control sticks are centered during takeoff,1
+Entered Cruise Control mode. Press C1 or C2 to exit,1
+Error: Course angle control error. Please ensure the propellers are installed on the correct motors,4
+"Excessive attitude angle detected, forward obstacle avoidance has stopped working",4
+Excessive gimbal vibration. Check whether gimbal can rotate freely,2
+Executing waypoint mission,1
+"Exit Backward Forward Downward Upward Sensing system, Ambient Light is too weak",2
+Exited Cruise Control mode,1
+Exited Hyperlapse mode,1
+Exited Visual Avoidance System.,1
+Exiting GPS mode: Unknown Error,4
+Extended flight distance detected. Always maintain visual line of sight unless otherwise authorized,2
+Extra payload detected. Flight performance will be affected. Fly with caution,2
+Extra payload detected. Max altitude and distance set. Fly with caution,2
+Extra payload detected. Max altitude set to nnn and max distance set to nnn to ensure flight safety,2
+Extra payload detected. Return aircraft to an area nearby the home point promptly and fly in a wind-free environment to ensure flight safety,2
+Extra payload detected. Return the aircraft to an area nearby the home point promptly to ensure flight safety,2
+Failed to cancel landing,2
+Failed to cancel Return to Home,2
+Failed to lower or pack up landing gear. Take care of your gimbal when landing,3
+Failed to take off. Check the USB connection with aircraft. Contact DJI Support if this error persists after restarting,2
+File system error. Change SD card,4
+Flight altitude exceeds nnn. Aircraft may be in violation of local laws and regulations. Check and make sure you have obtained proper authorization to fly in this airspace,2
+Flight altitude exceeds nnn. May violate local policies and regulations. Ensure you have obtained proper airspace authorization,2
+"Flight control mode error, cannot start recording QuickShot",3
+Flight distance may exceed line-of-sight. Fly with caution,1
+Flight height too low,2
+Flight Mode Set to Attitude,1
+Fly with caution and ensure the aircraft remains within your line of sight.,1
+Fly with caution. Compass abnormal Solution: 1. Ensure there are no magnets or metal objects near the aircraft. The ground or walls may contain metal. Move away from sources of interference before,2
+Forward Obstacle Sensing is not functioning.,2
+Forward Obstacle Sensing is not functioning. Ambient Light is too weak,2
+Forward Obstacle Sensing not Responding,2
+Forward Obstacle Sensing not Working.,2
+Forward vision sensor calibration error. Auto calibration in progress,3
+Forward vision sensor error. Contact DJI Support for assistance,3
+GEO Zone Info: The target area is in an Altitude Zone. Flight altitude restricted to nnn,2
+GEO: You are in a Warning Zone (Airport Class Airspace Unpaved Airports Power Plant). Fly with caution,2
+Gimbal calibrating,1
+Gimbal calibration error. Restart aircraft or contact DJI Support if the issue persists,2
+Gimbal IMU data error. Contact DJI Support for assistance,2
+Gimbal motor overloaded. Check whether gimbal can rotate freely,2
+Gimbal nnn pan axis endpoint reached,1
+Gimbal nnn pitch axis endpoint reached,1
+Gimbal nnn roll axis endpoint reached,1
+Gimbal Pitch Limit Reached.,2
+Gimbal Pitch Reached Movement Limit,2
+Gimbal Recenter,1
+Gimbal Roll Limit Reached.,2
+Gimbal stuck. Check whether gimbal lock is removed and ensure gimbal can rotate freely,2
+Gimbal Yaw Limit Reached,2
+GPS module error. Restart aircraft,2
+GPS Position Mismatch.,3
+GPS signal low. Aircraft unable to auto hover and takeoff restricted. Move to environment with adequate light. Unlocking takeoff restrictions not recommended,3
+GPS signal weak. Fly with caution. Aircraft in Altitude Zone. Max altitude set to nnn,2
+GPS signal weak. Hovering unstable. Fly with caution,2
+GPS signal weak. Positioning accuracy affected. Fly with caution,2
+Ground Plain. Safe to Land.,1
+Gyroscope initialization failed. Restart aircraft,3
+High altitude. Aircraft braking distance increased and flight time decreased. Fly with caution,2
+High wind velocity. Ensure the aircraft remains within your line of sight and fly with caution.,3
+High wind velocity. Ensure the aircraft remains within your line of sight and fly with caution. Downlink Lost.,3
+High wind velocity. Ensure the aircraft remains within your line of sight and fly with caution. High wind velocity. Fly with caution and land in a safe place ASAP.,3
+High wind velocity. Fly with caution and land in a safe place ASAP.,3
+High wind velocity. Fly with caution.,3
+High Wind Velocity: Fly with caution and ensure the aircraft remains within your line of sight,3
+"High-altitude flight, aircraft braking distance is extended, flight time is shortened. Fly with caution",2
+"Home Point Recorded, Return-to-Home Altitude : 98FT",1
+"Home Point Recorded, Return-to-Home Altitude : 98FT.",1
+Home Point Recorded.,1
+Home Point recorded. Return-to-Home Altitude : 98FT,1
+Home Point recorded. Return-to-Home Altitude : 98FT.,1
+Home Point Recorded. RTH Altitude : 30m.,1
+Home Point Recorded. Taking off.,1
+Home Point Updated.,1
+Home Point updated. RTH altitude adjusted to nnn,1
+Image Transmission Recovered. Aircraft is returning home.,1
+Image transmission signal lost,3
+Impact detected. Aircraft stopped. Restart aircraft,4
+Impact detected. Restart aircraft,4
+IMU attitude restricted. Ensure aircraft is level,3
+IMU calibration required. Calibrate IMU,2
+IMU not calibrated. Calibrate IMU,2
+IMU warming up. Wait before taking off,1
+In Flight.,1
+Incompatible firmware version. Go to Profile > Settings to update firmware,4
+Insufficient SD card space. Change card or delete files,2
+Intelligent Flight Modes have not been enabled. Enable this option in Main Controller Settings if needed.,1
+Landing Canceled.,1
+Landing gear function restored,1
+Landing Gear Lowered.,1
+Landing gear lowered. Obstacle Avoidance Disabled.,1
+Landing gear lowered. Obstacle Avoidance has been disabled.,1
+Landing Gear Lowering.,1
+Landing Gear Paused.,1
+Landing Gear Raised.,1
+Landing Gear Raising.,1
+Landing Gear Raising. Home Point Recorded,1
+Landing Protection Activated. Aircraft will decelerate during landing.,1
+Landing.,1
+Large Wind Velocity.,3
+Large Wind Velocity. Fly with caution.,3
+Lens not connected,2
+Lighting environment too dark. Vision System unavailable. Fly with caution,2
+Lighting environment too dark. Visual positioning inaccurate. Fly with caution,2
+Live stream video frame rate less than 9Hz. Fly with caution,2
+Loading database failed. Geo-awareness function degraded,2
+Locating Landing Point,1
+Low battery voltage. Fly with caution,3
+Low battery. Recharge promptly,3
+Low battery. Return to home promptly,3
+"Low power, please replace the battery",3
+Low Power. Aircraft is returning to the Home Point.,3
+Low Power. Returning home.,3
+Magnetic Filed Interference. Exit P-GPS Mode,2
+Magnetic Filed Interference. Exit P-GPS Mode. Yaw Error.,2
+Manned aircraft approaching. Fly at a safe altitude,3
+Manned aircraft detected nearby. Fly with caution,3
+Manned aircraft too close. Fly at a safe altitude,3
+Max Altitude Approached. Wait for the GPS satellite signal recovery before ascend,3
+Max altitude reached (Altitude limit: nnn) ,2
+Max Flight Altitude Reached. Adjust in Main Controller Settings if necessary,2
+Max Flight Distance Reached. Adjust in Main Controller Settings if necessary.,2
+Maximum Flight Altitude Reached.,2
+Maximum Flight Altitude Reached. Adjust altitude in MC Settings if required.,2
+Maximum Flight Distance Reached. Adjust distance in MC Settings if required.,2
+Maximum flight distance reached. Adjust the distance in MC Settings if required.,2
+Min Waypoint Distance: nnn,1
+Mobile device CPU fully loaded. Related performance will be affected.,3
+Mobile device version too old to support HD image transmission and the image transmission mode has been switch to normal mode.,2
+Motor error. Check propellers and fly with caution,3
+Motor idle. Check whether propellers are installed,1
+Motor is Blocked,3
+Motor is Blocked. Motor stuck. Check for objects blocking motor or contact DJI Support for assistance,3
+Motor is idling (lost or missing propeller),3
+Motor nnn propeller detached or installed incorrectly,4
+Motor nnn stalled. Land aircraft immediately,4
+Motor Obstructed. Propulsion output is limited to ensure the health of the battery,4
+Motor or propeller error. Check the motors and propellers.,3
+"Motor speed error. Land or return to home promptly. After powering off the aircraft, replace the propeller on the beeping ESC. If the issue persists, contact DJI Support",4
+Motor stuck. Check for objects blocking motor or contact DJI Support for assistance ,4
+Motor unable to rotate. Check for objects blocking motor or contact DJI Support for assistance ,4
+Motor unable to rotate. Check motor,4
+Motors Started.,1
+Navigation system error. Restart aircraft,3
+No GPS signal. Aircraft unable to hover. Fly with caution,3
+No GPS signal. Unable to hover. Fly with caution,2
+No GPS signal. Unable to take off. Move to an open area or exit flight tutorial,2
+No GPS. Return to Home failed. Return the aircraft to home manually,3
+No SD card. Insert card,1
+Not Allowed to change Aircraft Mode. If needed,2
+"Not Allowed to change Aircraft Mode. If needed, enable it in Main Controller Settings",2
+Not Enough Force/ESC Error,2
+Object too close to laser rangefinder,1
+Object too far for laser rangefinder,1
+Obstacle Avoidance Disabled.,1
+Obstacle Avoidance disabled. Fly with caution,2
+Obstacle Avoidance Disabled. Landing gear lowered. Obstacle Avoidance Disabled.,1
+Obstacle Avoidance disabled. Landing gear lowered. Obstacle Avoidance has been disabled.,1
+Obstacle Avoidance will be disabled in landing.,1
+Obstacle Avoided. Revise Flight Route,3
+Obstacle sensing not available at night. Adjust RTH altitude to above tallest surrounding building before flying,2
+Obstacle Sensing will be disabled when aircraft is landing. Fly with caution.,1
+PalmControl in Process,1
+Pano shooting completed. The sky part is filled automatically,1
+Pano successful,1
+Panorama Captured Successfully,1
+Payload mode enabled. Max altitude and distance set. Fly with caution,1
+Payload mode enabled. Max altitude set to nnn and max distance set to nnn to ensure flight safety,1
+Payload mode enabled. Max altitude set to nnn and max distance set to nnn. Fly in a wind-free environment to ensure flight safety,2
+Payload mode enabled. Return the aircraft to an area nearby the home point promptly to ensure flight safety,1
+Precision Landing,1
+Precision Landing. Correcting Landing Position.,1
+Precision Landing. Locating Landing Point,1
+Precision Landing. Rectifying aircraft position.,1
+Propeller Fell Off,4
+Propeller Fell Off. Motor idle. Check whether propellers are installed,4
+Propeller Guard Mounted Propeller Guard mounted. Forward Obstacle Sensing will be automatically switched off,1
+Propeller guard or extra payload detected. Flight performance will be affected. Fly with caution,2
+Propeller rotating too fast. Wind resistance affected. Return to home and land promptly. Check whether propeller on beeping ESC is warped or damaged,3
+Propellers not installed,2
+Propulsion output has been limited to ensure battery health.,1
+QuickShot has ended,1
+Reaching maximum altitude...,3
+Recenter Gimbal Pan,1
+Recharge promptly,2
+Rectifying aircraft position,1
+Remote controller assisted takeoff initiated.,1
+Remote controller battery level low. Recharge promptly,3
+Remote controller disconnected from aircraft,2
+Remote controller in high interference environment. Manually adjust flight route or return to home,3
+Remote Controller Right Dial Locked. Lightly press it to adjust.,2
+Remote controller signal lost,2
+Remote controller signal weak. Adjust remote controller antennas,2
+Remote ID error. Connect to network to obtain mobile device location. Flying without broadcasting required remote ID messages may violate local regulations,2
+Remote ID functionality normal,1
+Restart aircraft,1
+Restart aircraft and DJI Fly,1
+Returning to the Home Point,1
+Return-to-Home Altitude : 65FT,1
+Return-to-Home Altitude : 98FT,1
+Return-to-Home Altitude : 98FT.,1
+Right Dial Locked. Lightly press to adjust.,2
+RTH : Ascending to RTH altitude.,1
+RTH : Cruise.,1
+RTH : Heading alignment.,1
+RTH : Preascending.,1
+RTH Altitude : 65FT.,1
+RTH Altitude : 98FT.,1
+RTH Altitude : 98FT. Data Recorder File Index is 1.,1
+RTH altitude adjusted to nnn,1
+RTK Base Station Data Not Received,1
+RTK Base Station Data Not Received. Please make sure base station antenna is connected to the correct port,1
+RTK signal weak. Move to an open area for takeoff or turn off RTK,2
+Running Flight Simulator. Restart aircraft to take off,1
+Satellite positioning off. Fly with Caution.,2
+SD card full. Change card or delete files,3
+SD card malfunction. Change card,3
+SD card speed low. Change card,2
+SD card write speed is too slow. Not suitable for shooting a 4K video.,2
+Sensing system is blocked or too close to the obstacle.,2
+Set Flight Mode to GPS to fly safe,1
+Setting new Maximum Flight Altitude to nnn,1
+Setting new Return-To-Home altitude to nnn,1
+Signal Lost. Aircraft returning to Home Point,4
+"Sprayer turned OFF, sprayed nnn at nnn liters/min",1
+Sprayer turned ON,1
+Starting Smart Track,1
+Strong Aircraft Interference,2
+Strong Interference Detected. Be careful when flying long distances.,2
+Strong Interference Now. Fly with caution.,2
+Strong Interference to Aircraft. Signal interruption may be more likely. Fly with caution.,2
+Strong Interference to Remote Controller. Signal interruption maybe more likely. Fly with caution,3
+Strong Interference. Fly with caution.,2
+Strong Remote Controller Interference,3
+Strong Remote Controller Interference.,3
+Strong wind warning. Aircraft unable to fly stably. Lower altitude immediately and manually return to home,3
+Strong wind warning. Aircraft unable to return to home automatically. Lower altitude immediately and return to home manually,3
+Strong wind. Fly with caution,3
+Strong wireless interference. Please fly with caution.,2
+Strong wireless interference. Please fly with caution. Obstacle Avoidance Disabled. Landing gear lowered. Obstacle Avoidance Disabled.,2
+Subject lost. Reselect subject,2
+Subject lost. Searching …,2
+Subject too Large. Move Away and retry,2
+Subject too Small. Get Closer and retry,2
+Switched to A (Attitude)-mode,1
+Switched to gimbal free mode. Use the RC to control aircraft yaw,1
+Switched to P (Positioning)-mode.,1
+Switched to S (Sport)-mode.,1
+Switched to T (Tripod)-mode.,1
+Take off and retry this function.,1
+Take off in P-Mode,1
+Taking Off.,1
+Tap Fly Flight Ended Landing Gear Lowered,1
+Tap the screen lightly to focus.,1
+Tap the screen to focus.,1
+Tap to choose a valid zone.,1
+Target lost. QuickShots stopped,2
+The aircraft is flying back to the start point,1
+The flight attitude angle is larger in Sport mode. The gimbal will rotate when the aircraft starts or stops. Use Normal mode if required for stable shooting,1
+The remaining battery is only enough for RTH. Return home now.,3
+"Tip: Aircraft reached maximum distance, please pay attention to flight safety",2
+Tip: Only the first camera can tap-zoom in dual gimbal control mode,1
+"Tip: When multi-gimbals are controlled together, only the first gimbal spotlight feature is available",1
+"To take off in non-P mode, toggle Flight Mode Switch to another mode and then toggle it back.",1
+Unable to take off,2
+Unable to take off in low light environment. Ensure there are no metal and magnetic objects near the aircraft and calibrate compass,2
+"Unknown Error, Cannot Takeoff. Contact DJI support",2
+Upward Obstacle Detected,2
+Video cache has stopped because there is not enough storage space. You can enable Auto Cache Clear or manually delete cache to get enough space,2
+Vision sensor error. Contact DJI Support for assistance,3
+Vision sensor(s) blocked. Fly with caution,2
+Vision systems and obstacle avoidance disabled,2
+Visual positioning inaccurate. Fly with caution,2
+Warning,1
+Warning: Aircraft is less than nnn (minimum) away from the object below,2
+Warning: Battery Temperature Below 15°C (59F). Warm battery to above 25°C (77F) before flying,2
+Warning: Command Failed,3
+Warning: Command Timeout,3
+Warning: Critically low battery. Please change the battery,3
+Warning: Max Flight Altitude Reached. Adjust in Main Controller Settings if necessary,2
+Warning: Motor Obstructed,3
+Warning: Motor Overloaded. Aircraft will decelerate to ensure safety,3
+WarningThe remaining battery is only enough for RTH. Return home now.,3
+Waypoint Mission Paused,1
+Waypoint Mission Resumed,1
+Waypoint Mission Start,1
+Weak GPS signal. Aircraft is in Attitude mode and hovering may be unstable. Fly with caution.,3
+Weak GPS signal. Positioning accuracy may be compromised. Please fly with caution,2
+Weak image transmission signal. Adjust antennas,2
+Weak signal. Adjust antenna and avoid signal block.,3
+Weak signal. Adjust antennas,2
+Weak signal. Avoid blocking the antennas and keep the antennas parallel to and facing toward the aircraft during flight.,3
+Weak signal. Avoid blocking the antennas and keep the antennas parallel to and facing toward the aircraft during flight. Downlink Lost.,2
+Weak signal. Make sure the remote controller is facing aircraft and avoid blocking the signal,2
+Yaw Error.,2
+Your aircraft has entered a Warning Zone (Class D). Please fly with caution.,2
+Your aircraft is at the boundary of an Altitude Zone. Please fly away or land with caution,2
+Your aircraft is at the boundary of an Authorization Zone. Please fly away with caution,2
+Your aircraft is flying in an Altitude Zone (nnn). Please fly with caution,2
+Your palm is too close to the aircraft. Please step farther away.,2
+Your palm is too far away from the aircraft. Please step closer.,2
