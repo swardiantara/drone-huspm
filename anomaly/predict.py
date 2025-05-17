@@ -27,7 +27,8 @@ def predict(dataset: pd.DataFrame, output_dir: str):
 
     model = AnomalySeverity(embedding_model, tokenizer).to(device)
     model.load_state_dict(torch.load('pytorch_model.pt'))
-    predictions = []
+    pred_label = []
+    pred_prob = []
     model.eval()
     for batch in test_loader:
         input_ids = batch["input_ids"].to(device)
@@ -36,9 +37,11 @@ def predict(dataset: pd.DataFrame, output_dir: str):
         logits = model(input_ids, attention_mask)
         probs = torch.softmax(logits, dim=-1)
         predicted_class = torch.argmax(probs, dim=-1).cpu().numpy()
-        predictions.extend(predicted_class)
-    dataset['anomaly'] = predictions
+        pred_label.extend(predicted_class)
+        pred_prob.extend(probs.cpu().numpy())
+    dataset['anomaly'] = pred_label
     dataset['anomaly'] = dataset['anomaly'].map(idx2label)
+    dataset['prob'] = pred_prob
     dataset.to_excel(os.path.join(output_dir, 'anomaly_severity.xlsx'))
 
     return exit(0)
