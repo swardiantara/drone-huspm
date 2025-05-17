@@ -20,7 +20,7 @@ def predict(dataset: pd.DataFrame, output_dir: str):
 
     # Define the custom dataset and dataloaders
     max_seq_length = 64
-    batch_size = 64
+    batch_size = 8
 
     test_dataset = PredictDataset(dataset, tokenizer, max_seq_length)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -35,7 +35,7 @@ def predict(dataset: pd.DataFrame, output_dir: str):
 
         logits = model(input_ids, attention_mask)
         probs = torch.softmax(logits, dim=-1)
-        predicted_class = torch.argmax(probs, dim=-1)
+        predicted_class = torch.argmax(probs, dim=-1).cpu().numpy()
         predictions.extend(predicted_class)
     dataset['anomaly'] = predictions
     dataset['anomaly'] = dataset['anomaly'].map(idx2label)
