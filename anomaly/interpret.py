@@ -77,7 +77,7 @@ def reconstruct_tokens(tokens, attributions):
 def infer_pred(model, input_ids, attention_mask):
     model.eval()
     logits = model(input_ids, attention_mask)
-    probs = torch.softmax(logits, dim=-1)
+    probs = torch.softmax(logits, dim=-1).cpu().numpy()
     label = torch.argmax(probs, dim=-1).cpu().numpy()
     return idx2label.get(label), probs
 
@@ -269,7 +269,7 @@ def main():
         print("The model not found!")
         sys.exit(0)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device('cpu')
     # tokenizer = BertTokenizer.from_pretrained(bert_model_name)
     # bert_model = BertModel.from_pretrained(bert_model_name).to(device)
     model_name_path = "swardiantara/drone-ordinal-all"
