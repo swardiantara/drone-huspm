@@ -68,7 +68,7 @@ def main():
     train_dataset = BaselineDataset(dataset, tokenizer, max_seq_length)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=False)
 
-    model = AnomalySeverity(embedding_model, tokenizer)
+    model = AnomalySeverity(embedding_model, tokenizer).to(device)
 
     criterion = torch.nn.CrossEntropyLoss(reduction='mean')
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
