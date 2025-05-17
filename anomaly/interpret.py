@@ -77,9 +77,9 @@ def reconstruct_tokens(tokens, attributions):
 def infer_pred(model, input_ids, attention_mask):
     model.eval()
     logits = model(input_ids, attention_mask)
-    probs = torch.softmax(logits, dim=-1).cpu().detach().numpy()
+    probs = torch.softmax(logits, dim=-1)
     label = torch.argmax(probs, dim=-1).cpu().detach().numpy()
-    return idx2label.get(label), probs
+    return idx2label.get(label), probs.cpu().detach().numpy()
 
 # def infer_pred(model, input_ids, attention_mask):
 #     logits = model(input_ids, attention_mask)
