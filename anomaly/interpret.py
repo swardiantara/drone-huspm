@@ -157,7 +157,7 @@ def interpret(model, tokenizer, max_seq_length, text, label):
     input_ids = inputs['input_ids']
     attention_mask = inputs['attention_mask']
 
-    lig = LayerIntegratedGradients(model, model.bert_model.embeddings)
+    lig = LayerIntegratedGradients(model, model.embedding.embeddings)
     pred_label, pred_prob = infer_pred(model, input_ids, attention_mask)
 
     target_class = label2idx.get('high') # Example target class
