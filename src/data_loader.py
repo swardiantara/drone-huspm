@@ -7,12 +7,12 @@ class LogRecord:
     date: str
     time: str
     raw_message: str
-    sentences: List[str] = None         # store the segmented sentences 
-    sentence_types: List[str] = None    # store the sentence type (Event or NonEvent)
-    eventIds: List[int] = None          # store the abstracted events with IDs (E## for Event, N## for NonEvent)
-    anomalies: List[str]                # store the predicted anomaly severity for each sentence
-    anomaly_probs: List[float]          # store the prediction probability of the anomaly severity
-    attributions: List[float]           # store the attribution score towards the class High
+    sentences: List[str]            # store the segmented sentences 
+    sentence_types: List[str]       # store the sentence type (Event or NonEvent)
+    eventIds: List[int]             # store the abstracted events with IDs (E## for Event, N## for NonEvent)
+    anomalies: List[str]            # store the predicted anomaly severity for each sentence
+    anomaly_probs: List[float]      # store the prediction probability of the anomaly severity
+    attributions: List[float]       # store the attribution score towards the class High
 
 class DataLoader:
     def __init__(self, filepath: str):
