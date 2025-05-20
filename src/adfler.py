@@ -1,6 +1,6 @@
 import os
 import json
-from data_loader import LogRecord
+from src.data_loader import LogRecord
 from typing import List, Dict, Tuple
 from simpletransformers.ner import NERModel
 
@@ -12,7 +12,7 @@ class MessageSegmenter:
         # TODO: Implement based on your NER model type
         config_file = open(os.path.join(path, 'config.json'))
         model_config = json.load(config_file)
-        labels = [label for id, label in model_config['id2label']]
+        labels = [label for id, label in model_config['id2label'].items()]
         
         segmenter = NERModel(
                         model_config['model_type'],
