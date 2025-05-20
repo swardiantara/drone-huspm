@@ -7,7 +7,7 @@ class LogRecord:
     date: str
     time: str
     raw_message: str
-    sentences: List[(str, str)] = None  # store the segmented sentences 
+    sentences: List[str] = None         # store the segmented sentences 
     sentence_types: List[str] = None    # store the sentence type (Event or NonEvent)
     eventIds: List[int] = None          # store the abstracted events with IDs (E## for Event, N## for NonEvent)
     anomalies: List[str]                # store the predicted anomaly severity for each sentence
