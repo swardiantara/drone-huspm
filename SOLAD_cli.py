@@ -5,6 +5,8 @@ import logging
 from src.data_loader import DataLoader
 from src.adfler import MessageSegmenter
 from src.utils import get_latest_folder
+import json
+from dataclasses import asdict
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -79,10 +81,12 @@ def main():
         analyzer = DroneLogAnalyzer(config)
         results = analyzer.analyze()
         
+        # Convert LogRecord objects to dictionaries
+        serializable_results = [asdict(record) for record in results]
+        
         # Save or process results
-        import json
-        with open(os.path.join('outputs', parsed_folder, 'output.json'), 'w') as f:
-            json.dump(results, f, indent=2)
+        with open(os.path.join('outputs', parsed_folder, 'records.json'), 'w') as f:
+            json.dump(serializable_results, f, indent=2)
 
 
 # Example usage
