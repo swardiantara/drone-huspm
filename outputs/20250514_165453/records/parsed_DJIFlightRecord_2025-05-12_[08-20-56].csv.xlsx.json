@@ -1,0 +1,3564 @@
+[
+  {
+    "date": "5/12/2025",
+    "time": "8:21:05.74 AM",
+    "raw_message": "Data Recorder File Index is 84.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 30 m (98 ft).; Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Data Recorder File Index is 84.;",
+      "Set Return to Home (RTH) altitude to 100 m (328 ft).;",
+      "Set maximum flight altitude to 30 m (98 ft).;",
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:21:06.54 AM",
+    "raw_message": "Set maximum flight altitude to 500 m (1640 ft).",
+    "sentences": [
+      "Set maximum flight altitude to 500 m (1640",
+      "ft)."
+    ],
+    "sentence_types": [
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:22:43.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:22:59.34 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:00.74 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:02.34 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:02.74 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:02.94 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:03.94 AM",
+    "raw_message": "RC signal lost.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "sentences": [
+      "RC signal lost.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RTH in progress.",
+      "Press Brake button to cancel RTH.;"
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:04.14 AM",
+    "raw_message": "No image transmission. RTH.",
+    "sentences": [
+      "No image transmission.",
+      "RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:04.94 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:06.94 AM",
+    "raw_message": "RTH ascending.",
+    "sentences": [
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:07.74 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH ascending.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:09.14 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:10.74 AM",
+    "raw_message": "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:11.14 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:12.14 AM",
+    "raw_message": "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:15.14 AM",
+    "raw_message": "Aircraft braking.",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:15.54 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:18.14 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:55.14 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:56.54 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; RC signal lost.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "RC signal lost.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:56.74 AM",
+    "raw_message": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "sentences": [
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:57.54 AM",
+    "raw_message": "RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "RC signal lost.;",
+      "Aircraft braking.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:23:59.34 AM",
+    "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:02.54 AM",
+    "raw_message": "Failsafe RTH.",
+    "sentences": [
+      "Failsafe RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:07.74 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "Original route RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:07.94 AM",
+    "raw_message": "RTH in progress.",
+    "sentences": [
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:08.74 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:10.94 AM",
+    "raw_message": "RTH ascending.",
+    "sentences": [
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:11.14 AM",
+    "raw_message": "Controller triggered aircraft to descend. Auto RTH canceled.",
+    "sentences": [
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:12.14 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:12.94 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost.",
+      "Returning to home.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:13.74 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:17.14 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:17.94 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:18.54 AM",
+    "raw_message": "RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "RC signal lost.;",
+      "Aircraft braking.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:19.34 AM",
+    "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:24.34 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:25.14 AM",
+    "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:28.54 AM",
+    "raw_message": "Failsafe RTH.",
+    "sentences": [
+      "Failsafe RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:32.14 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "Original route RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:32.94 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.; RTH in progress.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "Original route RTH.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:33.34 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "Original route RTH.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:34.94 AM",
+    "raw_message": "RTH ascending.",
+    "sentences": [
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:35.74 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:36.34 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost.",
+      "Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:37.14 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:38.34 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost.",
+      "Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:39.34 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:40.14 AM",
+    "raw_message": "RC signal weak.",
+    "sentences": [
+      "RC signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:40.34 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:41.54 AM",
+    "raw_message": "Image transmission signal weak.; RC signal lost.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:43.14 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:44.74 AM",
+    "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:52.14 AM",
+    "raw_message": "Failsafe RTH.",
+    "sentences": [
+      "Failsafe RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:52.34 AM",
+    "raw_message": "Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.",
+    "sentences": [
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Original route RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:52.94 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Original route RTH.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:53.14 AM",
+    "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:53.34 AM",
+    "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:24:55.14 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:00.14 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:01.34 AM",
+    "raw_message": "Failsafe RTH.",
+    "sentences": [
+      "Failsafe RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:04.54 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RTH ascending.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:05.34 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:05.54 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:06.34 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:08.54 AM",
+    "raw_message": "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.",
+    "sentences": [
+      "RC signal weak.;",
+      "Aircraft braking.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:11.74 AM",
+    "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:12.54 AM",
+    "raw_message": "Failsafe RTH.",
+    "sentences": [
+      "Failsafe RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:14.94 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Original route RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:15.94 AM",
+    "raw_message": "RTH in progress.",
+    "sentences": [
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:16.34 AM",
+    "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:17.94 AM",
+    "raw_message": "RTH ascending.",
+    "sentences": [
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:18.34 AM",
+    "raw_message": "Controller triggered aircraft to descend. Auto RTH canceled.",
+    "sentences": [
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:18.94 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:19.54 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal.;",
+      "RC signal lost.",
+      "Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna",
+      "orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:20.34 AM",
+    "raw_message": "RC signal lost.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal lost.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:21.34 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:21.54 AM",
+    "raw_message": "RC signal weak.",
+    "sentences": [
+      "RC signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:25:29.34 AM",
+    "raw_message": "RC signal weak.",
+    "sentences": [
+      "RC signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:30.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:32.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:35.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:39.74 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:40.54 AM",
+    "raw_message": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "sentences": [
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:42.74 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:43.54 AM",
+    "raw_message": "RC signal weak.",
+    "sentences": [
+      "RC signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:44.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:47.94 AM",
+    "raw_message": "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.;",
+      "Aircraft braking.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:49.14 AM",
+    "raw_message": "RC signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:56.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:59.54 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:26:59.74 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:00.74 AM",
+    "raw_message": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "sentences": [
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:02.54 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:03.74 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:08.74 AM",
+    "raw_message": "Image transmission signal weak.; RC signal lost.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:10.74 AM",
+    "raw_message": "Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:14.74 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:15.14 AM",
+    "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:17.34 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:17.54 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:27.14 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:29.34 AM",
+    "raw_message": "Aircraft braking.",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:30.54 AM",
+    "raw_message": "Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:30.54 AM",
+    "raw_message": "Downlink Lost.",
+    "sentences": [
+      "Downlink Lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:36.34 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downlink Restored (after 0m 5.8s).; Flight mode changed to Go Home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "Downlink Restored (after 0m 5.8s).;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "NonEvent",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:36.94 AM",
+    "raw_message": "RTH in progress.",
+    "sentences": [
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:39.94 AM",
+    "raw_message": "RTH ascending.",
+    "sentences": [
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:40.74 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost.",
+      "Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "NonEvent",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:41.14 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:41.74 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:42.34 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled.;",
+      "RC signal lost.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:45.74 AM",
+    "raw_message": "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.;",
+      "Aircraft braking.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:49.14 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:49.54 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; No image transmission. Aircraft returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Flight mode changed to Go Home.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost.",
+      "Aircraft will follow preset action for lost signal.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:49.94 AM",
+    "raw_message": "Original route RTH.",
+    "sentences": [
+      "Original route RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:50.94 AM",
+    "raw_message": "RTH in progress.",
+    "sentences": [
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:51.14 AM",
+    "raw_message": "No image transmission. RTH.",
+    "sentences": [
+      "No image transmission.",
+      "RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:54.94 AM",
+    "raw_message": "RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "sentences": [
+      "RTH ascending.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:55.74 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:57.34 AM",
+    "raw_message": "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Controller triggered aircraft to descend.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:27:59.74 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:02.34 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:03.34 AM",
+    "raw_message": "Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "Aircraft braking.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:04.34 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:04.34 AM",
+    "raw_message": "Downlink Lost.",
+    "sentences": [
+      "Downlink Lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:11.74 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Downlink Restored (after 0m 7.4s).; Flight mode changed to Go Home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+      "Downlink Restored (after 0m 7.4s).;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:11.94 AM",
+    "raw_message": "RTH ascending.",
+    "sentences": [
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:12.34 AM",
+    "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "sentences": [
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:13.14 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RC signal weak.",
+      "Avoid blocking antennas and adjust antenna orientation.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:16.34 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:18.14 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RTH ascending."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:18.14 AM",
+    "raw_message": "Downlink Lost.",
+    "sentences": [
+      "Downlink Lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:23.54 AM",
+    "raw_message": "Downlink Restored (after 0m 5.4s).",
+    "sentences": [
+      "Downlink Restored (after 0m 5.4s)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:23.74 AM",
+    "raw_message": "Press Brake button to cancel RTH.; RC signal lost. Returning to home.",
+    "sentences": [
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost.",
+      "Returning to home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:23.94 AM",
+    "raw_message": "RTH in progress.",
+    "sentences": [
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:24.74 AM",
+    "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost. Returning to home.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:35.74 AM",
+    "raw_message": "Failsafe RTH.; Aircraft braking.; RC signal lost. Returning to home.; RTH in progress.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Aircraft braking.;",
+      "RC signal lost.",
+      "Returning to home.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:35.94 AM",
+    "raw_message": "Controller triggered aircraft to fly backward. Auto RTH canceled.",
+    "sentences": [
+      "Controller triggered aircraft to fly backward.",
+      "Auto RTH canceled."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:36.54 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:37.14 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to fly backward.",
+      "Auto RTH canceled.;",
+      "Returning to home.;",
+      "RTH in progress.",
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:37.74 AM",
+    "raw_message": "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.",
+    "sentences": [
+      "Failsafe RTH.;",
+      "Controller triggered aircraft to fly backward.",
+      "Auto RTH canceled.;",
+      "RC signal lost.",
+      "Returning to home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:40.74 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Flight mode changed to Go Home.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:43.94 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:47.74 AM",
+    "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Press Brake button to cancel RTH.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:48.94 AM",
+    "raw_message": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Controller triggered aircraft to fly backward.",
+      "Auto RTH canceled.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:49.54 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:50.34 AM",
+    "raw_message": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Controller triggered aircraft to fly backward.",
+      "Auto RTH canceled.;",
+      "No image transmission.",
+      "Aircraft returning to home.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:50.74 AM",
+    "raw_message": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.",
+    "sentences": [
+      "No image transmission.",
+      "RTH.;",
+      "Controller triggered aircraft to fly backward.",
+      "Auto RTH canceled.;",
+      "No image transmission.",
+      "Aircraft returning to home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:51.54 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:53.54 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:58.54 AM",
+    "raw_message": "Aircraft braking.",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:28:59.94 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:06.54 AM",
+    "raw_message": "Aircraft braking.",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:08.14 AM",
+    "raw_message": "RTH in progress.; Flight mode changed to Go Home.",
+    "sentences": [
+      "RTH in progress.;",
+      "Flight mode changed to Go Home."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:09.14 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:09.74 AM",
+    "raw_message": "Press Brake button to cancel RTH.",
+    "sentences": [
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:15.14 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:15.54 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.; RC signal lost.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH.;",
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:16.74 AM",
+    "raw_message": "RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.",
+    "sentences": [
+      "RC signal lost.;",
+      "Press Brake button to cancel RTH.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:17.54 AM",
+    "raw_message": "RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.",
+    "sentences": [
+      "RC signal lost.;",
+      "Press Brake button to cancel RTH.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:18.14 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:18.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:21.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:24.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:27.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:30.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:33.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:36.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:39.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:42.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:45.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:48.74 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "sentences": [
+      "RTH in progress.;",
+      "Press Brake button to cancel RTH."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:51.54 AM",
+    "raw_message": "RTH in progress.; Press Brake button to cancel RTH.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.",
+    "sentences": [
+      "RTH in progress.;",
+      "Auto landing in progress.;",
+      "Press brake button to cancel landing.;",
+      "Flight mode changed to Auto Landing.",
+      "Press Brake button to cancel RTH.;"
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:29:52.74 AM",
+    "raw_message": "Auto landing in progress.; Press brake button to cancel landing.; RTH in progress.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Press brake button to cancel landing.;",
+      "RTH in progress."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:30:43.74 AM",
+    "raw_message": "Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Area under aircraft unsuitable for landing.",
+      "Move to safe environment and try again."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:30:43.94 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:30:45.54 AM",
+    "raw_message": "Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Area under aircraft unsuitable for landing.",
+      "Move to safe environment and try again."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:30:53.74 AM",
+    "raw_message": "Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "sentences": [
+      "Area under aircraft unsuitable for landing.",
+      "Move to safe environment and try again."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:30:57.74 AM",
+    "raw_message": "Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Press brake button to cancel landing.;",
+      "Flight mode changed to Auto Landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:30:58.94 AM",
+    "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Make sure the area under the aircraft is safe for landing.",
+      "Push throttle down to use force landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:31:13.34 AM",
+    "raw_message": "Flight mode changed to Confirm Landing.",
+    "sentences": [
+      "Flight mode changed to Confirm Landing."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:31:14.94 AM",
+    "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Make sure the area under the aircraft is safe for landing.",
+      "Push throttle down to use force landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "5/12/2025",
+    "time": "8:31:16.84 AM",
+    "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "sentences": [
+      "Flight mode changed to P-GPS (Brake)."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  }
+]
