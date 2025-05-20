@@ -62,6 +62,8 @@ def main():
     parsed_folder = get_latest_folder('outputs')
     source_path = os.path.join('outputs', parsed_folder, 'parsed', 'android')
     files = os.listdir(source_path)
+    output_dir = os.path.join('outputs', parsed_folder, 'records')
+    os.makedirs(output_dir, exist_ok=True)
 
     for file in files:
         full_path = os.path.join(source_path, file)
@@ -83,9 +85,8 @@ def main():
         
         # Convert LogRecord objects to dictionaries
         serializable_results = [asdict(record) for record in results]
-        
         # Save or process results
-        with open(os.path.join('outputs', parsed_folder, 'records.json'), 'w') as f:
+        with open(os.path.join(output_dir, f'{file}.json'), 'w') as f:
             json.dump(serializable_results, f, indent=2)
 
 
