@@ -1,0 +1,31 @@
+import pandas as pd
+from typing import List, Dict, Tuple
+from dataclasses import dataclass
+
+@dataclass
+class LogRecord:
+    date: str
+    time: str
+    raw_message: str
+    sentences: List[(str, str)] = None  # store the segmented sentences 
+    sentence_types: List[str] = None    # store the sentence type (Event or NonEvent)
+    eventIds: List[int] = None          # store the abstracted events with IDs (E## for Event, N## for NonEvent)
+    anomalies: List[str]                # store the predicted anomaly severity for each sentence
+    anomaly_probs: List[float]          # store the prediction probability of the anomaly severity
+    attributions: List[float]           # store the attribution score towards the class High
+
+class DataLoader:
+    def __init__(self, filepath: str):
+        self.filepath = filepath
+        
+    def load_data(self) -> List[LogRecord]:
+        """Load CSV and initialize log records"""
+        df = pd.read_csv(self.filepath)
+        records = []
+        for _, row in df.iterrows():
+            records.append(LogRecord(
+                date=row['date'],
+                time=row['time'],
+                raw_message=row['message']
+            ))
+        return records
