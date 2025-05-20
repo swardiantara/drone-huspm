@@ -3,8 +3,6 @@ import os
 import logging
 from src.data_loader import DataLoader
 from src.adfler import MessageSegmenter
-from src.lasec import LogAbstractor
-from src.dronelog import AnomalyDetector
 from src.utils import get_latest_folder
 
 # Set up logging
@@ -80,7 +78,7 @@ def main():
         
         # Save or process results
         import json
-        with open('output.json', 'w') as f:
+        with open(os.path.join('outputs', parsed_folder, 'output.json'), 'w') as f:
             json.dump(results, f, indent=2)
 
 
