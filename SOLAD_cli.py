@@ -1,5 +1,6 @@
 from typing import List, Dict, Tuple
 import os
+import torch
 import logging
 from src.data_loader import DataLoader
 from src.adfler import MessageSegmenter
@@ -13,7 +14,7 @@ class DroneLogAnalyzer:
     def __init__(self, config: Dict):
         # Initialize all components from config
         self.data_loader = DataLoader(config['data_path'])
-        self.segmenter = MessageSegmenter(config['ner_model_path'])
+        self.segmenter = MessageSegmenter(config['ner_model_path'], use_cuda=config['use_cuda'])
         # self.abstractor = LogAbstractor(
         #     config['embedding_model_path'],
         #     config.get('birch_model_path')
@@ -55,7 +56,7 @@ class DroneLogAnalyzer:
 
 
 def main():
-
+    use_cuda = True if torch.cuda.is_available() else False
     parsed_folder = get_latest_folder('outputs')
     source_path = os.path.join('outputs', parsed_folder, 'parsed', 'android')
     files = os.listdir(source_path)
@@ -63,9 +64,11 @@ def main():
     for file in files:
         full_path = os.path.join(source_path, file)
         logger.info(f'Processing file: {full_path}')
+
         config = {
             'data_path': full_path,
             'ner_model_path': 'ADFLER-albert-base-v2',
+            'use_cuda': use_cuda
             # 'embedding_model_path': 'all-MiniLM-L6-v2',
             # 'birch_model_path': 'birch_model.pkl',
             # 'severity_model_path': 'severity_model',

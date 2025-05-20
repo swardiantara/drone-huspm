@@ -5,24 +5,24 @@ from typing import List, Dict, Tuple
 from simpletransformers.ner import NERModel
 
 class MessageSegmenter:
-    def __init__(self, ner_model_path: str):
+    def __init__(self, ner_model_path: str, use_cuda: bool=False):
+        self.use_cuda = use_cuda
         self.ner_model = self._load_ner_model(ner_model_path)
-        
-    def _load_ner_model(self, path, **args):
-        # TODO: Implement based on your NER model type
+
+    def _load_ner_model(self, path):
         config_file = open(os.path.join(path, 'config.json'))
         model_config = json.load(config_file)
         labels = [label for id, label in model_config['id2label'].items()]
-        
+    
         segmenter = NERModel(
                         model_config['model_type'],
                         path,
                         labels=labels,
-                        use_cuda=args.use_cuda
+                        use_cuda=self.use_cuda
                     )
         return segmenter
     
-    def extract_spans(prediction, text=None, repair_invalid=True):
+    def extract_spans(self, prediction, text=None, repair_invalid=True):
         """
         Extract valid and invalid spans from NER predictions following BIOES tagging scheme.
         
@@ -199,8 +199,8 @@ class MessageSegmenter:
         for record in records:
             # Process each record's raw message
             predictions, _ = self.ner_model.predict([record.raw_message])
+            
             # Extract sentences and their event/non-event labels
-            # TODO: Implement based on your NER model's output format
             result = self.extract_spans(predictions[0])
             
             if result['valid_spans']:
