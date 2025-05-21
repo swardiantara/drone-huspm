@@ -1,4 +1,5 @@
 import torch
+import math
 import numpy as np
 import torch.nn as nn
 from typing import List, Dict, Tuple
@@ -97,8 +98,13 @@ class AnomalyDetector(nn.Module):
         attributions = attributions / torch.norm(attributions)
         # Convert attributions to numpy
         attributions = attributions.cpu().detach().numpy()
+        max_attr = np.maximum(attributions)
+        sum_attr = np.sum(attributions)
         snr = self.signal_to_noise_ratio(attributions)
-        return snr
+        pad_token_id = self.tokenizer.pad_token_id
+        non_padding_count = (input_ids != pad_token_id).sum().item()
+        normalized = sum_attr / math.sqrt(non_padding_count)
+        return sum_attr, max_attr, normalized, snr
 
     def detect_anomalies(self, records: List[LogRecord]) -> List[LogRecord]:
         """Classify severity for each abstracted event"""
@@ -116,9 +122,12 @@ class AnomalyDetector(nn.Module):
                     pred_prob = torch.softmax(logits, dim=-1)
                     pred_label = torch.argmax(pred_prob, dim=-1).item()
                     prob = pred_prob[0, pred_label].item()
-                    attribution = self.compute_attribution(inputs["input_ids"], inputs["attention_mask"])
+                    sum_attr, max_attr, normalized, snr = self.compute_attribution(inputs["input_ids"], inputs["attention_mask"])
                     record.anomalies.append(idx2label.get(pred_label))
                     record.anomaly_probs.append(prob)
-                    record.attributions.append(attribution)
+                    record.sum_attributions.append(sum_attr)
+                    record.max_attributions.append(max_attr)
+                    record.norm_attributions.append(normalized)
+                    record.snr_scores.append(snr)
         
         return records
