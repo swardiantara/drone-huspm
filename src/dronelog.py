@@ -74,7 +74,8 @@ class AnomalyDetector(nn.Module):
                     logits = self(inputs["input_ids"], inputs["attention_mask"])
                     pred_prob = torch.softmax(logits, dim=-1)
                     pred_label = torch.argmax(pred_prob, dim=-1).item()
+                    prob = pred_prob[0, pred_label].item()
                     record.anomalies.append(idx2label.get(pred_label))
-                    record.anomaly_probs.append(pred_prob.detach().cpu().numpy()[pred_label])
+                    record.anomaly_probs.append(prob)
         
         return records
