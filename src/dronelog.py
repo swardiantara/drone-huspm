@@ -68,7 +68,7 @@ class AnomalyDetector(nn.Module):
         logits = self.classifier(pooled)  # [batch_size, num_classes]
         return logits
     
-    def signal_to_noise_ratio(attribution_array):
+    def signal_to_noise_ratio(self, attribution_array):
         # Get only positive attributions
         positive_attributions = np.maximum(attribution_array, 0)
         
