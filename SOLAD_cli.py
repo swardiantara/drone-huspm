@@ -92,10 +92,8 @@ def main():
     # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     device = torch.device("cpu")
     parsed_folder = get_latest_folder('outputs')
-    output_dir = os.path.join(parsed_folder, 'records')
     source_path = os.path.join(parsed_folder, 'parsed', 'android')
     files = os.listdir(source_path)
-    os.makedirs(output_dir, exist_ok=True)
 
     for file in files:
         full_path = os.path.join(source_path, file)
@@ -121,9 +119,13 @@ def main():
         serializable_records = [asdict(record) for record in records]
 
         # Save or process results
+        output_dir = os.path.join(parsed_folder, 'records')
+        os.makedirs(output_dir, exist_ok=True)
         with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
             json.dump(serializable_records, f, indent=2)
-        joblib.dump(results, os.path.join(output_dir, f'{file.split('.')[0]}_sequence.joblib'))
+        seq_dir = os.path.join(parsed_folder, 'sequence')
+        os.makedirs(seq_dir, exist_ok=True)
+        joblib.dump(results, os.path.join(seq_dir, f'{file.split('.')[0]}_sequence.joblib'))
 
 
 # Example usage
