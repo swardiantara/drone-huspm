@@ -125,7 +125,7 @@ class AnomalyDetector(nn.Module):
                     severe_prob = pred_prob[0, 3].item()
                     sum_attr, max_attr, normalized, snr = self.compute_attribution(inputs["input_ids"], inputs["attention_mask"])
                     record.anomalies.append(idx2label.get(pred_label))
-                    record.severe_prob.append(severe_prob)
+                    record.severe_probs.append(severe_prob)
                     record.anomaly_probs.append(prob)
                     record.sum_attributions.append(sum_attr)
                     record.max_attributions.append(max_attr)
