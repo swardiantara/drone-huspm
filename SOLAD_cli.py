@@ -79,7 +79,7 @@ class DroneLogAnalyzer:
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir
-        result = self.builder.build_sequences(records)
+        result = self.seq_db_builder.build_sequences(records)
         
         return records, result
 
@@ -116,7 +116,7 @@ def main():
         # Convert LogRecord objects to dictionaries
         serializable_records = [asdict(record) for record in records]
         serializable_results = [asdict(result) for result in results]
-        
+
         # Save or process results
         with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
             json.dump(serializable_records, f, indent=2)
