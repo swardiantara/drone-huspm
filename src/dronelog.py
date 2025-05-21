@@ -69,11 +69,12 @@ class AnomalyDetector(nn.Module):
                 continue
                 
             for sentence in record.sentences:
-                inputs = self.tokenizer(sentence, padding=True, truncation=True, return_tensors="pt").to(device)
-                logits = self(inputs)
-                pred_prob = torch.softmax(logits, dim=-1)
-                pred_label = torch.argmax(pred_prob, dim=-1).cpu().numpy()
-                record.anomalies.append(idx2label.get(pred_label))
-                record.anomaly_probs.append(pred_prob.cpu().numpy())
+                with torch.no_grad():
+                    inputs = self.tokenizer(sentence, padding=True, truncation=True, return_tensors="pt").to(device)
+                    logits = self(inputs["input_ids"], inputs["attention_mask"])
+                    pred_prob = torch.softmax(logits, dim=-1)
+                    pred_label = torch.argmax(pred_prob, dim=-1).item()
+                    record.anomalies.append(idx2label.get(pred_label))
+                    record.anomaly_probs.append(pred_prob.detach().numpy())
         
         return records
