@@ -32,7 +32,7 @@ class DroneLogAnalyzer:
         #     config['attribution_model_path'],
         #     config['classifier_path']
         # )
-        self.seq_db_builder = SequenceBuilder(config['utility_variable'])
+        self.seq_db_builder = SequenceBuilder()
 
     def _load_lasec(self):
         file_path = os.path.join(self.config['workdir'], 'LASeC.joblib')
