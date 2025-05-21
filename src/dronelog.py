@@ -118,7 +118,6 @@ class AnomalyDetector(nn.Module):
             'norm': float(normalized),
             'snr': float(snr)
         }
-        return float(sum_attr), float(max_attr), float(normalized), float(snr)
 
     def detect_anomalies(self, records: List[LogRecord]) -> List[LogRecord]:
         """Classify severity for each abstracted event"""

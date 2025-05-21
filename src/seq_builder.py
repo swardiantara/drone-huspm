@@ -2,10 +2,10 @@ from typing import List, Dict, Tuple
 from src.data_loader import LogRecord
 
 class SequenceBuilder:
-    def __init__(self, utility: str):
-        self.utility = utility
+    # def __init__(self, utility: str):
+    #     self.utility = utility
 
-    def build_sequences(self, records: List[LogRecord]) -> Dict:
+    def build_sequences(self, records: List[LogRecord], utility: str) -> Dict:
         """Construct the final sequential database"""
         sequence = []
 
@@ -17,7 +17,7 @@ class SequenceBuilder:
             
             for i in range(len(record.sentences)):
                 event_count += 1
-                element.append((record.eventIds[i], getattr(record, self.utility)[i]))
+                element.append((record.eventIds[i], getattr(record, utility)[i]))
             
             sequence.append(element)
         

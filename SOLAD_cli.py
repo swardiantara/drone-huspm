@@ -82,9 +82,13 @@ class DroneLogAnalyzer:
         
         # 6. Build sequences per log file, and save to workdir
         logger.info(f'Start constructing sequence DB...')
-        result = self.seq_db_builder.build_sequences(records)
+        for utility in self.config['utility_variable']:
+            seq_dir = os.path.join(self.config['workdir'], 'sequence', utility)
+            os.makedirs(seq_dir, exist_ok=True)
+            result = self.seq_db_builder.build_sequences(records, utility)
+            joblib.dump(result, os.path.join(seq_dir, f'{self.config['filename'].split('.')[0]}_sequence.joblib'))
         
-        return records, result
+        return records
 
 
 def main():
@@ -101,6 +105,7 @@ def main():
 
         config = {
             'workdir': parsed_folder,
+            'filename': file,
             'use_cuda': use_cuda,
             'device': device,
             'data_path': full_path,
@@ -109,11 +114,11 @@ def main():
             'birch_model_path': os.path.join(parsed_folder, 'birch_model.joblib'),
             'severity_model_path': 'swardiantara/drone-ordinal-all',
             'classifier_path': os.path.join('anomaly', 'pytorch_model.pt'),
-            'utility_variable': 'sum_attributions' # sum_attributions, max_attributions, norm_attributions, snr_scores
+            'utility_variable': ['severe_probs', 'sum_attributions', 'max_attributions', 'top3_attributions', 'top5_attributions', 'norm_attributions', 'snr_scores']
         }
-        
+    
         analyzer = DroneLogAnalyzer(config)
-        records, results = analyzer.analyze()
+        records = analyzer.analyze()
         
         # Convert LogRecord objects to dictionaries
         serializable_records = [asdict(record) for record in records]
@@ -123,9 +128,6 @@ def main():
         os.makedirs(output_dir, exist_ok=True)
         with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
             json.dump(serializable_records, f, indent=2)
-        seq_dir = os.path.join(parsed_folder, 'sequence')
-        os.makedirs(seq_dir, exist_ok=True)
-        joblib.dump(results, os.path.join(seq_dir, f'{file.split('.')[0]}_sequence.joblib'))
 
 
 # Example usage
