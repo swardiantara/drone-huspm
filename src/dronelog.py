@@ -104,7 +104,7 @@ class AnomalyDetector(nn.Module):
         pad_token_id = self.tokenizer.pad_token_id
         non_padding_count = (input_ids != pad_token_id).sum().item()
         normalized = sum_attr / math.sqrt(non_padding_count)
-        return sum_attr, max_attr, normalized, snr
+        return float(sum_attr), float(max_attr), float(normalized), float(snr)
 
     def detect_anomalies(self, records: List[LogRecord]) -> List[LogRecord]:
         """Classify severity for each abstracted event"""
