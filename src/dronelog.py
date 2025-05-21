@@ -75,6 +75,6 @@ class AnomalyDetector(nn.Module):
                     pred_prob = torch.softmax(logits, dim=-1)
                     pred_label = torch.argmax(pred_prob, dim=-1).item()
                     record.anomalies.append(idx2label.get(pred_label))
-                    record.anomaly_probs.append(pred_prob.detach().numpy())
+                    record.anomaly_probs.append(pred_prob.detach().cpu().numpy()[pred_label])
         
         return records
