@@ -98,7 +98,7 @@ class AnomalyDetector(nn.Module):
         attributions = attributions / torch.norm(attributions)
         # Convert attributions to numpy
         attributions = attributions.cpu().detach().numpy()
-        max_attr = np.maximum(attributions)
+        max_attr = np.max(attributions)
         sum_attr = np.sum(attributions)
         snr = self.signal_to_noise_ratio(attributions)
         pad_token_id = self.tokenizer.pad_token_id
