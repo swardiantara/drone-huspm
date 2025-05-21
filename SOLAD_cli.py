@@ -69,16 +69,19 @@ class DroneLogAnalyzer:
         records = self.segmenter.segment_and_classify(records)
         
         # 3. Abstract events
+        logger.info(f'Start abstracting sentences...')
         records = self.abstractor.abstract_messages(records)
         joblib.dump(self.abstractor, os.path.join(self.config['workdir'], 'LASeC.joblib'))
 
         # 4. Detect anomalies
+        logger.info(f'Start detecting anomaly severity...')
         records = self.detector.detect_anomalies(records)
         
         # # 5. Compute attributions
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir
+        logger.info(f'Start constructing sequence DB...')
         result = self.seq_db_builder.build_sequences(records)
         
         return records, result
@@ -86,11 +89,12 @@ class DroneLogAnalyzer:
 
 def main():
     use_cuda = True if torch.cuda.is_available() else False
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
     parsed_folder = get_latest_folder('outputs')
+    output_dir = os.path.join(parsed_folder, 'records')
     source_path = os.path.join(parsed_folder, 'parsed', 'android')
     files = os.listdir(source_path)
-    output_dir = os.path.join(parsed_folder, 'records')
     os.makedirs(output_dir, exist_ok=True)
 
     for file in files:
