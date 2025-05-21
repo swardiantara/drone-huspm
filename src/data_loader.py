@@ -12,6 +12,7 @@ class LogRecord:
     eventIds: List[int] = field(default_factory=list)             # store the abstracted events with IDs (E## for Event, N## for NonEvent)
     anomalies: List[str] = field(default_factory=list)            # store the predicted anomaly severity for each sentence
     anomaly_probs: List[float] = field(default_factory=list)      # store the prediction probability of the anomaly severity
+    severe_probs: List[float] = field(default_factory=list)      # store the prediction probability of the anomaly severity
     sum_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
     max_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
     norm_attributions: List[float] = field(default_factory=list)  # store the attribution score towards the class High
