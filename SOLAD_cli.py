@@ -115,13 +115,11 @@ def main():
         
         # Convert LogRecord objects to dictionaries
         serializable_records = [asdict(record) for record in records]
-        serializable_results = [asdict(result) for result in results]
 
         # Save or process results
         with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
             json.dump(serializable_records, f, indent=2)
-        with open(os.path.join(output_dir, f'{file.split('.')[0]}_sequence.json'), 'w') as f:
-            json.dump(serializable_results, f, indent=2)
+        joblib.dump(results, os.path.join(output_dir, f'{file.split('.')[0]}_sequence.joblib'))
 
 
 # Example usage
