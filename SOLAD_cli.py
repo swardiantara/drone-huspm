@@ -12,6 +12,7 @@ from src.data_loader import DataLoader
 from src.adfler import MessageSegmenter
 from src.lasec import LogAbstractor
 from src.dronelog import AnomalyDetector
+from src.seq_builder import SequenceBuilder
 from src.utils import get_latest_folder
 
 
@@ -31,7 +32,7 @@ class DroneLogAnalyzer:
         #     config['attribution_model_path'],
         #     config['classifier_path']
         # )
-        # self.seq_db_builder = SequenceBuilder()
+        self.seq_db_builder = SequenceBuilder(config['utility_variable'])
 
     def _load_lasec(self):
         file_path = os.path.join(self.config['workdir'], 'LASeC.joblib')
@@ -77,11 +78,10 @@ class DroneLogAnalyzer:
         # # 5. Compute attributions
         # records = self.attributor.compute_attributions(records)
         
-        # # 6. Build sequences
-        # result = self.builder.build_sequences(records)
+        # 6. Build sequences per log file, and save to workdir
+        result = self.builder.build_sequences(records)
         
-        return records
-        return result
+        return records, result
 
 
 def main():
@@ -107,16 +107,20 @@ def main():
             'birch_model_path': os.path.join(parsed_folder, 'birch_model.joblib'),
             'severity_model_path': 'swardiantara/drone-ordinal-all',
             'classifier_path': os.path.join('anomaly', 'pytorch_model.pt'),
-            # 'attribution_model_path': 'attribution_model'
+            'utility_variable': 'sum_attributions' # sum_attributions, max_attributions, norm_attributions, snr_scores
         }
         
         analyzer = DroneLogAnalyzer(config)
-        results = analyzer.analyze()
+        records, results = analyzer.analyze()
         
         # Convert LogRecord objects to dictionaries
-        serializable_results = [asdict(record) for record in results]
+        serializable_records = [asdict(record) for record in records]
+        serializable_results = [asdict(result) for result in results]
+        
         # Save or process results
-        with open(os.path.join(output_dir, f'{file.split('.')[0]}.json'), 'w') as f:
+        with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
+            json.dump(serializable_records, f, indent=2)
+        with open(os.path.join(output_dir, f'{file.split('.')[0]}_sequence.json'), 'w') as f:
             json.dump(serializable_results, f, indent=2)
 
 
