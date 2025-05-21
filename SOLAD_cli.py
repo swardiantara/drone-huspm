@@ -35,9 +35,9 @@ class DroneLogAnalyzer:
         file_path = os.path.join(self.config['workdir'], 'LASeC.joblib')
 
         if os.path.exists(file_path):
-            self.abstractor = joblib.load(file_path)
+            return joblib.load(file_path)
         else:
-            self.abstractor = LogAbstractor(
+            return LogAbstractor(
                 self.config['embedding_model_path'],
                 self.config['device'],
                 self.config.get('birch_model_path')
