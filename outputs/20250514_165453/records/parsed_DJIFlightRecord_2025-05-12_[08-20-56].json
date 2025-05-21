@@ -21,8 +21,18 @@
       "N2",
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.9177663922309875,
+      0.915276825428009,
+      0.8418133854866028,
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -41,8 +51,14 @@
       "N2",
       "N4"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8897112011909485,
+      0.8866291046142578
+    ],
     "attributions": []
   },
   {
@@ -58,8 +74,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -84,8 +104,18 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -101,8 +131,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -118,8 +152,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -135,8 +173,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -173,8 +215,26 @@
       "N7",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -208,8 +268,24 @@
       "N14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "normal",
+      "medium",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.412295937538147,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9146978259086609,
+      0.8952409029006958
+    ],
     "attributions": []
   },
   {
@@ -228,8 +304,14 @@
       "E9",
       "E10"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.9132473468780518
+    ],
     "attributions": []
   },
   {
@@ -266,8 +348,26 @@
       "N7",
       "N14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -283,8 +383,12 @@
     "eventIds": [
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -315,8 +419,22 @@
       "E12",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -353,8 +471,26 @@
       "N7",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -394,8 +530,28 @@
       "N7",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "normal",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -411,8 +567,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -446,8 +606,24 @@
       "E12",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -463,8 +639,12 @@
     "eventIds": [
       "E6"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.666118323802948
+    ],
     "attributions": []
   },
   {
@@ -480,8 +660,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -497,8 +681,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -523,8 +711,18 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -552,8 +750,20 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.412295937538147,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -572,8 +782,14 @@
       "E8",
       "E18"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853,
+      0.7961387038230896
+    ],
     "attributions": []
   },
   {
@@ -604,8 +820,22 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "medium",
+      "normal",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.412295937538147,
+      0.8096447587013245,
+      0.5782324075698853,
+      0.8214377760887146,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -624,8 +854,14 @@
       "E19",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -641,8 +877,12 @@
     "eventIds": [
       "E19"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9090736508369446
+    ],
     "attributions": []
   },
   {
@@ -673,8 +913,22 @@
       "N7",
       "E20"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9156812429428101
+    ],
     "attributions": []
   },
   {
@@ -690,8 +944,12 @@
     "eventIds": [
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -722,8 +980,22 @@
       "N7",
       "N14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -739,8 +1011,12 @@
     "eventIds": [
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -759,8 +1035,14 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5979032516479492,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -776,8 +1058,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -808,8 +1094,22 @@
       "E12",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5782324075698853,
+      0.9140326976776123,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -834,8 +1134,18 @@
       "E17",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -860,8 +1170,18 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -892,8 +1212,22 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "normal",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.5782324075698853,
+      0.8214377760887146,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -924,8 +1258,22 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "medium",
+      "normal",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.412295937538147,
+      0.8096447587013245,
+      0.5782324075698853,
+      0.8214377760887146,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -944,8 +1292,14 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -961,8 +1315,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -981,8 +1339,14 @@
       "E19",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -998,8 +1362,12 @@
     "eventIds": [
       "E19"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9090736508369446
+    ],
     "attributions": []
   },
   {
@@ -1030,8 +1398,22 @@
       "N7",
       "E20"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9156812429428101
+    ],
     "attributions": []
   },
   {
@@ -1065,8 +1447,24 @@
       "E20",
       "N14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.9152344465255737,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -1106,8 +1504,28 @@
       "E20",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "low",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9152344465255737,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -1123,8 +1541,12 @@
     "eventIds": [
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1161,8 +1583,26 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1205,8 +1645,30 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5782324075698853,
+      0.9140326976776123,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1222,8 +1684,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -1266,8 +1732,30 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5782324075698853,
+      0.9140326976776123,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1283,8 +1771,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -1300,8 +1792,12 @@
     "eventIds": [
       "E22"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176
+    ],
     "attributions": []
   },
   {
@@ -1317,8 +1813,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -1337,8 +1837,14 @@
       "E5",
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -1354,8 +1860,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -1374,8 +1884,14 @@
       "E19",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -1391,8 +1907,12 @@
     "eventIds": [
       "E19"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9090736508369446
+    ],
     "attributions": []
   },
   {
@@ -1414,8 +1934,16 @@
       "E8",
       "E20"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9156812429428101
+    ],
     "attributions": []
   },
   {
@@ -1443,8 +1971,20 @@
       "E20",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9152344465255737,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1463,8 +2003,14 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -1483,8 +2029,14 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -1515,8 +2067,22 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1547,8 +2113,22 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1564,8 +2144,12 @@
     "eventIds": [
       "E19"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9090736508369446
+    ],
     "attributions": []
   },
   {
@@ -1596,8 +2180,22 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9160691499710083,
+      0.5979032516479492,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -1631,8 +2229,24 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1648,8 +2262,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -1683,8 +2301,24 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1715,8 +2349,22 @@
       "E8",
       "N18"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "low",
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.84309321641922,
+      0.8096447587013245,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.5782324075698853,
+      0.7961387038230896
+    ],
     "attributions": []
   },
   {
@@ -1735,8 +2383,14 @@
       "E19",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -1752,8 +2406,12 @@
     "eventIds": [
       "E19"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9090736508369446
+    ],
     "attributions": []
   },
   {
@@ -1778,8 +2436,18 @@
       "E8",
       "E20"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9156812429428101
+    ],
     "attributions": []
   },
   {
@@ -1795,8 +2463,12 @@
     "eventIds": [
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -1815,8 +2487,14 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -1832,8 +2510,12 @@
     "eventIds": [
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1852,8 +2534,14 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5979032516479492,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -1869,8 +2557,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -1916,8 +2608,32 @@
       "N23",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5782324075698853,
+      0.8214377760887146,
+      0.5782324075698853,
+      0.9140326976776123,
+      0.8297351002693176,
+      0.7964402437210083,
+      0.9121619462966919,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -1954,8 +2670,26 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "medium",
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.412295937538147,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.5782324075698853,
+      0.8214377760887146,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -1971,8 +2705,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -1988,8 +2726,12 @@
     "eventIds": [
       "E22"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176
+    ],
     "attributions": []
   },
   {
@@ -2005,8 +2747,12 @@
     "eventIds": [
       "E22"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176
+    ],
     "attributions": []
   },
   {
@@ -2022,8 +2768,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2039,8 +2789,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2056,8 +2810,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2082,8 +2840,18 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -2102,8 +2870,14 @@
       "E8",
       "E18"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853,
+      0.7961387038230896
+    ],
     "attributions": []
   },
   {
@@ -2119,8 +2893,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2136,8 +2914,12 @@
     "eventIds": [
       "E22"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176
+    ],
     "attributions": []
   },
   {
@@ -2153,8 +2935,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2179,8 +2965,18 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.84309321641922,
+      0.8096447587013245,
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -2211,8 +3007,22 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "medium",
+      "low",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.84309321641922,
+      0.8096447587013245,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -2228,8 +3038,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2254,8 +3068,18 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -2271,8 +3095,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2291,8 +3119,14 @@
       "E8",
       "E18"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853,
+      0.7961387038230896
+    ],
     "attributions": []
   },
   {
@@ -2308,8 +3142,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2325,8 +3163,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2345,8 +3187,14 @@
       "E5",
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.6971684098243713,
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2368,8 +3216,16 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -2385,8 +3241,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2405,8 +3265,14 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -2422,8 +3288,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2439,8 +3309,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2456,8 +3330,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -2473,8 +3351,12 @@
     "eventIds": [
       "E6"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.666118323802948
+    ],
     "attributions": []
   },
   {
@@ -2496,8 +3378,16 @@
       "E5",
       "N7"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8096447587013245,
+      0.7605234384536743,
+      0.6824010014533997
+    ],
     "attributions": []
   },
   {
@@ -2513,8 +3403,12 @@
     "eventIds": [
       "E24"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8384197354316711
+    ],
     "attributions": []
   },
   {
@@ -2548,8 +3442,24 @@
       "E25",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9173160791397095,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -2565,8 +3475,12 @@
     "eventIds": [
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -2582,8 +3496,12 @@
     "eventIds": [
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -2623,8 +3541,28 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "normal",
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.5782324075698853,
+      0.9140326976776123,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9160691499710083,
+      0.5979032516479492,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -2658,8 +3596,24 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -2675,8 +3629,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -2713,8 +3671,26 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.5979032516479492,
+      0.8090366125106812,
+      0.412295937538147,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -2739,8 +3715,18 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.84309321641922,
+      0.8096447587013245,
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -2756,8 +3742,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2800,8 +3790,30 @@
       "N21",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "medium",
+      "normal",
+      "low",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5782324075698853,
+      0.8214377760887146,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -2817,8 +3829,12 @@
     "eventIds": [
       "E20"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9156812429428101
+    ],
     "attributions": []
   },
   {
@@ -2834,8 +3850,12 @@
     "eventIds": [
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -2854,8 +3874,14 @@
       "E9",
       "E10"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.9132473468780518
+    ],
     "attributions": []
   },
   {
@@ -2877,8 +3903,16 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9160691499710083,
+      0.5979032516479492,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -2894,8 +3928,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -2920,8 +3958,18 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.5979032516479492,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -2937,8 +3985,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2954,8 +4006,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -2977,8 +4033,16 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8096447587013245,
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -2994,8 +4058,12 @@
     "eventIds": [
       "E5"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.7605234384536743
+    ],
     "attributions": []
   },
   {
@@ -3011,8 +4079,12 @@
     "eventIds": [
       "E24"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8384197354316711
+    ],
     "attributions": []
   },
   {
@@ -3046,8 +4118,24 @@
       "E25",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "medium",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.7605234384536743,
+      0.7267244458198547,
+      0.917202353477478,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -3063,8 +4151,12 @@
     "eventIds": [
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -3083,8 +4175,14 @@
       "E22",
       "N21"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8297351002693176,
+      0.46970105171203613
+    ],
     "attributions": []
   },
   {
@@ -3115,8 +4213,22 @@
       "N21",
       "N15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.8297351002693176,
+      0.5008603930473328,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -3141,8 +4253,18 @@
       "E8",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -3167,8 +4289,18 @@
       "E8",
       "E15"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9159687757492065
+    ],
     "attributions": []
   },
   {
@@ -3184,8 +4316,12 @@
     "eventIds": [
       "E24"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.8384197354316711
+    ],
     "attributions": []
   },
   {
@@ -3201,8 +4337,12 @@
     "eventIds": [
       "E25"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9173120856285095
+    ],
     "attributions": []
   },
   {
@@ -3224,8 +4364,16 @@
       "E8",
       "E12"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8952409029006958,
+      0.5782324075698853,
+      0.9123589992523193
+    ],
     "attributions": []
   },
   {
@@ -3241,8 +4389,12 @@
     "eventIds": [
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3267,8 +4419,18 @@
       "E8",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8952409029006958,
+      0.36022108793258667,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3296,8 +4458,20 @@
       "E12",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "low",
+      "medium",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8096447587013245,
+      0.5782324075698853,
+      0.9140326976776123,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3316,8 +4490,14 @@
       "E16",
       "E17"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.8821470737457275,
+      0.8687399625778198
+    ],
     "attributions": []
   },
   {
@@ -3333,8 +4513,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -3365,8 +4549,22 @@
       "E14",
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal",
+      "normal",
+      "normal",
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8821470737457275,
+      0.8090366125106812,
+      0.9140326976776123,
+      0.9146978259086609,
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -3394,8 +4592,20 @@
       "E8",
       "E12"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal",
+      "medium",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9064709544181824,
+      0.8821470737457275,
+      0.8090366125106812,
+      0.5782324075698853,
+      0.9123589992523193
+    ],
     "attributions": []
   },
   {
@@ -3426,8 +4636,22 @@
       "E12",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -3458,8 +4682,22 @@
       "E12",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3490,8 +4728,22 @@
       "E12",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8952409029006958,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3525,8 +4777,24 @@
       "E12",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8821470737457275,
+      0.8090366125106812,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3542,8 +4810,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -3577,8 +4849,24 @@
       "E12",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "normal",
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8821470737457275,
+      0.8090366125106812,
+      0.5496860146522522,
+      0.9109563231468201,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3609,8 +4897,22 @@
       "E9",
       "E12"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal",
+      "normal",
+      "low",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.5496860146522522,
+      0.913434624671936,
+      0.8821470737457275,
+      0.8090366125106812,
+      0.5496860146522522,
+      0.9052696824073792
+    ],
     "attributions": []
   },
   {
@@ -3626,8 +4928,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -3643,8 +4949,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -3660,8 +4970,12 @@
     "eventIds": [
       "E6"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.666118323802948
+    ],
     "attributions": []
   },
   {
@@ -3677,8 +4991,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -3694,8 +5012,12 @@
     "eventIds": [
       "E6"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.666118323802948
+    ],
     "attributions": []
   },
   {
@@ -3714,8 +5036,14 @@
       "E14",
       "E13"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9115896224975586
+    ],
     "attributions": []
   },
   {
@@ -3731,8 +5059,12 @@
     "eventIds": [
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -3748,8 +5080,12 @@
     "eventIds": [
       "E11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3768,8 +5104,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3791,8 +5133,16 @@
       "N11",
       "E8"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "medium"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.8952409029006958,
+      0.5782324075698853
+    ],
     "attributions": []
   },
   {
@@ -3814,8 +5164,16 @@
       "N11",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.412295937538147,
+      0.8952409029006958,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3837,8 +5195,16 @@
       "N11",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.412295937538147,
+      0.8952409029006958,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -3857,8 +5223,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3877,8 +5249,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3897,8 +5275,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3917,8 +5301,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3937,8 +5327,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3957,8 +5353,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3977,8 +5379,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -3997,8 +5405,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -4017,8 +5431,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -4037,8 +5457,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -4057,8 +5483,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -4077,8 +5509,14 @@
       "E14",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9042767286300659
+    ],
     "attributions": []
   },
   {
@@ -4106,8 +5544,20 @@
       "E29",
       "N11"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9158141016960144,
+      0.9170594811439514,
+      0.9047165513038635,
+      0.9164432883262634,
+      0.8952409029006958
+    ],
     "attributions": []
   },
   {
@@ -4129,8 +5579,16 @@
       "E11",
       "E14"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9170594811439514,
+      0.9047165513038635,
+      0.9146978259086609
+    ],
     "attributions": []
   },
   {
@@ -4152,8 +5610,16 @@
       "N28",
       "N27"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "high",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9170594811439514,
+      0.7071838974952698,
+      0.8739657402038574
+    ],
     "attributions": []
   },
   {
@@ -4169,8 +5635,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   },
   {
@@ -4192,8 +5662,16 @@
       "N28",
       "N27"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "high",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9170594811439514,
+      0.7071838974952698,
+      0.8739657402038574
+    ],
     "attributions": []
   },
   {
@@ -4212,8 +5690,14 @@
       "E28",
       "N27"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "high",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.7071838974952698,
+      0.8739657402038574
+    ],
     "attributions": []
   },
   {
@@ -4235,8 +5719,16 @@
       "E11",
       "E29"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9170594811439514,
+      0.9047165513038635,
+      0.9164432883262634
+    ],
     "attributions": []
   },
   {
@@ -4258,8 +5750,16 @@
       "N30",
       "N31"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9170594811439514,
+      0.907642126083374,
+      0.9129506945610046
+    ],
     "attributions": []
   },
   {
@@ -4275,8 +5775,12 @@
     "eventIds": [
       "E32"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.91648930311203
+    ],
     "attributions": []
   },
   {
@@ -4298,8 +5802,16 @@
       "N30",
       "N31"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      0.9170594811439514,
+      0.907642126083374,
+      0.9129506945610046
+    ],
     "attributions": []
   },
   {
@@ -4315,8 +5827,12 @@
     "eventIds": [
       "E3"
     ],
-    "anomalies": [],
-    "anomaly_probs": [],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      0.44535329937934875
+    ],
     "attributions": []
   }
 ]
