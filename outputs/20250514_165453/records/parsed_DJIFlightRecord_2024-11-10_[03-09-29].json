@@ -1,0 +1,445 @@
+[
+  {
+    "date": "11/10/2024",
+    "time": "3:09:29.82 AM",
+    "raw_message": "Motors starting.; Flight mode changed to P-GPS.",
+    "sentences": [
+      "Motors starting.;",
+      "Flight mode changed to P-GPS."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [
+      "E0",
+      "E1"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:30.02 AM",
+    "raw_message": "Data Recorder File Index is 80.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.",
+    "sentences": [
+      "Data Recorder File Index is 80.;",
+      "Set Return to Home (RTH) altitude to 100 m (328 ft).;",
+      "Set maximum flight altitude to 500 m (1640 ft).;",
+      "Flight mode changed to Starting Motors."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [
+      "E2",
+      "N3",
+      "N4",
+      "E5"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:31.42 AM",
+    "raw_message": "Flight mode changed to Manual Takeoff.",
+    "sentences": [
+      "Flight mode changed to Manual Takeoff."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E6"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:35.42 AM",
+    "raw_message": "Flight mode changed to P-GPS.",
+    "sentences": [
+      "Flight mode changed to P-GPS."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E1"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:36.02 AM",
+    "raw_message": "Home point updated.",
+    "sentences": [
+      "Home point updated."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E7"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:48.82 AM",
+    "raw_message": "Gimbal pitch axis endpoint reached.",
+    "sentences": [
+      "Gimbal pitch axis endpoint reached."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E8"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:51.62 AM",
+    "raw_message": "Gimbal pitch axis endpoint reached.",
+    "sentences": [
+      "Gimbal pitch axis endpoint reached."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E8"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:21.02 AM",
+    "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E9",
+      "N10"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:27.82 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E9",
+      "E11",
+      "E9",
+      "N10"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:30.82 AM",
+    "raw_message": "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E9",
+      "E9",
+      "N10"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:38.62 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E9",
+      "E11",
+      "E9",
+      "N10"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:38.82 AM",
+    "raw_message": "RC signal lost.",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E12"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:40.62 AM",
+    "raw_message": "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "RC signal lost.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E12",
+      "E11",
+      "E9",
+      "N10"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:53.82 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E9"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:57.02 AM",
+    "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "sentences": [
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E9",
+      "N10"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:11:01.82 AM",
+    "raw_message": "Image transmission signal weak.",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E9"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:12.42 AM",
+    "raw_message": "Aircraft braking.",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E11"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:12.82 AM",
+    "raw_message": "Aircraft braking.",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E11"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:14.22 AM",
+    "raw_message": "Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing.",
+    "sentences": [
+      "Aircraft braking.;",
+      "Auto landing in progress.;",
+      "Flight mode changed to Auto Landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [
+      "E11",
+      "E13",
+      "E14"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:15.82 AM",
+    "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Make sure the area under the aircraft is safe for landing.",
+      "Push throttle down to use force landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E13",
+      "N15",
+      "N16"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:41.82 AM",
+    "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Make sure the area under the aircraft is safe for landing.",
+      "Push throttle down to use force landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E13",
+      "N15",
+      "N16"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:52.92 AM",
+    "raw_message": "Flight mode changed to P-GPS.",
+    "sentences": [
+      "Flight mode changed to P-GPS."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E1"
+    ],
+    "anomalies": [],
+    "anomaly_probs": [],
+    "attributions": []
+  }
+]
