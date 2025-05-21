@@ -3,12 +3,17 @@ import os
 import joblib
 import torch
 import logging
+import json
+from dataclasses import asdict
+
+from transformers import AutoModel, AutoTokenizer
+
 from src.data_loader import DataLoader
 from src.adfler import MessageSegmenter
 from src.lasec import LogAbstractor
+from src.dronelog import AnomalyDetector
 from src.utils import get_latest_folder
-import json
-from dataclasses import asdict
+
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -21,10 +26,7 @@ class DroneLogAnalyzer:
         self.data_loader = DataLoader(config['data_path'])
         self.segmenter = MessageSegmenter(config['ner_model_path'], use_cuda=config['use_cuda'])
         self.abstractor = self._load_lasec()
-        # self.detector = AnomalyDetector(
-        #     config['severity_model_path'],
-        #     config['classifier_path']
-        # )
+        self.detector = self._load_dronelog()
         # self.attributor = AttributionAnalyzer(
         #     config['attribution_model_path'],
         #     config['classifier_path']
@@ -42,7 +44,19 @@ class DroneLogAnalyzer:
                 self.config['device'],
                 self.config.get('birch_model_path')
             )
+        
+    def _load_dronelog(self):
+        pre_trained = self.config['classifier_path']
+        if not os.path.exists(pre_trained):
+            raise NotImplementedError('The anomaly severity detection model is not found!')
+        
+        tokenizer = AutoTokenizer.from_pretrained(self.config['severity_model_path'])
+        embedding_model = AutoModel.from_pretrained(self.config['severity_model_path']).to(self.config['device'])
 
+        model = AnomalyDetector(embedding_model, tokenizer).to(self.config['device'])
+        model.load_state_dict(torch.load(pre_trained))
+        return model
+    
     def analyze(self):
         """Run the complete analysis pipeline"""
         # 1. Load data
@@ -53,12 +67,12 @@ class DroneLogAnalyzer:
         logger.info(f'Start segmenting messages...')
         records = self.segmenter.segment_and_classify(records)
         
-        # # 3. Abstract events
+        # 3. Abstract events
         records = self.abstractor.abstract_messages(records)
         joblib.dump(self.abstractor, os.path.join(self.config['workdir'], 'LASeC.joblib'))
 
-        # # 4. Detect anomalies
-        # records = self.detector.detect_anomalies(records)
+        # 4. Detect anomalies
+        records = self.detector.detect_anomalies(records)
         
         # # 5. Compute attributions
         # records = self.attributor.compute_attributions(records)
@@ -91,8 +105,8 @@ def main():
             'ner_model_path': 'ADFLER-albert-base-v2',
             'embedding_model_path': 'swardiantara/drone-sbert',
             'birch_model_path': os.path.join(parsed_folder, 'birch_model.joblib'),
-            # 'severity_model_path': 'severity_model',
-            # 'classifier_path': 'classifier.pt',
+            'severity_model_path': 'swardiantara/drone-ordinal-all',
+            'classifier_path': os.path.join('anomaly', 'pytorch_model.pt'),
             # 'attribution_model_path': 'attribution_model'
         }
         
