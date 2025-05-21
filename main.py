@@ -451,7 +451,7 @@ if __name__ == "__main__":
     for sequence_file in sequence_files:
         example_log = joblib.load(os.path.join(source_path, sequence_file))
         print(example_log)
-        example_logs.append(example_log)
+        example_logs.append(example_log['sequence'])
 
     # Preprocess logs
     sequences = preprocess_flight_logs(example_logs)
