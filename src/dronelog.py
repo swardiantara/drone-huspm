@@ -84,6 +84,10 @@ class AnomalyDetector(nn.Module):
         
         return snr
     
+    def sum_top_k_np(self, attributions: np.ndarray, k: int) -> float:
+        top_k_values = np.sort(attributions)[-k:]
+        return float(np.sum(top_k_values))
+    
     def compute_attribution(self, input_ids, attention_mask):
         lig = LayerIntegratedGradients(self, self.embedding_model.embeddings)
         target_class = label2idx.get('high') # Example target class
@@ -104,6 +108,16 @@ class AnomalyDetector(nn.Module):
         pad_token_id = self.tokenizer.pad_token_id
         non_padding_count = (input_ids != pad_token_id).sum().item()
         normalized = sum_attr / math.sqrt(non_padding_count)
+        top3_attr = self.sum_top_k_np(attributions, 3)
+        top5_attr = self.sum_top_k_np(attributions, 5)
+        return {
+            'sum': float(sum_attr),
+            'top3': top3_attr,
+            'top5': top5_attr,
+            'max': float(max_attr),
+            'norm': float(normalized),
+            'snr': float(snr)
+        }
         return float(sum_attr), float(max_attr), float(normalized), float(snr)
 
     def detect_anomalies(self, records: List[LogRecord]) -> List[LogRecord]:
@@ -122,13 +136,15 @@ class AnomalyDetector(nn.Module):
                     pred_prob = torch.softmax(logits, dim=-1)
                     pred_label = torch.argmax(pred_prob, dim=-1).item()
                     severe_prob = pred_prob[0, 3].item()
-                    sum_attr, max_attr, normalized, snr = self.compute_attribution(inputs["input_ids"], inputs["attention_mask"])
+                    attributions = self.compute_attribution(inputs["input_ids"], inputs["attention_mask"])
                     record.anomalies.append(idx2label.get(pred_label))
                     record.severe_probs.append(severe_prob)
                     record.anomaly_probs.append(pred_prob.detach().cpu().numpy().tolist())
-                    record.sum_attributions.append(sum_attr)
-                    record.max_attributions.append(max_attr)
-                    record.norm_attributions.append(normalized)
-                    record.snr_scores.append(snr)
+                    record.sum_attributions.append(attributions['sum'])
+                    record.top3_attributions.append(attributions['top3'])
+                    record.top5_attributions.append(attributions['top5'])
+                    record.max_attributions.append(attributions['max'])
+                    record.norm_attributions.append(attributions['max'])
+                    record.snr_scores.append(attributions['snr'])
         
         return records
