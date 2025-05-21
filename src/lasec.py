@@ -1,7 +1,8 @@
 import os
 import joblib
 from src.data_loader import LogRecord
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, DefaultDict
+from collections import defaultdict
 from sklearn.cluster import Birch
 from sentence_transformers import SentenceTransformer
 
@@ -11,7 +12,7 @@ class LogAbstractor:
         self.birch_model_path = birch_model_path
         self.embedding_model = SentenceTransformer(model_path, device=device)
         self.birch_model = self._load_birch_model(birch_model_path)
-        self.cluster_members = Dict[int, List[str]]
+        self.cluster_members: DefaultDict[int, List[str]] = defaultdict(list)
         
     def _load_birch_model(self, path):
         if os.path.exists(path):
