@@ -54,7 +54,7 @@ class DroneLogAnalyzer:
         embedding_model = AutoModel.from_pretrained(self.config['severity_model_path']).to(self.config['device'])
 
         model = AnomalyDetector(embedding_model, tokenizer).to(self.config['device'])
-        model.load_state_dict(torch.load(pre_trained))
+        model.load_state_dict(torch.load(pre_trained, map_location=self.config['device']))
         return model
     
     def analyze(self):
