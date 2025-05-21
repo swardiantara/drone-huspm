@@ -13,6 +13,6 @@ def get_latest_folder(directory='.'):
     matching_folders.sort()
     
     if matching_folders:
-        return matching_folders[-1]
+        return os.path.join(directory, matching_folders[-1])
     else:
         return None

@@ -74,9 +74,9 @@ def main():
     use_cuda = True if torch.cuda.is_available() else False
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     parsed_folder = get_latest_folder('outputs')
-    source_path = os.path.join('outputs', parsed_folder, 'parsed', 'android')
+    source_path = os.path.join(parsed_folder, 'parsed', 'android')
     files = os.listdir(source_path)
-    output_dir = os.path.join('outputs', parsed_folder, 'records')
+    output_dir = os.path.join(parsed_folder, 'records')
     os.makedirs(output_dir, exist_ok=True)
 
     for file in files:

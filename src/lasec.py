@@ -54,6 +54,6 @@ class LogAbstractor:
             records[i].eventIds.append(event_id)
             self.cluster_members[cluster_id].append(records[i].sentences[j])
         # Save the last state for online setting
-        self._save_birch_model(self.birch_model_path)
+        self._save_birch_model()
 
         return records
