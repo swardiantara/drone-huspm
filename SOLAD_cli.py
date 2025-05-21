@@ -84,7 +84,7 @@ def main():
         logger.info(f'Processing file: {full_path}')
 
         config = {
-            'work_dir': parsed_folder,
+            'workdir': parsed_folder,
             'use_cuda': use_cuda,
             'device': device,
             'data_path': full_path,
@@ -102,7 +102,7 @@ def main():
         # Convert LogRecord objects to dictionaries
         serializable_results = [asdict(record) for record in results]
         # Save or process results
-        with open(os.path.join(output_dir, f'{file}.json'), 'w') as f:
+        with open(os.path.join(output_dir, f'{file.split('.')[0]}.json'), 'w') as f:
             json.dump(serializable_results, f, indent=2)
 
 
