@@ -17,8 +17,7 @@ class SequenceBuilder:
             
             for i in range(len(record.sentences)):
                 event_count += 1
-                
-                element.append((record.eventIds[i]), getattr(record, self.utility)[i])
+                element.append((record.eventIds[i], getattr(record, self.utility)[i]))
             
             sequence.append(element)
         
