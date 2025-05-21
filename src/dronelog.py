@@ -144,7 +144,7 @@ class AnomalyDetector(nn.Module):
                     record.top3_attributions.append(attributions['top3'])
                     record.top5_attributions.append(attributions['top5'])
                     record.max_attributions.append(attributions['max'])
-                    record.norm_attributions.append(attributions['max'])
+                    record.norm_attributions.append(attributions['norm'])
                     record.snr_scores.append(attributions['snr'])
         
         return records
