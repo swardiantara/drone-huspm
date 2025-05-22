@@ -114,7 +114,7 @@ def main():
             'birch_model_path': os.path.join(parsed_folder, 'birch_model.joblib'),
             'severity_model_path': 'swardiantara/drone-ordinal-all',
             'classifier_path': os.path.join('anomaly', 'pytorch_model.pt'),
-            'utility_variable': ['severe_probs', 'sum_attributions', 'max_attributions', 'top3_attributions', 'top5_attributions', 'norm_attributions', 'snr_scores']
+            'utility_variable': ['severe_probs', 'sum_attributions', 'max_attributions', 'top3_attributions', 'top5_attributions', 'norm_attributions', 'snr_std', 'snr_signed', 'snr_normed', 'snr_top3', 'snr_top5', 'snr_entropy']
         }
     
         analyzer = DroneLogAnalyzer(config)
