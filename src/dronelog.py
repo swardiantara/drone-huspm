@@ -102,21 +102,48 @@ class AnomalyDetector(nn.Module):
         attributions = attributions / torch.norm(attributions)
         # Convert attributions to numpy
         attributions = attributions.cpu().detach().numpy()
+        # General stats
         max_attr = np.max(attributions)
         sum_attr = np.sum(attributions)
-        snr = self.signal_to_noise_ratio(attributions)
+        abs_attr = np.abs(attributions)
         pad_token_id = self.tokenizer.pad_token_id
         non_padding_count = (input_ids != pad_token_id).sum().item()
         normalized = sum_attr / math.sqrt(non_padding_count)
-        top3_attr = self.sum_top_k_np(attributions, 3)
-        top5_attr = self.sum_top_k_np(attributions, 5)
+
+        # Signal and noise
+        pos_attr = np.maximum(attributions, 0)
+        neg_attr = np.minimum(attributions, 0)
+        signal = np.sum(pos_attr)
+        std_dev = np.std(attributions) + 1e-10
+        snr_std = signal / std_dev  # Original SNR
+
+        snr_signed = signal / (np.sum(np.abs(neg_attr)) + 1e-10)  # Your signed SNR idea
+        snr_normed = signal / (np.sum(abs_attr) + 1e-10)  # Normalized sum
+
+        # Top-k SNR
+        top3 = self.sum_top_k_np(attributions, 3)
+        top5 = self.sum_top_k_np(attributions, 5)
+
+        snr_top3 = top3 / (np.sum(abs_attr) + 1e-10)
+        snr_top5 = top5 / (np.sum(abs_attr) + 1e-10)
+
+        # Entropy-based SNR
+        prob_dist = abs_attr / (np.sum(abs_attr) + 1e-10)
+        entropy = -np.sum(prob_dist * np.log(prob_dist + 1e-10))  # log(0) safe
+        snr_entropy = 1.0 / (entropy + 1e-10)
+
         return {
             'sum': float(sum_attr),
-            'top3': top3_attr,
-            'top5': top5_attr,
             'max': float(max_attr),
             'norm': float(normalized),
-            'snr': float(snr)
+            'top3': float(top3),
+            'top5': float(top5),
+            'snr_std': float(snr_std),
+            'snr_signed': float(snr_signed),
+            'snr_normed': float(snr_normed),
+            'snr_top3': float(snr_top3),
+            'snr_top5': float(snr_top5),
+            'snr_entropy': float(snr_entropy),
         }
 
     def detect_anomalies(self, records: List[LogRecord]) -> List[LogRecord]:
@@ -140,10 +167,15 @@ class AnomalyDetector(nn.Module):
                     record.severe_probs.append(severe_prob)
                     record.anomaly_probs.append(pred_prob.detach().cpu().numpy().tolist())
                     record.sum_attributions.append(attributions['sum'])
-                    record.top3_attributions.append(attributions['top3'])
-                    record.top5_attributions.append(attributions['top5'])
                     record.max_attributions.append(attributions['max'])
                     record.norm_attributions.append(attributions['norm'])
-                    record.snr_scores.append(attributions['snr'])
+                    record.top3_attributions.append(attributions['top3'])
+                    record.top5_attributions.append(attributions['top5'])
+                    record.snr_std.append(attributions['snr_std'])
+                    record.snr_signed.append(attributions['snr_signed'])
+                    record.snr_normed.append(attributions['snr_normed'])
+                    record.snr_top3.append(attributions['snr_top3'])
+                    record.snr_top5.append(attributions['snr_top5'])
+                    record.snr_entropy.append(attributions['snr_entropy'])
         
         return records

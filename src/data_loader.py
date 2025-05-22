@@ -14,11 +14,16 @@ class LogRecord:
     anomaly_probs: List[float] = field(default_factory=list)      # store the prediction probability of the anomaly severity
     severe_probs: List[float] = field(default_factory=list)       # store the prediction probability of the anomaly severity
     sum_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
-    top3_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
-    top5_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
     max_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
     norm_attributions: List[float] = field(default_factory=list)  # store the attribution score towards the class High
-    snr_scores: List[float] = field(default_factory=list)         # store the attribution score towards the class High
+    top3_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
+    top5_attributions: List[float] = field(default_factory=list)   # store the attribution score towards the class High
+    snr_std: List[float] = field(default_factory=list)         # store the attribution score towards the class High
+    snr_signed: List[float] = field(default_factory=list)         # store the attribution score towards the class High
+    snr_normed: List[float] = field(default_factory=list)         # store the attribution score towards the class High
+    snr_top3: List[float] = field(default_factory=list)         # store the attribution score towards the class High
+    snr_top5: List[float] = field(default_factory=list)         # store the attribution score towards the class High
+    snr_entropy: List[float] = field(default_factory=list)         # store the attribution score towards the class High
 
 
 class DataLoader:
