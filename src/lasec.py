@@ -28,7 +28,7 @@ class LogAbstractor:
 
     def save_cluster_member(self, file_path):
         cleaned_cluster_members = {
-            cid: list(set(members))
+            int(cid): list(set(members))
             for cid, members in self.cluster_members.items()
         }
         with open(file_path, 'w') as f:
