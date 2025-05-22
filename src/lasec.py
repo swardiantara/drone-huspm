@@ -1,5 +1,6 @@
 import os
 import joblib
+import json
 from src.data_loader import LogRecord
 from typing import List, Dict, Tuple, DefaultDict
 from collections import defaultdict
@@ -12,7 +13,7 @@ class LogAbstractor:
         self.birch_model_path = birch_model_path
         self.embedding_model = SentenceTransformer(model_path, device=device)
         self.birch_model = self._load_birch_model(birch_model_path)
-        self.cluster_members: DefaultDict[int, List[str]] = defaultdict(list)
+        self.cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
         
     def _load_birch_model(self, path):
         if os.path.exists(path):
@@ -24,6 +25,14 @@ class LogAbstractor:
         
     def _save_birch_model(self):
         joblib.dump(self.birch_model, self.birch_model_path)
+
+    def save_cluster_member(self, file_path):
+        cleaned_cluster_members = {
+            cid: list(set(members))
+            for cid, members in self.cluster_members.items()
+        }
+        with open(file_path, 'w') as f:
+            json.dump(cleaned_cluster_members, f, indent=2)
     
     def abstract_messages(self, records: List[LogRecord]) -> List[LogRecord]:
         """Assign event IDs to each sentence via semantic clustering"""

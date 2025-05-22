@@ -71,6 +71,7 @@ class DroneLogAnalyzer:
         # 3. Abstract events
         logger.info(f'Start abstracting sentences...')
         records = self.abstractor.abstract_messages(records)
+        self.abstractor.save_cluster_member(os.path.join(self.config['workdir'], 'cluster_mapping.json'))
         joblib.dump(self.abstractor, os.path.join(self.config['workdir'], 'LASeC.joblib'))
 
         # 4. Detect anomalies
