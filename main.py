@@ -1,8 +1,14 @@
 import copy
 import os
 import joblib
+import json
+import logging
 from collections import defaultdict, Counter
 from src.utils import get_latest_folder
+
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 
 class SequentialPatternMiningWithDuplicates:
@@ -445,7 +451,8 @@ if __name__ == "__main__":
 
     # Load pre-build sequence-db
     parsed_folder = get_latest_folder('outputs')
-    source_path = os.path.join(parsed_folder, 'sequence')
+    utility = 'max_attributions'
+    source_path = os.path.join(parsed_folder, 'sequence', utility)
     sequence_files = os.listdir(source_path)
     example_logs = []
     for sequence_file in sequence_files:
@@ -458,13 +465,16 @@ if __name__ == "__main__":
     
     # Mine high utility sequential patterns
     miner = HighUtilitySequentialPatternMiner(
-        min_support=0.1,  # At least 30% of logs contain the pattern
-        min_utility=0.5,  # Patterns with at least 0.6 average utility
-        max_pattern_length=15
+        min_support=0.6,  # At least 30% of logs contain the pattern
+        min_utility=0.9,  # Patterns with at least 0.6 average utility
+        max_pattern_length=5
     )
     
     patterns = miner.fit(sequences)
-    
+    output_dir = os.path.join(parsed_folder, 'pattern')
+    os.makedirs(output_dir, exist_ok=True)
+    with open(os.path.join(output_dir, 'pattern.json'), 'w') as f:
+        json.dump(patterns, f, indent=2)
     # Print discovered patterns
     print("Discovered High Utility Sequential Patterns:")
     for i, pattern in enumerate(patterns):
@@ -478,7 +488,8 @@ if __name__ == "__main__":
     
     # Perform root cause analysis (assuming all logs are anomaly logs in this example)
     causes = root_cause_analysis(patterns, sequences)
-    
+    with open(os.path.join(output_dir, 'causes.json'), 'w') as f:
+        json.dump(causes, f, indent=2)
     # Print potential root causes
     print("\nPotential Root Causes:")
     for i, cause in enumerate(causes[:3]):  # Top 3 causes
