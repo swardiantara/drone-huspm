@@ -226,7 +226,7 @@ class MessageSegmenter:
         for record in records:
             # Process each record's raw message
             # sentences = re.split(pattern, record.raw_message)
-            sentences = re.findall(pattern, record.raw_message)
+            sentences = re.split(pattern, record.raw_message)
             print(sentences)
             for sentence in sentences:
                 if sentence == '':

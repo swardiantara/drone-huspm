@@ -13,6 +13,7 @@ from src.adfler import MessageSegmenter
 from src.lasec import LogAbstractor
 from src.dronelog import AnomalyDetector
 from src.seq_builder import SequenceBuilder
+from src.report_generator import ReportGenerator
 from src.utils import get_latest_folder
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -29,11 +30,12 @@ class DroneLogAnalyzer:
         self.segmenter = MessageSegmenter(config['ner_model_path'], use_cuda=config['use_cuda'])
         self.abstractor = self._load_lasec()
         self.detector = self._load_dronelog()
+        self.report_generator = ReportGenerator(config)
         # self.attributor = AttributionAnalyzer(
         #     config['attribution_model_path'],
         #     config['classifier_path']
         # )
-        self.seq_db_builder = SequenceBuilder()
+        # self.seq_db_builder = SequenceBuilder()
 
     def _load_lasec(self):
         return LogAbstractor(
@@ -86,6 +88,9 @@ class DroneLogAnalyzer:
         logger.info(f'Event abstraction completed successfully!')
 
         # # 5. Report Generation
+        output_dir = os.path.join(self.config['workdir'], 'report')
+        os.makedirs(output_dir, exist_ok=True)
+        self.report_generator.create_timeline_chart(records, self.abstractor.problem['binary'], output_dir)
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir
