@@ -11,5 +11,14 @@
     "E31-low": "No image",
     "E24-low": "Downlink Lost."
   },
-  "binary": {}
+  "binary": {
+    "E16": "Image transmission signal weak.",
+    "E12": "Aircraft braking.;",
+    "E0": "RC signal lost.;",
+    "E1": "No image transmission.",
+    "E32": "Controller triggered aircraft to descend.",
+    "E7": "RC signal weak.",
+    "E31": "No image",
+    "E24": "Downlink Lost."
+  }
 }

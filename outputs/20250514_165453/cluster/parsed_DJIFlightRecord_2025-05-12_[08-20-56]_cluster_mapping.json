@@ -6,8 +6,8 @@
     "Set Return to Home (RTH) altitude to 100 m (328 ft).;"
   ],
   "4": [
-    "Set maximum flight altitude to 500 m (1640",
-    "Set maximum flight altitude to 30 m (98 ft).;"
+    "Set maximum flight altitude to 30 m (98 ft).;",
+    "Set maximum flight altitude to 500 m (1640"
   ],
   "16": [
     "Flight mode changed to P-GPS (Brake)."
@@ -28,9 +28,9 @@
     "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
   ],
   "2": [
-    "RC signal lost. Returning to home.;",
+    "RC signal lost.;",
     "RC signal lost.",
-    "RC signal lost.;"
+    "RC signal lost. Returning to home.;"
   ],
   "8": [
     "No image transmission."
@@ -40,22 +40,22 @@
     "RTH."
   ],
   "1": [
-    "Press Brake button to cancel RTH.;",
     "Press brake button to cancel landing.;",
-    "Press Brake button to cancel RTH."
+    "Press Brake button to cancel RTH.",
+    "Press Brake button to cancel RTH.;"
   ],
   "10": [
-    "Returning to home.;",
-    "Aircraft returning to home.;",
     "Aircraft returning to home.",
+    "Aircraft returning to home.;",
+    "Returning to home.;",
     "Returning to home."
   ],
   "27": [
     "Flight mode changed to Go Home."
   ],
   "15": [
-    "RTH in progress.;",
-    "RTH in progress."
+    "RTH in progress.",
+    "RTH in progress.;"
   ],
   "21": [
     "RTH ascending.;",
@@ -65,28 +65,28 @@
     "Controller triggered aircraft to descend."
   ],
   "20": [
-    "Auto RTH canceled.;",
-    "Auto RTH canceled."
+    "Auto RTH canceled.",
+    "Auto RTH canceled.;"
   ],
   "22": [
     "Aircraft will follow preset action for lost signal.",
     "Aircraft will follow preset action for lost signal.;"
   ],
   "6": [
-    "Failsafe RTH.;",
-    "Failsafe RTH."
+    "Failsafe RTH.",
+    "Failsafe RTH.;"
   ],
   "12": [
-    "Original route RTH.",
-    "Original route RTH.;"
+    "Original route RTH.;",
+    "Original route RTH."
   ],
   "5": [
     "RC signal weak.",
     "RC signal weak.;"
   ],
   "3": [
-    "Avoid blocking antennas and adjust antenna orientation.",
     "Avoid blocking antennas and adjust antenna orientation.;",
+    "Avoid blocking antennas and adjust antenna orientation.",
     "Avoid blocking antennas and adjust antenna"
   ],
   "25": [
@@ -96,9 +96,9 @@
     "Downlink Lost."
   ],
   "29": [
-    "Downlink Restored (after 0m 5.8s).;",
     "Downlink Restored (after 0m 7.4s).;",
-    "Downlink Restored (after 0m 5.4s)."
+    "Downlink Restored (after 0m 5.4s).",
+    "Downlink Restored (after 0m 5.8s).;"
   ],
   "13": [
     "Controller triggered aircraft to fly backward."

@@ -11,5 +11,15 @@
     "E11-low": "Downlink Lost.",
     "E18-high": "Area under aircraft unsuitable for landing."
   },
-  "binary": {}
+  "binary": {
+    "E16": "Flight mode changed to P-GPS (Brake).",
+    "E7": "Image transmission signal weak.",
+    "E26": "Aircraft braking.;",
+    "E2": "RC signal lost.;",
+    "E8": "No image transmission.",
+    "E32": "Controller triggered aircraft to descend.",
+    "E5": "RC signal weak.",
+    "E11": "Downlink Lost.",
+    "E18": "Area under aircraft unsuitable for landing."
+  }
 }

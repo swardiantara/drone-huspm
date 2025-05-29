@@ -36,9 +36,9 @@
     "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
   ],
   "0": [
-    "RC signal lost. Returning to home.;",
+    "RC signal lost.;",
     "RC signal lost.",
-    "RC signal lost.;"
+    "RC signal lost. Returning to home.;"
   ],
   "1": [
     "No image transmission. Aircraft returning to home.;",
@@ -48,21 +48,21 @@
     "RTH.;"
   ],
   "4": [
-    "Press Brake button to cancel RTH.;",
-    "Press brake button to cancel landing.;"
+    "Press brake button to cancel landing.;",
+    "Press Brake button to cancel RTH.;"
   ],
   "3": [
-    "Returning to home.;",
-    "Aircraft returning to home.;",
     "Aircraft returning to home.",
+    "Aircraft returning to home.;",
+    "Returning to home.;",
     "Returning to home."
   ],
   "28": [
     "Flight mode changed to Go Home."
   ],
   "2": [
-    "RTH in progress.;",
-    "RTH in progress."
+    "RTH in progress.",
+    "RTH in progress.;"
   ],
   "21": [
     "RTH ascending.;",
@@ -72,20 +72,20 @@
     "Controller triggered aircraft to descend."
   ],
   "22": [
-    "Auto RTH canceled.;",
-    "Auto RTH canceled."
+    "Auto RTH canceled.",
+    "Auto RTH canceled.;"
   ],
   "7": [
     "RC signal weak.",
     "RC signal weak.;"
   ],
   "8": [
-    "Avoid blocking antennas and adjust antenna orientation.",
-    "Avoid blocking antennas and adjust antenna orientation.;"
+    "Avoid blocking antennas and adjust antenna orientation.;",
+    "Avoid blocking antennas and adjust antenna orientation."
   ],
   "5": [
-    "Original route RTH.",
-    "Original route RTH.;"
+    "Original route RTH.;",
+    "Original route RTH."
   ],
   "31": [
     "No image"
@@ -94,20 +94,20 @@
     "transmission."
   ],
   "10": [
+    "Aircraft will follow preset action for lost signal.; RC signal weak.",
     "Aircraft will follow preset action for lost signal.",
-    "Aircraft will follow preset action for lost signal.;",
-    "Aircraft will follow preset action for lost signal.; RC signal weak."
+    "Aircraft will follow preset action for lost signal.;"
   ],
   "6": [
-    "Failsafe RTH.;",
-    "Failsafe RTH."
+    "Failsafe RTH.",
+    "Failsafe RTH.;"
   ],
   "24": [
     "Downlink Lost."
   ],
   "9": [
-    "Downlink Restored (after 0m 6.2s).",
-    "Downlink Restored (after 0m 1.2s)."
+    "Downlink Restored (after 0m 1.2s).",
+    "Downlink Restored (after 0m 6.2s)."
   ],
   "11": [
     "Controller triggered aircraft to fly backward."
