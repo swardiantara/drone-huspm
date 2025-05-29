@@ -2,7 +2,7 @@ import os
 import contextlib
 from datetime import datetime
 from collections import Counter
-from typing import Dict
+from typing import Dict, List
 
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -25,7 +25,7 @@ class ReportGenerator:
             # Fallback without microseconds
             return datetime.strptime(datetime_str, "%m/%d/%Y %I:%M:%S %p")
 
-    def create_timeline_chart(self, records_list: LogRecord, problems: dict, output_dir: str):
+    def create_timeline_chart(self, records_list: List[LogRecord], problems: dict, output_dir: str):
         """Create a Gantt-style timeline chart showing drone problems"""
         self.output_dir = output_dir
         # Load data

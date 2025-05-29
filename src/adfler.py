@@ -227,7 +227,7 @@ class MessageSegmenter:
             # Process each record's raw message
             # sentences = re.split(pattern, record.raw_message)
             sentences = re.split(pattern, record.raw_message)
-            print(sentences)
+
             for sentence in sentences:
                 if sentence == '':
                     continue
