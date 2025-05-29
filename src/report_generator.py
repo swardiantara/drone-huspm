@@ -361,29 +361,21 @@ class ReportGenerator:
         df_data = []
         
         for record in records_list:
-            # Extract basic information
-            date = record.get('date', '')
-            time = record.get('time', '')
-            message = record.get('raw_message', '')
-            
-            # Determine anomaly status from anomalies list
-            anomalies = record.get('anomalies', [])
-            
             # Logic to determine if record contains anomaly:
             # If any anomaly level is not 'normal' or empty, mark as 'anomaly'
             has_anomaly = any(
                 anomaly_level and 
                 anomaly_level.lower() not in ['normal', '', 'none'] 
-                for anomaly_level in anomalies
+                for anomaly_level in record.anomalies
             )
             
             anomaly_status = 'anomaly' if has_anomaly else 'normal'
             
             # Add row to data
             df_data.append({
-                'date': date,
-                'time': time,
-                'message': message,
+                'date': record.date,
+                'time': record.time,
+                'message': record.raw_message,
                 'anomaly': anomaly_status
             })
         
