@@ -28,24 +28,21 @@ class ReportGenerator:
     def create_timeline_chart(self, records_list: List[LogRecord], problems: dict, output_dir: str):
         """Create a Gantt-style timeline chart showing drone problems"""
         self.output_dir = output_dir
-        # Load data
-        # records_list, problems = load_json_files(records_file, problems_file)
-        print(records_list)
         # Process all records and collect problem events
         all_problem_events = []
         
         for record in records_list:
             # Parse datetime for each record
-            timestamp = self.parse_datetime(record['date'], record['time'])
+            timestamp = self.parse_datetime(record.date, record.time)
             
             # Find matching problem events in this record
-            for i, event_id in enumerate(record['eventIds']):
+            for i, event_id in enumerate(record.eventIds):
                 if event_id in problems:
                     all_problem_events.append({
                         'timestamp': timestamp,
                         'event_id': event_id,
                         'sentence': problems[event_id],
-                        'anomaly_level': record['anomalies'][i]
+                        'anomaly_level': record.anomalies[i]
                     })
         
         if not all_problem_events:
