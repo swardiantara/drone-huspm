@@ -19,6 +19,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+logging.getLogger("simpletransformers.ner.ner_model").setLevel(logging.WARNING)
 
 class DroneLogAnalyzer:
     def __init__(self, config: Dict):
@@ -69,10 +70,12 @@ class DroneLogAnalyzer:
         # 4. Abstract events
         logger.info(f'Start abstracting sentences...')
         records = self.abstractor.abstract_messages(records)
-        self.abstractor.save_cluster_member(os.path.join(self.config['workdir'], 'cluster_mapping.json'))
-        self.abstractor.save_representative_log(os.path.join(self.config['workdir'], 'representative_log.json'))
+        output_dir = os.path.join(self.config['workdir'], 'clusters')
+        os.makedirs(output_dir, exist_ok=True)
+        self.abstractor.save_cluster_member(os.path.join(self.config['workdir'], f'{self.config['filename'].split('.')[0]}_cluster_mapping.json'))
+        self.abstractor.save_representative_log(os.path.join(self.config['workdir'], f'{self.config['filename'].split('.')[0]}_representative_log.json'))
 
-        # # 5. Compute attributions
+        # # 5. Problem Identification
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir
