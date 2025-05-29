@@ -24,8 +24,8 @@
     "Flight mode changed to P-GPS."
   ],
   "16": [
-    "Image transmission signal weak.",
-    "Image transmission signal weak.;"
+    "Image transmission signal weak.;",
+    "Image transmission signal weak."
   ],
   "12": [
     "Aircraft braking.",
@@ -36,9 +36,9 @@
     "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
   ],
   "0": [
-    "RC signal lost.",
     "RC signal lost.;",
-    "RC signal lost. Returning to home.;"
+    "RC signal lost. Returning to home.;",
+    "RC signal lost."
   ],
   "1": [
     "No image transmission.",
@@ -54,8 +54,8 @@
   "3": [
     "Aircraft returning to home.",
     "Aircraft returning to home.;",
-    "Returning to home.;",
-    "Returning to home."
+    "Returning to home.",
+    "Returning to home.;"
   ],
   "28": [
     "Flight mode changed to Go Home."
@@ -72,16 +72,16 @@
     "Controller triggered aircraft to descend."
   ],
   "22": [
-    "Auto RTH canceled.",
-    "Auto RTH canceled.;"
+    "Auto RTH canceled.;",
+    "Auto RTH canceled."
   ],
   "7": [
     "RC signal weak.;",
     "RC signal weak."
   ],
   "8": [
-    "Avoid blocking antennas and adjust antenna orientation.",
-    "Avoid blocking antennas and adjust antenna orientation.;"
+    "Avoid blocking antennas and adjust antenna orientation.;",
+    "Avoid blocking antennas and adjust antenna orientation."
   ],
   "5": [
     "Original route RTH.;",
@@ -94,20 +94,20 @@
     "transmission."
   ],
   "10": [
-    "Aircraft will follow preset action for lost signal.;",
+    "Aircraft will follow preset action for lost signal.; RC signal weak.",
     "Aircraft will follow preset action for lost signal.",
-    "Aircraft will follow preset action for lost signal.; RC signal weak."
+    "Aircraft will follow preset action for lost signal.;"
   ],
   "6": [
-    "Failsafe RTH.;",
-    "Failsafe RTH."
+    "Failsafe RTH.",
+    "Failsafe RTH.;"
   ],
   "24": [
     "Downlink Lost."
   ],
   "9": [
-    "Downlink Restored (after 0m 1.2s).",
-    "Downlink Restored (after 0m 6.2s)."
+    "Downlink Restored (after 0m 6.2s).",
+    "Downlink Restored (after 0m 1.2s)."
   ],
   "11": [
     "Controller triggered aircraft to fly backward."

@@ -27,8 +27,8 @@
     "Gimbal pitch axis endpoint reached."
   ],
   "0": [
-    "Image transmission signal weak.",
-    "Image transmission signal weak.;"
+    "Image transmission signal weak.;",
+    "Image transmission signal weak."
   ],
   "5": [
     "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
@@ -38,8 +38,8 @@
     "Aircraft braking.;"
   ],
   "1": [
-    "RC signal lost.",
-    "RC signal lost.;"
+    "RC signal lost.;",
+    "RC signal lost."
   ],
   "2": [
     "Auto landing in progress.;"

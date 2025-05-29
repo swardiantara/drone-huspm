@@ -16,8 +16,8 @@
     "ft)."
   ],
   "7": [
-    "Image transmission signal weak.",
-    "Image transmission signal weak.;"
+    "Image transmission signal weak.;",
+    "Image transmission signal weak."
   ],
   "26": [
     "Aircraft braking.",
@@ -28,9 +28,9 @@
     "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
   ],
   "2": [
-    "RC signal lost.",
     "RC signal lost.;",
-    "RC signal lost. Returning to home.;"
+    "RC signal lost. Returning to home.;",
+    "RC signal lost."
   ],
   "8": [
     "No image transmission."
@@ -40,15 +40,15 @@
     "RTH.;"
   ],
   "1": [
-    "Press brake button to cancel landing.;",
     "Press Brake button to cancel RTH.;",
-    "Press Brake button to cancel RTH."
+    "Press Brake button to cancel RTH.",
+    "Press brake button to cancel landing.;"
   ],
   "10": [
-    "Aircraft returning to home.",
+    "Returning to home.",
     "Aircraft returning to home.;",
-    "Returning to home.;",
-    "Returning to home."
+    "Aircraft returning to home.",
+    "Returning to home.;"
   ],
   "27": [
     "Flight mode changed to Go Home."
@@ -65,16 +65,16 @@
     "Controller triggered aircraft to descend."
   ],
   "20": [
-    "Auto RTH canceled.",
-    "Auto RTH canceled.;"
+    "Auto RTH canceled.;",
+    "Auto RTH canceled."
   ],
   "22": [
     "Aircraft will follow preset action for lost signal.",
     "Aircraft will follow preset action for lost signal.;"
   ],
   "6": [
-    "Failsafe RTH.;",
-    "Failsafe RTH."
+    "Failsafe RTH.",
+    "Failsafe RTH.;"
   ],
   "12": [
     "Original route RTH.;",
@@ -85,9 +85,9 @@
     "RC signal weak."
   ],
   "3": [
+    "Avoid blocking antennas and adjust antenna orientation.;",
     "Avoid blocking antennas and adjust antenna orientation.",
-    "Avoid blocking antennas and adjust antenna",
-    "Avoid blocking antennas and adjust antenna orientation.;"
+    "Avoid blocking antennas and adjust antenna"
   ],
   "25": [
     "orientation.;"
