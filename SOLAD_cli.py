@@ -81,7 +81,7 @@ class DroneLogAnalyzer:
         self.abstractor.save_representative_log(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_event.json'))
         output_dir = os.path.join(self.config['workdir'], 'problem')
         os.makedirs(output_dir, exist_ok=True)
-        self.abstractor.save_representative_log(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_problem.json'))
+        self.abstractor.save_problem(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_problem.json'))
         logger.info(f'Event abstraction completed successfully!')
 
         # # 5. Problem Identification
