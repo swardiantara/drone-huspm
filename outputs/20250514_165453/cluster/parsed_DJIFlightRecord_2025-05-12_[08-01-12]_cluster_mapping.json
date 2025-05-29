@@ -42,8 +42,8 @@
     "RTH."
   ],
   "0": [
-    "Press Brake button to cancel RTH.",
-    "Press brake button to cancel landing."
+    "Press brake button to cancel landing.",
+    "Press Brake button to cancel RTH."
   ],
   "1": [
     "Returning to home.",
@@ -83,8 +83,8 @@
     "Downlink Lost."
   ],
   "2": [
-    "Downlink Restored (after 0m 1.2s).",
-    "Downlink Restored (after 0m 6.2s)."
+    "Downlink Restored (after 0m 6.2s).",
+    "Downlink Restored (after 0m 1.2s)."
   ],
   "21": [
     "Controller triggered aircraft to fly backward."
