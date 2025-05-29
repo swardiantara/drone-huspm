@@ -1,8 +1,9 @@
 import os
+import re
 import json
-from src.data_loader import LogRecord
 from typing import List, Dict, Tuple
 from simpletransformers.ner import NERModel
+from src.data_loader import LogRecord
 
 class MessageSegmenter:
     def __init__(self, ner_model_path: str, use_cuda: bool=False):
@@ -218,12 +219,14 @@ class MessageSegmenter:
                         print(f"- {span['text']} ({span['entity_type']})")
         return records
     
-    def _get_sentence_type(self, sentence) -> str:
-        """Determine if sentence is event or non-event based on NER tags"""
-        # TODO: Implement based on your tagging scheme
-        pass
     
-    def _get_token_labels(self, sentence) -> List[Tuple[str, str]]:
-        """Extract token-level labels (B-Event, I-Event, etc.)"""
-        # TODO: Implement based on your tagging scheme
-        pass
+    def syntactic_segmenter(self, records: List[LogRecord], pattern: str = r'(?<=[.?!])\s+(?=[A-Z])') -> List[LogRecord]:
+        """Apply Regular Expression to segment messages"""
+        for record in records:
+            # Process each record's raw message
+            sentences = re.split(pattern, record.raw_message)
+            for sentence in sentences:
+                record.sentences.append(sentence)
+                record.sentence_types.append('Event')
+                
+        return records

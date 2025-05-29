@@ -62,7 +62,8 @@ class DroneLogAnalyzer:
         
         # 2. Segment messages
         logger.info(f'Start event recognition...')
-        records = self.segmenter.segment_and_classify(records)
+        # records = self.segmenter.segment_and_classify(records)
+        records = self.segmenter.syntactic_segmenter(records)
         logger.info(f'Event recognition completed successfully!')
         
         # 3. Detect anomalies
@@ -84,7 +85,7 @@ class DroneLogAnalyzer:
         self.abstractor.save_problem(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_problem.json'))
         logger.info(f'Event abstraction completed successfully!')
 
-        # # 5. Problem Identification
+        # # 5. Report Generation
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir
