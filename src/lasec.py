@@ -52,9 +52,9 @@ class LogAbstractor:
         
         for i, record in enumerate(records):
             for j, sentence in enumerate(record.sentences):
-                if (record[i].sentence_types[j] == 'Event') and (not record[i].anomalies[j] == 'normal'):
-                    all_sentences.append(sentence)
-                    sentence_refs.append((i, j))
+                # if (record.sentence_types[j] == 'Event') and (not record.anomalies[j] == 'normal'):
+                all_sentences.append(sentence)
+                sentence_refs.append((i, j))
         
         # Generate embeddings
         embeddings = self.embedding_model.encode(all_sentences, normalize_embeddings=True)
