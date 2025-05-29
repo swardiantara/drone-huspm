@@ -16,6 +16,7 @@ class LogAbstractor:
         self.cluster_model = self._get_cluster_model()
         self.cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
         self.representative_log: DefaultDict[str, str] = defaultdict()
+        self.problem: DefaultDict[str, str] = defaultdict()
         
     def _get_cluster_model(self, threshold: float = 0.2, linkage: str = 'average'):
         return AgglomerativeClustering(
@@ -43,6 +44,9 @@ class LogAbstractor:
         with open(file_path, 'w') as f:
             json.dump(self.representative_log, f, indent=2)
 
+    def save_problem(self, file_path):
+        with open(file_path, 'w') as f:
+            json.dump(self.problem, f, indent=2)
     
     def abstract_messages(self, records: List[LogRecord]) -> List[LogRecord]:
         """Assign event IDs to each sentence via semantic clustering"""
@@ -64,8 +68,8 @@ class LogAbstractor:
         # Assign event IDs back to records
         for (i, j), cluster_id in zip(sentence_refs, cluster_labels):
             sentence_type = records[i].sentence_types[j]
-            prefix = sentence_type[0] #'E' if sentence_type == 'event' else 'N'
-            event_id = f"{prefix}{cluster_id}"
+            anomaly = records[i].anomalies[j]
+            event_id = f"{sentence_type[0]}{cluster_id}" #'E' if sentence_type == 'event' else 'N'
             
             records[i].eventIds.append(event_id)
             self.cluster_members[cluster_id].append(records[i].sentences[j])
@@ -77,5 +81,9 @@ class LogAbstractor:
                 centroid = np.mean(cluster_embeds, axis=0)
                 distances = np.linalg.norm(cluster_embeds - centroid, axis=1)
                 self.representative_log[event_id] = all_sentences[indices[np.argmin(distances)]]
+
+                if sentence_type == 'Event' and anomaly != 'normal':
+                    problem_id = f'{event_id}-{anomaly}'
+                    self.problem[problem_id] = self.representative_log[event_id]
             
         return records
