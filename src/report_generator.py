@@ -30,7 +30,7 @@ class ReportGenerator:
         self.output_dir = output_dir
         # Load data
         # records_list, problems = load_json_files(records_file, problems_file)
-        
+        print(records_list)
         # Process all records and collect problem events
         all_problem_events = []
         
