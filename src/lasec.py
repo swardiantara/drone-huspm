@@ -16,7 +16,7 @@ class LogAbstractor:
         self.cluster_model = self._get_cluster_model()
         self.cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
         self.representative_log: DefaultDict[str, str] = defaultdict()
-        self.problem: DefaultDict[str, dict[str, str]] = self._construct_problem()
+        self.problem: DefaultDict[str, DefaultDict[str, str]] = self._construct_problem()
         
     def _get_cluster_model(self, threshold: float = 0.2, linkage: str = 'average'):
         return AgglomerativeClustering(
@@ -26,8 +26,10 @@ class LogAbstractor:
                     metric='precomputed')
     
     def _construct_problem(self):
-        self.problem['multiclass'] = defaultdict()
-        self.problem['binary'] = defaultdict()
+        return {
+            'multiclass': defaultdict(),
+            'binary': defaultdict()
+        }
     
     def compute_distance_matrix(self, corpus_embeddings, metric: str = 'cosine', is_norm=False):
         if is_norm:
