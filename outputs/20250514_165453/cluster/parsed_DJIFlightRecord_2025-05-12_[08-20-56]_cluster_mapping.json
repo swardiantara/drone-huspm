@@ -24,8 +24,8 @@
     "Aircraft braking.;"
   ],
   "14": [
-    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
   ],
   "2": [
     "RC signal lost.;",
@@ -36,8 +36,8 @@
     "No image transmission."
   ],
   "9": [
-    "RTH.",
-    "RTH.;"
+    "RTH.;",
+    "RTH."
   ],
   "1": [
     "Press Brake button to cancel RTH.;",
@@ -46,9 +46,9 @@
   ],
   "10": [
     "Returning to home.",
+    "Returning to home.;",
     "Aircraft returning to home.;",
-    "Aircraft returning to home.",
-    "Returning to home.;"
+    "Aircraft returning to home."
   ],
   "27": [
     "Flight mode changed to Go Home."
@@ -58,8 +58,8 @@
     "RTH in progress.;"
   ],
   "21": [
-    "RTH ascending.",
-    "RTH ascending.;"
+    "RTH ascending.;",
+    "RTH ascending."
   ],
   "32": [
     "Controller triggered aircraft to descend."
@@ -69,8 +69,8 @@
     "Auto RTH canceled."
   ],
   "22": [
-    "Aircraft will follow preset action for lost signal.",
-    "Aircraft will follow preset action for lost signal.;"
+    "Aircraft will follow preset action for lost signal.;",
+    "Aircraft will follow preset action for lost signal."
   ],
   "6": [
     "Failsafe RTH.",
@@ -85,9 +85,9 @@
     "RC signal weak."
   ],
   "3": [
-    "Avoid blocking antennas and adjust antenna orientation.;",
+    "Avoid blocking antennas and adjust antenna",
     "Avoid blocking antennas and adjust antenna orientation.",
-    "Avoid blocking antennas and adjust antenna"
+    "Avoid blocking antennas and adjust antenna orientation.;"
   ],
   "25": [
     "orientation.;"
@@ -96,9 +96,9 @@
     "Downlink Lost."
   ],
   "29": [
-    "Downlink Restored (after 0m 5.4s).",
+    "Downlink Restored (after 0m 5.8s).;",
     "Downlink Restored (after 0m 7.4s).;",
-    "Downlink Restored (after 0m 5.8s).;"
+    "Downlink Restored (after 0m 5.4s)."
   ],
   "13": [
     "Controller triggered aircraft to fly backward."
@@ -107,8 +107,8 @@
     "Auto landing in progress.;"
   ],
   "0": [
-    "Flight mode changed to Confirm Landing.",
-    "Flight mode changed to Auto Landing."
+    "Flight mode changed to Auto Landing.",
+    "Flight mode changed to Confirm Landing."
   ],
   "18": [
     "Area under aircraft unsuitable for landing."
