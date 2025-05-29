@@ -89,12 +89,12 @@ class DroneLogAnalyzer:
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir
-        logger.info(f'Start constructing sequence DB...')
-        for utility in self.config['utility_variable']:
-            seq_dir = os.path.join(self.config['workdir'], 'sequence', utility)
-            os.makedirs(seq_dir, exist_ok=True)
-            result = self.seq_db_builder.build_sequences(records, utility)
-            joblib.dump(result, os.path.join(seq_dir, f'{self.config['filename'].split('.')[0]}_sequence.joblib'))
+        # logger.info(f'Start constructing sequence DB...')
+        # for utility in self.config['utility_variable']:
+        #     seq_dir = os.path.join(self.config['workdir'], 'sequence', utility)
+        #     os.makedirs(seq_dir, exist_ok=True)
+        #     result = self.seq_db_builder.build_sequences(records, utility)
+        #     joblib.dump(result, os.path.join(seq_dir, f'{self.config['filename'].split('.')[0]}_sequence.joblib'))
         
         return records
 

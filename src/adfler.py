@@ -220,13 +220,16 @@ class MessageSegmenter:
         return records
     
     
-    def syntactic_segmenter(self, records: List[LogRecord], pattern: str = r'([^.;]+(?:\.|$))') -> List[LogRecord]:
+    def syntactic_segmenter(self, records: List[LogRecord], pattern: str = r'(?:(?<=\.) |; |$)') -> List[LogRecord]:
+        # r'(?:(?<=\.) |; |$)
         """Apply Regular Expression to segment messages"""
         for record in records:
             # Process each record's raw message
             # sentences = re.split(pattern, record.raw_message)
             sentences = re.findall(pattern, record.raw_message)
             for sentence in sentences:
+                if sentence == '':
+                    continue
                 record.sentences.append(sentence.strip())
                 record.sentence_types.append('Event')
 
