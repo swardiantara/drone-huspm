@@ -91,7 +91,7 @@ class LogAbstractor:
                 if sentence_type == 'Event' and anomaly != 'normal':
                     problem_id = f'{event_id}-{anomaly}'
                     self.problem['multiclass'][problem_id] = self.representative_log[event_id]
-                    if event_id in self.problem['binary']:
+                    if not event_id in self.problem['binary']:
                         self.problem['binary'][event_id] = self.representative_log[event_id]
             
         return records
