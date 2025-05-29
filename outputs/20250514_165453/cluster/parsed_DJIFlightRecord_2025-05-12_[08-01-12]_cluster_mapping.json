@@ -1,124 +1,141 @@
 {
-  "23": [
-    "Motors starting.;"
-  ],
-  "26": [
-    "Flight mode changed to Starting Motors."
-  ],
-  "17": [
-    "Data Recorder File Index is 83.;"
-  ],
-  "33": [
-    "Set Return to Home (RTH) altitude to 100 m (328 ft).;"
-  ],
-  "27": [
-    "Set maximum flight altitude to 500 m (1640 ft)."
-  ],
-  "30": [
-    "Flight mode changed to Manual Takeoff."
-  ],
-  "25": [
-    "Home point updated.;"
-  ],
-  "20": [
-    "Flight mode changed to P-GPS."
-  ],
-  "16": [
-    "Image transmission signal weak.",
-    "Image transmission signal weak.;"
-  ],
-  "12": [
-    "Aircraft braking.;",
-    "Aircraft braking."
-  ],
-  "14": [
-    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
-  ],
-  "0": [
-    "RC signal lost.;",
-    "RC signal lost.",
-    "RC signal lost. Returning to home.;"
-  ],
-  "1": [
-    "No image transmission. Aircraft returning to home.;",
-    "No image transmission."
-  ],
-  "13": [
-    "RTH.;"
-  ],
-  "4": [
-    "Press brake button to cancel landing.;",
-    "Press Brake button to cancel RTH.;"
-  ],
-  "3": [
-    "Aircraft returning to home.",
-    "Aircraft returning to home.;",
-    "Returning to home.;",
-    "Returning to home."
-  ],
-  "28": [
-    "Flight mode changed to Go Home."
-  ],
-  "2": [
-    "RTH in progress.",
-    "RTH in progress.;"
-  ],
-  "21": [
-    "RTH ascending.;",
-    "RTH ascending."
-  ],
-  "32": [
-    "Controller triggered aircraft to descend."
-  ],
-  "22": [
-    "Auto RTH canceled.",
-    "Auto RTH canceled.;"
-  ],
-  "7": [
-    "RC signal weak.",
-    "RC signal weak.;"
-  ],
-  "8": [
-    "Avoid blocking antennas and adjust antenna orientation.;",
-    "Avoid blocking antennas and adjust antenna orientation."
-  ],
-  "5": [
-    "Original route RTH.;",
-    "Original route RTH."
+  "18": [
+    "Motors starting.; Flight mode changed to Starting Motors."
   ],
   "31": [
-    "No image"
+    "Data Recorder File Index is 83.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft)."
   ],
-  "19": [
-    "transmission."
-  ],
-  "10": [
-    "Aircraft will follow preset action for lost signal.; RC signal weak.",
-    "Aircraft will follow preset action for lost signal.",
-    "Aircraft will follow preset action for lost signal.;"
-  ],
-  "6": [
-    "Failsafe RTH.",
-    "Failsafe RTH.;"
-  ],
-  "24": [
-    "Downlink Lost."
-  ],
-  "9": [
-    "Downlink Restored (after 0m 1.2s).",
-    "Downlink Restored (after 0m 6.2s)."
-  ],
-  "11": [
-    "Controller triggered aircraft to fly backward."
+  "27": [
+    "Flight mode changed to Manual Takeoff."
   ],
   "15": [
-    "Gimbal pitch axis endpoint reached.;"
+    "Home point updated.; Flight mode changed to P-GPS.",
+    "Flight mode changed to P-GPS."
   ],
-  "18": [
-    "Auto landing in progress.;"
+  "4": [
+    "Image transmission signal weak.; RC signal weak.",
+    "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak.",
+    "Image transmission signal weak.; RC signal lost.",
+    "Image transmission signal weak.",
+    "RC signal weak.; Image transmission signal weak."
+  ],
+  "24": [
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.",
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home."
+  ],
+  "2": [
+    "RC signal lost.",
+    "RC signal lost.; No image transmission."
   ],
   "29": [
-    "Flight mode changed to Auto Landing."
+    "No image transmission."
+  ],
+  "5": [
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost.",
+    "RTH.; Press Brake button to cancel RTH.; No image transmission.",
+    "Press Brake button to cancel RTH.; RC signal lost.",
+    "RTH.; Press Brake button to cancel RTH.; RC signal lost.; No image transmission."
+  ],
+  "7": [
+    "Aircraft returning to home.; Image transmission signal weak.",
+    "Returning to home.; Image transmission signal weak."
+  ],
+  "10": [
+    "RTH ascending.",
+    "RTH ascending.; Controller triggered aircraft to descend."
+  ],
+  "0": [
+    "Auto RTH canceled.",
+    "Auto RTH canceled.; No image transmission.",
+    "Auto RTH canceled.; RC signal weak.",
+    "Auto RTH canceled.; RC signal lost."
+  ],
+  "3": [
+    "RC signal lost.; Aircraft braking.; RC signal weak.",
+    "RC signal lost.; RC signal weak.",
+    "RC signal weak.; RC signal lost.",
+    "RC signal weak.; Aircraft braking.; RC signal weak.",
+    "RC signal weak.; Aircraft braking.",
+    "RC signal weak.",
+    "RC signal weak.; Aircraft braking.; RC signal lost."
+  ],
+  "23": [
+    "Avoid blocking antennas and adjust antenna orientation.; RTH in progress.",
+    "Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.",
+    "Avoid blocking antennas and adjust antenna orientation.",
+    "Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; Controller triggered aircraft to fly backward."
+  ],
+  "33": [
+    "Original route RTH."
+  ],
+  "21": [
+    "RTH in progress."
+  ],
+  "11": [
+    "Controller triggered aircraft to descend.",
+    "RTH.; Controller triggered aircraft to descend."
+  ],
+  "9": [
+    "Aircraft braking.; RC signal weak.",
+    "Aircraft braking.; Image transmission signal weak."
+  ],
+  "32": [
+    "Aircraft returning to home.; RTH ascending.; Flight mode changed to P-GPS."
+  ],
+  "20": [
+    "Returning to home.",
+    "Aircraft returning to home."
+  ],
+  "13": [
+    "Aircraft braking."
+  ],
+  "6": [
+    "Aircraft will follow preset action for lost signal.; RC signal weak.",
+    "Aircraft will follow preset action for lost signal."
+  ],
+  "1": [
+    "Failsafe RTH.; Flight mode changed to Go Home.",
+    "Returning to home.; Failsafe RTH.; Flight mode changed to Go Home."
+  ],
+  "34": [
+    "Returning to home.; Original route RTH."
+  ],
+  "19": [
+    "Downlink Lost."
+  ],
+  "8": [
+    "Returning to home.; Downlink Restored (after 0m 6.2s).",
+    "Downlink Restored (after 0m 1.2s)."
+  ],
+  "22": [
+    "Failsafe RTH."
+  ],
+  "25": [
+    "Failsafe RTH.; Image transmission signal weak.; RTH in progress."
+  ],
+  "14": [
+    "Returning to home.; RC signal weak."
+  ],
+  "28": [
+    "Failsafe RTH.; Controller triggered aircraft to fly backward."
+  ],
+  "17": [
+    "Gimbal pitch axis endpoint reached.; Aircraft braking."
+  ],
+  "16": [
+    "RC signal lost.; Aircraft braking.",
+    "RC signal lost.; Aircraft braking.; RC signal lost."
+  ],
+  "12": [
+    "Returning to home.; RTH in progress.",
+    "Returning to home.; Original route RTH.; RTH in progress."
+  ],
+  "30": [
+    "Controller triggered aircraft to fly backward."
+  ],
+  "26": [
+    "Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing."
   ]
 }
