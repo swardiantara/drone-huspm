@@ -6,8 +6,8 @@
     "Set Return to Home (RTH) altitude to 100 m (328 ft)."
   ],
   "3": [
-    "Set maximum flight altitude to 30 m (98 ft).",
-    "Set maximum flight altitude to 500 m (1640 ft)."
+    "Set maximum flight altitude to 500 m (1640 ft).",
+    "Set maximum flight altitude to 30 m (98 ft)."
   ],
   "11": [
     "Flight mode changed to P-GPS (Brake)."
@@ -31,12 +31,12 @@
     "RTH."
   ],
   "1": [
-    "Press brake button to cancel landing.",
-    "Press Brake button to cancel RTH."
+    "Press Brake button to cancel RTH.",
+    "Press brake button to cancel landing."
   ],
   "4": [
-    "Returning to home.",
-    "Aircraft returning to home."
+    "Aircraft returning to home.",
+    "Returning to home."
   ],
   "25": [
     "Flight mode changed to Go Home."
