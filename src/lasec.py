@@ -16,7 +16,7 @@ class LogAbstractor:
         self.cluster_model = self._get_cluster_model()
         self.cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
         self.representative_log: DefaultDict[str, str] = defaultdict()
-        self.problem: DefaultDict[str, str] = defaultdict()
+        self.problem: DefaultDict[str, dict[str, str]] = defaultdict()
         
     def _get_cluster_model(self, threshold: float = 0.2, linkage: str = 'average'):
         return AgglomerativeClustering(
@@ -47,7 +47,7 @@ class LogAbstractor:
     def save_problem(self, file_path):
         with open(file_path, 'w') as f:
             json.dump(self.problem, f, indent=2)
-    
+
     def abstract_messages(self, records: List[LogRecord]) -> List[LogRecord]:
         """Assign event IDs to each sentence via semantic clustering"""
         # Collect all sentences for batch processing
@@ -84,6 +84,8 @@ class LogAbstractor:
 
                 if sentence_type == 'Event' and anomaly != 'normal':
                     problem_id = f'{event_id}-{anomaly}'
-                    self.problem[problem_id] = self.representative_log[event_id]
+                    self.problem['multiclass'][problem_id] = self.representative_log[event_id]
+                    if event_id in self.problem['binary']:
+                        self.problem['binary'][event_id] = self.representative_log[event_id]
             
         return records
