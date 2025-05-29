@@ -88,9 +88,11 @@ class DroneLogAnalyzer:
         logger.info(f'Event abstraction completed successfully!')
 
         # # 5. Report Generation
+        logger.info(f'Start report generation...')
         output_dir = os.path.join(self.config['workdir'], 'report')
         os.makedirs(output_dir, exist_ok=True)
         self.report_generator.create_timeline_chart(records, self.abstractor.problem['binary'], output_dir)
+        logger.info(f'Report generation completed successfully!')
         # records = self.attributor.compute_attributions(records)
         
         # 6. Build sequences per log file, and save to workdir

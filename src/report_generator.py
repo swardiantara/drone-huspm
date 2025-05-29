@@ -110,12 +110,10 @@ class ReportGenerator:
         plt.tight_layout()
         # Save the chart into a .PDF file
         plt.savefig(os.path.join(output_dir, f'{self.config['filename']}_timeline.pdf'))
-        # Show timeline plot
-        plt.show()
-        
+        plt.close()
         # Generate and display summary statistics
         stats = self.generate_summary_statistics(all_problem_events, records_list, problems)
-        with open(os.path.join(output_dir, "summary.txt"), "w") as f:
+        with open(os.path.join(output_dir, f'{self.config['filename']}_summary.txt'), "w") as f:
             with contextlib.redirect_stdout(f):
                 self.print_investigation_summary(stats)
         
@@ -333,4 +331,4 @@ class ReportGenerator:
         
         plt.tight_layout()
         plt.savefig(os.path.join(self.output_dir, f'{self.config['filename']}_dashboard.pdf'))
-        plt.show()
+        plt.close()
