@@ -21,7 +21,7 @@ class LogAbstractor:
             return joblib.load(path)
         else:
             # Initialize new BIRCH model
-            return Birch(n_clusters=None, threshold=0.3)
+            return Birch(n_clusters=None, threshold=0.5)
         
     def _save_birch_model(self):
         joblib.dump(self.birch_model, self.birch_model_path)
