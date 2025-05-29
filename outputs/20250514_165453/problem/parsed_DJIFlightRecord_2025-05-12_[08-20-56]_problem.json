@@ -1,12 +1,15 @@
 {
-  "E16-low": "Flight mode changed to P-GPS (Brake).",
-  "E7-medium": "Image transmission signal weak.",
-  "E26-low": "Aircraft braking.;",
-  "E2-medium": "RC signal lost.;",
-  "E8-low": "No image transmission.",
-  "E2-low": "RC signal lost.;",
-  "E32-medium": "Controller triggered aircraft to descend.",
-  "E5-low": "RC signal weak.",
-  "E11-low": "Downlink Lost.",
-  "E18-high": "Area under aircraft unsuitable for landing."
+  "multiclass": {
+    "E16-low": "Flight mode changed to P-GPS (Brake).",
+    "E7-medium": "Image transmission signal weak.",
+    "E26-low": "Aircraft braking.;",
+    "E2-medium": "RC signal lost.;",
+    "E8-low": "No image transmission.",
+    "E2-low": "RC signal lost.;",
+    "E32-medium": "Controller triggered aircraft to descend.",
+    "E5-low": "RC signal weak.",
+    "E11-low": "Downlink Lost.",
+    "E18-high": "Area under aircraft unsuitable for landing."
+  },
+  "binary": {}
 }

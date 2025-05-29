@@ -1,12 +1,15 @@
 {
-  "E16-medium": "Image transmission signal weak.",
-  "E12-low": "Aircraft braking.;",
-  "E0-medium": "RC signal lost.;",
-  "E1-low": "No image transmission.",
-  "E0-low": "RC signal lost.;",
-  "E1-medium": "No image transmission.",
-  "E32-medium": "Controller triggered aircraft to descend.",
-  "E7-low": "RC signal weak.",
-  "E31-low": "No image",
-  "E24-low": "Downlink Lost."
+  "multiclass": {
+    "E16-medium": "Image transmission signal weak.",
+    "E12-low": "Aircraft braking.;",
+    "E0-medium": "RC signal lost.;",
+    "E1-low": "No image transmission.",
+    "E0-low": "RC signal lost.;",
+    "E1-medium": "No image transmission.",
+    "E32-medium": "Controller triggered aircraft to descend.",
+    "E7-low": "RC signal weak.",
+    "E31-low": "No image",
+    "E24-low": "Downlink Lost."
+  },
+  "binary": {}
 }

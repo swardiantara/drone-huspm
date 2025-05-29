@@ -24,25 +24,25 @@
     "Flight mode changed to P-GPS."
   ],
   "16": [
-    "Image transmission signal weak.;",
-    "Image transmission signal weak."
+    "Image transmission signal weak.",
+    "Image transmission signal weak.;"
   ],
   "12": [
-    "Aircraft braking.",
-    "Aircraft braking.;"
+    "Aircraft braking.;",
+    "Aircraft braking."
   ],
   "14": [
-    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;",
-    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.;"
   ],
   "0": [
-    "RC signal lost.;",
     "RC signal lost. Returning to home.;",
-    "RC signal lost."
+    "RC signal lost.",
+    "RC signal lost.;"
   ],
   "1": [
-    "No image transmission.",
-    "No image transmission. Aircraft returning to home.;"
+    "No image transmission. Aircraft returning to home.;",
+    "No image transmission."
   ],
   "13": [
     "RTH.;"
@@ -53,16 +53,16 @@
   ],
   "3": [
     "Returning to home.;",
-    "Returning to home.",
     "Aircraft returning to home.;",
-    "Aircraft returning to home."
+    "Aircraft returning to home.",
+    "Returning to home."
   ],
   "28": [
     "Flight mode changed to Go Home."
   ],
   "2": [
-    "RTH in progress.",
-    "RTH in progress.;"
+    "RTH in progress.;",
+    "RTH in progress."
   ],
   "21": [
     "RTH ascending.;",
@@ -76,16 +76,16 @@
     "Auto RTH canceled."
   ],
   "7": [
-    "RC signal weak.;",
-    "RC signal weak."
+    "RC signal weak.",
+    "RC signal weak.;"
   ],
   "8": [
     "Avoid blocking antennas and adjust antenna orientation.",
     "Avoid blocking antennas and adjust antenna orientation.;"
   ],
   "5": [
-    "Original route RTH.;",
-    "Original route RTH."
+    "Original route RTH.",
+    "Original route RTH.;"
   ],
   "31": [
     "No image"
@@ -94,13 +94,13 @@
     "transmission."
   ],
   "10": [
-    "Aircraft will follow preset action for lost signal.;",
     "Aircraft will follow preset action for lost signal.",
+    "Aircraft will follow preset action for lost signal.;",
     "Aircraft will follow preset action for lost signal.; RC signal weak."
   ],
   "6": [
-    "Failsafe RTH.",
-    "Failsafe RTH.;"
+    "Failsafe RTH.;",
+    "Failsafe RTH."
   ],
   "24": [
     "Downlink Lost."
