@@ -1,8 +1,101 @@
 {
+  "19": [
+    "Data Recorder File Index is 84."
+  ],
+  "29": [
+    "Set Return to Home (RTH) altitude to 100 m (328 ft)."
+  ],
+  "3": [
+    "Set maximum flight altitude to 500 m (1640 ft).",
+    "Set maximum flight altitude to 30 m (98 ft)."
+  ],
+  "11": [
+    "Flight mode changed to P-GPS (Brake)."
+  ],
+  "26": [
+    "Image transmission signal weak."
+  ],
+  "24": [
+    "Aircraft braking."
+  ],
+  "20": [
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+  ],
+  "5": [
+    "RC signal lost."
+  ],
+  "7": [
+    "No image transmission."
+  ],
+  "12": [
+    "RTH."
+  ],
   "1": [
-    ";"
+    "Press Brake button to cancel RTH.",
+    "Press brake button to cancel landing."
+  ],
+  "4": [
+    "Returning to home.",
+    "Aircraft returning to home."
+  ],
+  "25": [
+    "Flight mode changed to Go Home."
+  ],
+  "17": [
+    "RTH in progress."
+  ],
+  "22": [
+    "RTH ascending."
+  ],
+  "14": [
+    "Controller triggered aircraft to descend."
+  ],
+  "8": [
+    "Auto RTH canceled."
+  ],
+  "9": [
+    "Aircraft will follow preset action for lost signal."
+  ],
+  "18": [
+    "Failsafe RTH."
+  ],
+  "6": [
+    "Original route RTH."
+  ],
+  "30": [
+    "RC signal weak."
+  ],
+  "27": [
+    "Avoid blocking antennas and adjust antenna orientation."
+  ],
+  "23": [
+    "Downlink Lost."
+  ],
+  "2": [
+    "Downlink Restored (after 0m 5.4s).",
+    "Downlink Restored (after 0m 5.8s).",
+    "Downlink Restored (after 0m 7.4s)."
+  ],
+  "13": [
+    "Controller triggered aircraft to fly backward."
+  ],
+  "16": [
+    "Auto landing in progress."
   ],
   "0": [
-    ""
+    "Flight mode changed to Confirm Landing.",
+    "Flight mode changed to Auto Landing."
+  ],
+  "15": [
+    "Area under aircraft unsuitable for landing."
+  ],
+  "10": [
+    "Move to safe environment and try again."
+  ],
+  "28": [
+    "Make sure the area under the aircraft is safe for landing."
+  ],
+  "21": [
+    "Push throttle down to use force landing."
   ]
 }
