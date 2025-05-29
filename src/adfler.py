@@ -18,7 +18,8 @@ class MessageSegmenter:
                         model_config['model_type'],
                         path,
                         labels=labels,
-                        use_cuda=self.use_cuda
+                        use_cuda=self.use_cuda,
+                        args={"show_progress_bar": False}
                     )
         return segmenter
     

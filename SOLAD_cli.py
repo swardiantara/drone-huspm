@@ -58,22 +58,26 @@ class DroneLogAnalyzer:
         # 1. Load data
         logger.info(f'Load data from the file...')
         records = self.data_loader.load_data()
+        logger.info(f'Data successfully loaded!')
         
         # 2. Segment messages
-        logger.info(f'Start segmenting messages...')
+        logger.info(f'Start event recognition...')
         records = self.segmenter.segment_and_classify(records)
+        logger.info(f'Event recognition completed successfully!')
         
         # 3. Detect anomalies
-        logger.info(f'Start detecting anomaly severity...')
+        logger.info(f'Start anomaly severity detection...')
         records = self.detector.detect_anomalies(records)
+        logger.info(f'Anomaly severity detection completed successfully!')
 
         # 4. Abstract events
-        logger.info(f'Start abstracting sentences...')
+        logger.info(f'Start event abstraction...')
         records = self.abstractor.abstract_messages(records)
-        output_dir = os.path.join(self.config['workdir'], 'clusters')
+        output_dir = os.path.join(self.config['workdir'], 'cluster')
         os.makedirs(output_dir, exist_ok=True)
-        self.abstractor.save_cluster_member(os.path.join(self.config['workdir'], f'{self.config['filename'].split('.')[0]}_cluster_mapping.json'))
-        self.abstractor.save_representative_log(os.path.join(self.config['workdir'], f'{self.config['filename'].split('.')[0]}_representative_log.json'))
+        self.abstractor.save_cluster_member(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_cluster_mapping.json'))
+        self.abstractor.save_representative_log(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_representative_log.json'))
+        logger.info(f'Event abstraction completed successfully!')
 
         # # 5. Problem Identification
         # records = self.attributor.compute_attributions(records)
@@ -122,7 +126,7 @@ def main():
         serializable_records = [asdict(record) for record in records]
 
         # Save or process results
-        output_dir = os.path.join(parsed_folder, 'records')
+        output_dir = os.path.join(parsed_folder, 'record')
         os.makedirs(output_dir, exist_ok=True)
         with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
             json.dump(serializable_records, f, indent=2)
