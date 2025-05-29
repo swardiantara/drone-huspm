@@ -76,6 +76,8 @@ class DroneLogAnalyzer:
         output_dir = os.path.join(self.config['workdir'], 'cluster')
         os.makedirs(output_dir, exist_ok=True)
         self.abstractor.save_cluster_member(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_cluster_mapping.json'))
+        output_dir = os.path.join(self.config['workdir'], 'event')
+        os.makedirs(output_dir, exist_ok=True)
         self.abstractor.save_representative_log(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_representative_log.json'))
         logger.info(f'Event abstraction completed successfully!')
 
