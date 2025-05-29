@@ -15,7 +15,7 @@ from src.dronelog import AnomalyDetector
 from src.seq_builder import SequenceBuilder
 from src.utils import get_latest_folder
 
-
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -62,16 +62,16 @@ class DroneLogAnalyzer:
         logger.info(f'Start segmenting messages...')
         records = self.segmenter.segment_and_classify(records)
         
-        # 3. Abstract events
+        # 3. Detect anomalies
+        logger.info(f'Start detecting anomaly severity...')
+        records = self.detector.detect_anomalies(records)
+
+        # 4. Abstract events
         logger.info(f'Start abstracting sentences...')
         records = self.abstractor.abstract_messages(records)
         self.abstractor.save_cluster_member(os.path.join(self.config['workdir'], 'cluster_mapping.json'))
         self.abstractor.save_representative_log(os.path.join(self.config['workdir'], 'representative_log.json'))
 
-        # 4. Detect anomalies
-        logger.info(f'Start detecting anomaly severity...')
-        records = self.detector.detect_anomalies(records)
-        
         # # 5. Compute attributions
         # records = self.attributor.compute_attributions(records)
         
