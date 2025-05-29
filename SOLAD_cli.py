@@ -35,16 +35,10 @@ class DroneLogAnalyzer:
         self.seq_db_builder = SequenceBuilder()
 
     def _load_lasec(self):
-        file_path = os.path.join(self.config['workdir'], 'LASeC.joblib')
-
-        if os.path.exists(file_path):
-            return joblib.load(file_path)
-        else:
-            return LogAbstractor(
-                self.config['embedding_model_path'],
-                self.config['device'],
-                self.config.get('birch_model_path')
-            )
+        return LogAbstractor(
+            self.config['device'],
+            self.config['embedding_model_path']
+        )
         
     def _load_dronelog(self):
         pre_trained = self.config['classifier_path']
@@ -72,7 +66,7 @@ class DroneLogAnalyzer:
         logger.info(f'Start abstracting sentences...')
         records = self.abstractor.abstract_messages(records)
         self.abstractor.save_cluster_member(os.path.join(self.config['workdir'], 'cluster_mapping.json'))
-        joblib.dump(self.abstractor, os.path.join(self.config['workdir'], 'LASeC.joblib'))
+        self.abstractor.save_representative_log(os.path.join(self.config['workdir'], 'representative_log.json'))
 
         # 4. Detect anomalies
         logger.info(f'Start detecting anomaly severity...')

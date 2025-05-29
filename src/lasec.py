@@ -1,31 +1,36 @@
 import os
+import numpy as np
 import joblib
 import json
 from src.data_loader import LogRecord
 from typing import List, Dict, Tuple, DefaultDict
 from collections import defaultdict
-from sklearn.cluster import Birch
+from sklearn.cluster import Birch, AgglomerativeClustering
+from sklearn.metrics.pairwise import pairwise_distances
 from sentence_transformers import SentenceTransformer
 
 
 class LogAbstractor:
-    def __init__(self, model_path: str, device, birch_model_path: str = None):
-        self.birch_model_path = birch_model_path
+    def __init__(self, device, model_path: str = 'all-MiniLM-L6-v2'):
         self.embedding_model = SentenceTransformer(model_path, device=device)
-        self.birch_model = self._load_birch_model(birch_model_path)
+        self.cluster_model = self._get_cluster_model()
         self.cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
+        self.representative_log: DefaultDict[str, str] = defaultdict()
         
-    def _load_birch_model(self, path):
-        if os.path.exists(path):
-            # Load pre-trained BIRCH model
-            return joblib.load(path)
-        else:
-            # Initialize new BIRCH model
-            return Birch(n_clusters=None, threshold=0.5)
-        
-    def _save_birch_model(self):
-        joblib.dump(self.birch_model, self.birch_model_path)
+    def _get_cluster_model(self, threshold: float = 0.2, linkage: str = 'average'):
+        return AgglomerativeClustering(
+                    n_clusters=None,
+                    distance_threshold=threshold,
+                    linkage=linkage,
+                    metric='precomputed')
+    
+    def compute_distance_matrix(self, corpus_embeddings, metric: str = 'cosine', is_norm=False):
+        if is_norm:
+            corpus_embeddings = corpus_embeddings /  np.linalg.norm(corpus_embeddings, axis=1, keepdims=True)
 
+        distance_matrix = pairwise_distances(corpus_embeddings, corpus_embeddings, metric=metric)
+        return distance_matrix
+        
     def save_cluster_member(self, file_path):
         cleaned_cluster_members = {
             int(cid): list(set(members))
@@ -33,6 +38,11 @@ class LogAbstractor:
         }
         with open(file_path, 'w') as f:
             json.dump(cleaned_cluster_members, f, indent=2)
+
+    def save_representative_log(self, file_path):
+        with open(file_path, 'w') as f:
+            json.dump(self.representative_log, f, indent=2)
+
     
     def abstract_messages(self, records: List[LogRecord]) -> List[LogRecord]:
         """Assign event IDs to each sentence via semantic clustering"""
@@ -47,22 +57,24 @@ class LogAbstractor:
         
         # Generate embeddings
         embeddings = self.embedding_model.encode(all_sentences, normalize_embeddings=True)
-        
-        # Cluster (or predict if pre-trained)
-        if self.birch_model.n_clusters is None:
-            clusters = self.birch_model.fit_predict(embeddings)
-        else:
-            clusters = self.birch_model.predict(embeddings)
+        distance_matrix = self.compute_distance_matrix(embeddings)
+        cluster_labels = self.cluster_model.fit_predict(distance_matrix)
         
         # Assign event IDs back to records
-        for (i, j), cluster_id in zip(sentence_refs, clusters):
+        for (i, j), cluster_id in zip(sentence_refs, cluster_labels):
             sentence_type = records[i].sentence_types[j]
             prefix = sentence_type[0] #'E' if sentence_type == 'event' else 'N'
             event_id = f"{prefix}{cluster_id}"
             
             records[i].eventIds.append(event_id)
             self.cluster_members[cluster_id].append(records[i].sentences[j])
-        # Save the last state for online setting
-        self._save_birch_model()
 
+            # store representative log
+            if not cluster_id in self.representative_log:
+                indices = np.where(cluster_labels == cluster_id)[0]
+                cluster_embeds = embeddings[indices]
+                centroid = np.mean(cluster_embeds, axis=0)
+                distances = np.linalg.norm(cluster_embeds - centroid, axis=1)
+                self.representative_log[event_id] = all_sentences[indices[np.argmin(distances)]]
+            
         return records
