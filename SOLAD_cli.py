@@ -92,6 +92,8 @@ class DroneLogAnalyzer:
         output_dir = os.path.join(self.config['workdir'], 'report')
         os.makedirs(output_dir, exist_ok=True)
         self.report_generator.create_timeline_chart(records, self.abstractor.problem['binary'], output_dir)
+        record_dataframe = self.report_generator.records_to_dataframe(records)
+        record_dataframe.to_excel(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_dataframe.xlsx'))
         logger.info(f'Report generation completed successfully!')
         # records = self.attributor.compute_attributions(records)
         

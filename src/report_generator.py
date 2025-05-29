@@ -3,6 +3,7 @@ import contextlib
 from datetime import datetime
 from collections import Counter
 from typing import Dict, List
+import pandas as pd
 
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -332,3 +333,61 @@ class ReportGenerator:
         plt.tight_layout()
         plt.savefig(os.path.join(self.output_dir, f'{self.config['filename']}_dashboard.pdf'))
         plt.close()
+
+    def records_to_dataframe(self, records_list: List[LogRecord]):
+        """
+        Convert a list of log records to a pandas DataFrame.
+        
+        Parameters:
+        -----------
+        records_list : list
+            List of dictionaries containing log records with keys:
+            - 'date': date string
+            - 'time': time string  
+            - 'raw_message': message string
+            - 'anomalies': list of anomaly levels (e.g., ['low', 'medium', 'high', 'normal'])
+        
+        Returns:
+        --------
+        pandas.DataFrame
+            DataFrame with columns: date, time, message, anomaly
+            - anomaly column contains 'anomaly' or 'normal' based on anomalies attribute
+        """
+        
+        if not records_list:
+            return pd.DataFrame(columns=['date', 'time', 'message', 'anomaly'])
+        
+        # Prepare data for DataFrame
+        df_data = []
+        
+        for record in records_list:
+            # Extract basic information
+            date = record.get('date', '')
+            time = record.get('time', '')
+            message = record.get('raw_message', '')
+            
+            # Determine anomaly status from anomalies list
+            anomalies = record.get('anomalies', [])
+            
+            # Logic to determine if record contains anomaly:
+            # If any anomaly level is not 'normal' or empty, mark as 'anomaly'
+            has_anomaly = any(
+                anomaly_level and 
+                anomaly_level.lower() not in ['normal', '', 'none'] 
+                for anomaly_level in anomalies
+            )
+            
+            anomaly_status = 'anomaly' if has_anomaly else 'normal'
+            
+            # Add row to data
+            df_data.append({
+                'date': date,
+                'time': time,
+                'message': message,
+                'anomaly': anomaly_status
+            })
+        
+        # Create DataFrame
+        df = pd.DataFrame(df_data)
+        
+        return df
