@@ -46,8 +46,8 @@
     "Press brake button to cancel landing."
   ],
   "1": [
-    "Aircraft returning to home.",
-    "Returning to home."
+    "Returning to home.",
+    "Aircraft returning to home."
   ],
   "27": [
     "Flight mode changed to Go Home."
@@ -83,8 +83,8 @@
     "Downlink Lost."
   ],
   "2": [
-    "Downlink Restored (after 0m 1.2s).",
-    "Downlink Restored (after 0m 6.2s)."
+    "Downlink Restored (after 0m 6.2s).",
+    "Downlink Restored (after 0m 1.2s)."
   ],
   "21": [
     "Controller triggered aircraft to fly backward."
