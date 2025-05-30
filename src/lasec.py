@@ -91,7 +91,7 @@ class LogAbstractor:
             records[i].message_eventId = event_id
             self.message_cluster_members[cluster_id].append(records[i].raw_message)
 
-        for cluster_id in set(message_clusters):
+        # for cluster_id in set(message_clusters):
             # store representative log
             if not cluster_id in self.message_representative_log:
                 indices = np.where(message_clusters == cluster_id)[0]
@@ -120,7 +120,7 @@ class LogAbstractor:
             records[i].eventIds.append(event_id)
             self.sentence_cluster_members[cluster_id].append(records[i].sentences[j])
         
-        for cluster_id in set(sentence_clusters):
+        # for cluster_id in set(sentence_clusters):
             # store representative log
             if not cluster_id in self.sentence_representative_log:
                 indices = np.where(sentence_clusters == cluster_id)[0]
