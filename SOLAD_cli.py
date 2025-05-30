@@ -78,13 +78,13 @@ class DroneLogAnalyzer:
         records = self.abstractor.abstract_messages(records)
         output_dir = os.path.join(self.config['workdir'], 'cluster')
         os.makedirs(output_dir, exist_ok=True)
-        self.abstractor.save_cluster_member(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_cluster_mapping.json'))
+        self.abstractor.save_cluster_member(os.path.join(output_dir, f'{self.config['filename']}_cluster_mapping.json'))
         output_dir = os.path.join(self.config['workdir'], 'event')
         os.makedirs(output_dir, exist_ok=True)
-        self.abstractor.save_representative_log(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_event.json'))
+        self.abstractor.save_representative_log(os.path.join(output_dir, f'{self.config['filename']}_event.json'))
         output_dir = os.path.join(self.config['workdir'], 'problem')
         os.makedirs(output_dir, exist_ok=True)
-        self.abstractor.save_problem(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_problem.json'))
+        self.abstractor.save_problem(os.path.join(output_dir, f'{self.config['filename']}_problem.json'))
         logger.info(f'Event abstraction completed successfully!')
 
         # # 5. Report Generation
@@ -92,8 +92,9 @@ class DroneLogAnalyzer:
         output_dir = os.path.join(self.config['workdir'], 'report')
         os.makedirs(output_dir, exist_ok=True)
         self.report_generator.create_timeline_chart(records, self.abstractor.problem['binary'], output_dir)
-        record_dataframe = self.report_generator.records_to_dataframe(records)
-        record_dataframe.to_excel(os.path.join(output_dir, f'{self.config['filename'].split('.')[0]}_dataframe.xlsx'))
+        df_message, df_sentence = self.report_generator.records_to_dataframe(records)
+        df_message.to_excel(os.path.join(output_dir, f'{self.config['filename']}_message.xlsx'))
+        df_sentence.to_excel(os.path.join(output_dir, f'{self.config['filename']}_sentence.xlsx'))
         logger.info(f'Report generation completed successfully!')
         # records = self.attributor.compute_attributions(records)
         
@@ -103,7 +104,7 @@ class DroneLogAnalyzer:
         #     seq_dir = os.path.join(self.config['workdir'], 'sequence', utility)
         #     os.makedirs(seq_dir, exist_ok=True)
         #     result = self.seq_db_builder.build_sequences(records, utility)
-        #     joblib.dump(result, os.path.join(seq_dir, f'{self.config['filename'].split('.')[0]}_sequence.joblib'))
+        #     joblib.dump(result, os.path.join(seq_dir, f'{self.config['filename']}_sequence.joblib'))
         
         return records
 
@@ -122,7 +123,7 @@ def main():
 
         config = {
             'workdir': parsed_folder,
-            'filename': file,
+            'filename': file.split('.')[0],
             'use_cuda': use_cuda,
             'device': device,
             'data_path': full_path,
@@ -143,7 +144,7 @@ def main():
         # Save or process results
         output_dir = os.path.join(parsed_folder, 'record')
         os.makedirs(output_dir, exist_ok=True)
-        with open(os.path.join(output_dir, f'{file.split('.')[0]}_records.json'), 'w') as f:
+        with open(os.path.join(output_dir, f'{file}_records.json'), 'w') as f:
             json.dump(serializable_records, f, indent=2)
 
 

@@ -358,7 +358,8 @@ class ReportGenerator:
             return pd.DataFrame(columns=['date', 'time', 'message', 'anomaly'])
         
         # Prepare data for DataFrame
-        df_data = []
+        message_list = []
+        sentence_list = []
         
         for record in records_list:
             # Logic to determine if record contains anomaly:
@@ -370,16 +371,22 @@ class ReportGenerator:
             )
             
             anomaly_status = 'anomaly' if has_anomaly else 'normal'
-            
             # Add row to data
-            df_data.append({
+            message_list.append({
                 'date': record.date,
                 'time': record.time,
                 'message': record.raw_message,
                 'anomaly': anomaly_status
             })
+
+            # Add row to data
+            for i, sentence in enumerate(record.sentences):
+                sentence_list.append({
+                    'date': record.date,
+                    'time': record.time,
+                    'message': record.raw_message,
+                    'sentence': sentence,
+                    'anomaly': record.anomalies[i]
+                })
         
-        # Create DataFrame
-        df = pd.DataFrame(df_data)
-        
-        return df
+        return pd.DataFrame(message_list), pd.DataFrame(sentence_list)
