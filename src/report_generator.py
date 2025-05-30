@@ -26,7 +26,7 @@ class ReportGenerator:
             # Fallback without microseconds
             return datetime.strptime(datetime_str, "%m/%d/%Y %I:%M:%S %p")
 
-    def create_timeline_chart(self, records_list: List[LogRecord], problems: dict, output_dir: str):
+    def create_timeline_chart(self, records_list: List[LogRecord], problems: dict, output_dir: str, type='sentence'):
         """Create a Gantt-style timeline chart showing drone problems"""
         self.output_dir = output_dir
         # Process all records and collect problem events
@@ -36,15 +36,24 @@ class ReportGenerator:
             # Parse datetime for each record
             timestamp = self.parse_datetime(record.date, record.time)
             
-            # Find matching problem events in this record
-            for i, event_id in enumerate(record.eventIds):
-                if event_id in problems:
+            if type == 'message':
+                if record.message_eventId in problems:
                     all_problem_events.append({
                         'timestamp': timestamp,
-                        'event_id': event_id,
+                        'event_id': record.message_eventId,
                         'sentence': problems[event_id],
-                        'anomaly_level': record.anomalies[i]
+                        'anomaly_level': record.message_anomaly
                     })
+            else:
+                # Find matching problem events in this record
+                for i, event_id in enumerate(record.eventIds):
+                    if event_id in problems:
+                        all_problem_events.append({
+                            'timestamp': timestamp,
+                            'event_id': event_id,
+                            'sentence': problems[event_id],
+                            'anomaly_level': record.anomalies[i]
+                        })
         
         if not all_problem_events:
             print("No problem events found in any records.")
