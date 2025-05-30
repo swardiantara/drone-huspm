@@ -4,32 +4,26 @@
 ================================================================================
 
 📊 RISK ASSESSMENT:
-   Risk Level: 🔴 CRITICAL
-   Risk Score: 100/100
+   Risk Level: 🟢 LOW
+   Risk Score: 6.5/100
 
 📈 KEY METRICS:
-   Total Problem Events: 386
-   Flight Duration: 10.2 minutes
-   Problem Density: 2.08 problems/record
-   Problem Rate: 37.9 problems/minute
+   Total Problem Events: 11
+   Flight Duration: 8.1 minutes
+   Problem Density: 0.06 problems/record
+   Problem Rate: 1.36 problems/minute
 
 ⚠️  SEVERITY BREAKDOWN:
-   HIGH: 3 events
-   MEDIUM: 90 events
-   LOW: 45 events
+   LOW: 11 events
 
 🎯 TOP PROBLEM TYPES:
-   1. E5 (72 times)
-   2. E1 (50 times)
-   3. E4 (46 times)
+   1. E23 (11 times)
 
 ⏰ TIMELINE:
-   Start: 2025-05-12 08:21:05
+   Start: 2025-05-12 08:23:11
    End: 2025-05-12 08:31:16
 
 💡 INVESTIGATION RECOMMENDATIONS:
-   • IMMEDIATE INVESTIGATION REQUIRED
-   • ⚠️  3 HIGH severity events detected
-   • ⚠️  High problem frequency detected
+   • Low priority - Routine review sufficient
 
 ================================================================================

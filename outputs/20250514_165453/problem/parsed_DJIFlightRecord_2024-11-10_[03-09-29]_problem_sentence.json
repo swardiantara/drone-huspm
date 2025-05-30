@@ -1,14 +1,4 @@
 {
-  "multiclass": {
-    "E4-medium": "Image transmission signal weak.",
-    "E6-low": "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "E14-low": "Aircraft braking.",
-    "E0-medium": "RC signal lost."
-  },
-  "binary": {
-    "E4": "Image transmission signal weak.",
-    "E6": "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "E14": "Aircraft braking.",
-    "E0": "RC signal lost."
-  }
+  "multiclass": {},
+  "binary": {}
 }

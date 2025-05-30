@@ -18,10 +18,10 @@
     "Gimbal pitch axis endpoint reached."
   ],
   "1": [
-    "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
     "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
     "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
   ],
   "2": [
     "RC signal lost."

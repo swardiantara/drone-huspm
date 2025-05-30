@@ -1,22 +1,4 @@
 {
-  "multiclass": {
-    "E15-medium": "Image transmission signal weak.",
-    "E24-low": "Aircraft braking.",
-    "E3-low": "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "E10-medium": "RC signal lost.",
-    "E5-low": "No image transmission.",
-    "E14-medium": "Controller triggered aircraft to descend.",
-    "E13-low": "RC signal weak.",
-    "E11-low": "Downlink Lost."
-  },
-  "binary": {
-    "E15": "Image transmission signal weak.",
-    "E24": "Aircraft braking.",
-    "E3": "Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "E10": "RC signal lost.",
-    "E5": "No image transmission.",
-    "E14": "Controller triggered aircraft to descend.",
-    "E13": "RC signal weak.",
-    "E11": "Downlink Lost."
-  }
+  "multiclass": {},
+  "binary": {}
 }
