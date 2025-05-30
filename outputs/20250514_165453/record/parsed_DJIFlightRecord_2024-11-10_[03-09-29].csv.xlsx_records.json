@@ -3,6 +3,8 @@
     "date": "11/10/2024",
     "time": "3:09:29.82 AM",
     "raw_message": "Motors starting.; Flight mode changed to P-GPS.",
+    "message_anomaly": "normal",
+    "message_eventId": "E10",
     "sentences": [
       "Motors starting.",
       "Flight mode changed to P-GPS."
@@ -90,6 +92,8 @@
     "date": "11/10/2024",
     "time": "3:09:30.02 AM",
     "raw_message": "Data Recorder File Index is 80.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.",
+    "message_anomaly": "normal",
+    "message_eventId": "E5",
     "sentences": [
       "Data Recorder File Index is 80.",
       "Set Return to Home (RTH) altitude to 100 m (328 ft).",
@@ -225,6 +229,8 @@
     "date": "11/10/2024",
     "time": "3:09:31.42 AM",
     "raw_message": "Flight mode changed to Manual Takeoff.",
+    "message_anomaly": "normal",
+    "message_eventId": "E7",
     "sentences": [
       "Flight mode changed to Manual Takeoff."
     ],
@@ -288,6 +294,8 @@
     "date": "11/10/2024",
     "time": "3:09:35.42 AM",
     "raw_message": "Flight mode changed to P-GPS.",
+    "message_anomaly": "normal",
+    "message_eventId": "E4",
     "sentences": [
       "Flight mode changed to P-GPS."
     ],
@@ -351,6 +359,8 @@
     "date": "11/10/2024",
     "time": "3:09:36.02 AM",
     "raw_message": "Home point updated.",
+    "message_anomaly": "normal",
+    "message_eventId": "E6",
     "sentences": [
       "Home point updated."
     ],
@@ -414,6 +424,8 @@
     "date": "11/10/2024",
     "time": "3:09:48.82 AM",
     "raw_message": "Gimbal pitch axis endpoint reached.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "Gimbal pitch axis endpoint reached."
     ],
@@ -477,6 +489,8 @@
     "date": "11/10/2024",
     "time": "3:09:51.62 AM",
     "raw_message": "Gimbal pitch axis endpoint reached.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "Gimbal pitch axis endpoint reached."
     ],
@@ -540,6 +554,8 @@
     "date": "11/10/2024",
     "time": "3:10:21.02 AM",
     "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Image transmission signal weak.",
       "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
@@ -627,6 +643,8 @@
     "date": "11/10/2024",
     "time": "3:10:27.82 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -762,6 +780,8 @@
     "date": "11/10/2024",
     "time": "3:10:30.82 AM",
     "raw_message": "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Image transmission signal weak.",
       "Image transmission signal weak.",
@@ -873,6 +893,8 @@
     "date": "11/10/2024",
     "time": "3:10:38.62 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -1008,6 +1030,8 @@
     "date": "11/10/2024",
     "time": "3:10:38.82 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E2",
     "sentences": [
       "RC signal lost."
     ],
@@ -1071,6 +1095,8 @@
     "date": "11/10/2024",
     "time": "3:10:40.62 AM",
     "raw_message": "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "RC signal lost.",
       "Aircraft braking.",
@@ -1206,6 +1232,8 @@
     "date": "11/10/2024",
     "time": "3:10:53.82 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E9",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -1269,6 +1297,8 @@
     "date": "11/10/2024",
     "time": "3:10:57.02 AM",
     "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Image transmission signal weak.",
       "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
@@ -1356,6 +1386,8 @@
     "date": "11/10/2024",
     "time": "3:11:01.82 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E9",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -1419,6 +1451,8 @@
     "date": "11/10/2024",
     "time": "3:13:12.42 AM",
     "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E0",
     "sentences": [
       "Aircraft braking."
     ],
@@ -1482,6 +1516,8 @@
     "date": "11/10/2024",
     "time": "3:13:12.82 AM",
     "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E0",
     "sentences": [
       "Aircraft braking."
     ],
@@ -1545,6 +1581,8 @@
     "date": "11/10/2024",
     "time": "3:13:14.22 AM",
     "raw_message": "Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing.",
+    "message_anomaly": "low",
+    "message_eventId": "E0",
     "sentences": [
       "Aircraft braking.",
       "Auto landing in progress.",
@@ -1656,6 +1694,8 @@
     "date": "11/10/2024",
     "time": "3:13:15.82 AM",
     "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E3",
     "sentences": [
       "Auto landing in progress.",
       "Make sure the area under the aircraft is safe for landing.",
@@ -1767,6 +1807,8 @@
     "date": "11/10/2024",
     "time": "3:13:41.82 AM",
     "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E3",
     "sentences": [
       "Auto landing in progress.",
       "Make sure the area under the aircraft is safe for landing.",
@@ -1878,6 +1920,8 @@
     "date": "11/10/2024",
     "time": "3:13:52.92 AM",
     "raw_message": "Flight mode changed to P-GPS.",
+    "message_anomaly": "normal",
+    "message_eventId": "E4",
     "sentences": [
       "Flight mode changed to P-GPS."
     ],

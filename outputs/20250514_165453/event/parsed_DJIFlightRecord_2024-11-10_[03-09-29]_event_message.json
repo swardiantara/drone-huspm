@@ -1,0 +1,13 @@
+{
+  "E10": "Motors starting.; Flight mode changed to P-GPS.",
+  "E5": "Data Recorder File Index is 80.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.",
+  "E7": "Flight mode changed to Manual Takeoff.",
+  "E4": "Flight mode changed to P-GPS.",
+  "E6": "Home point updated.",
+  "E8": "Gimbal pitch axis endpoint reached.",
+  "E1": "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+  "E2": "RC signal lost.",
+  "E9": "Image transmission signal weak.",
+  "E0": "Aircraft braking.",
+  "E3": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing."
+}

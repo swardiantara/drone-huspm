@@ -3,6 +3,8 @@
     "date": "5/12/2025",
     "time": "8:21:05.74 AM",
     "raw_message": "Data Recorder File Index is 84.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 30 m (98 ft).; Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "normal",
+    "message_eventId": "E19",
     "sentences": [
       "Data Recorder File Index is 84.",
       "Set Return to Home (RTH) altitude to 100 m (328 ft).",
@@ -138,6 +140,8 @@
     "date": "5/12/2025",
     "time": "8:21:06.54 AM",
     "raw_message": "Set maximum flight altitude to 500 m (1640 ft).",
+    "message_anomaly": "normal",
+    "message_eventId": "E31",
     "sentences": [
       "Set maximum flight altitude to 500 m (1640 ft)."
     ],
@@ -201,6 +205,8 @@
     "date": "5/12/2025",
     "time": "8:22:43.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -264,6 +270,8 @@
     "date": "5/12/2025",
     "time": "8:22:59.34 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -399,6 +407,8 @@
     "date": "5/12/2025",
     "time": "8:23:00.74 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -462,6 +472,8 @@
     "date": "5/12/2025",
     "time": "8:23:02.34 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -525,6 +537,8 @@
     "date": "5/12/2025",
     "time": "8:23:02.74 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -588,6 +602,8 @@
     "date": "5/12/2025",
     "time": "8:23:02.94 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.",
+    "message_anomaly": "low",
+    "message_eventId": "E16",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -819,6 +835,8 @@
     "date": "5/12/2025",
     "time": "8:23:03.94 AM",
     "raw_message": "RC signal lost.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E7",
     "sentences": [
       "RC signal lost.",
       "Press Brake button to cancel RTH.",
@@ -1026,6 +1044,8 @@
     "date": "5/12/2025",
     "time": "8:23:04.14 AM",
     "raw_message": "No image transmission. RTH.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH."
@@ -1113,6 +1133,8 @@
     "date": "5/12/2025",
     "time": "8:23:04.94 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E16",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -1344,6 +1366,8 @@
     "date": "5/12/2025",
     "time": "8:23:06.94 AM",
     "raw_message": "RTH ascending.",
+    "message_anomaly": "normal",
+    "message_eventId": "E28",
     "sentences": [
       "RTH ascending."
     ],
@@ -1407,6 +1431,8 @@
     "date": "5/12/2025",
     "time": "8:23:07.74 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -1590,6 +1616,8 @@
     "date": "5/12/2025",
     "time": "8:23:09.14 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E16",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -1821,6 +1849,8 @@
     "date": "5/12/2025",
     "time": "8:23:10.74 AM",
     "raw_message": "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E16",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -2076,6 +2106,8 @@
     "date": "5/12/2025",
     "time": "8:23:11.14 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -2139,6 +2171,8 @@
     "date": "5/12/2025",
     "time": "8:23:12.14 AM",
     "raw_message": "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -2346,6 +2380,8 @@
     "date": "5/12/2025",
     "time": "8:23:15.14 AM",
     "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E21",
     "sentences": [
       "Aircraft braking."
     ],
@@ -2409,6 +2445,8 @@
     "date": "5/12/2025",
     "time": "8:23:15.54 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -2472,6 +2510,8 @@
     "date": "5/12/2025",
     "time": "8:23:18.14 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -2535,6 +2575,8 @@
     "date": "5/12/2025",
     "time": "8:23:55.14 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -2670,6 +2712,8 @@
     "date": "5/12/2025",
     "time": "8:23:56.54 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; RC signal lost.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -2829,6 +2873,8 @@
     "date": "5/12/2025",
     "time": "8:23:56.74 AM",
     "raw_message": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "message_anomaly": "medium",
+    "message_eventId": "E18",
     "sentences": [
       "RC signal lost.",
       "Aircraft will follow preset action for lost signal."
@@ -2916,6 +2962,8 @@
     "date": "5/12/2025",
     "time": "8:23:57.54 AM",
     "raw_message": "RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "RC signal lost.",
       "Aircraft braking.",
@@ -3099,6 +3147,8 @@
     "date": "5/12/2025",
     "time": "8:23:59.34 AM",
     "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "message_anomaly": "normal",
+    "message_eventId": "E20",
     "sentences": [
       "Failsafe RTH.",
       "Flight mode changed to Go Home."
@@ -3186,6 +3236,8 @@
     "date": "5/12/2025",
     "time": "8:24:02.54 AM",
     "raw_message": "Failsafe RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E25",
     "sentences": [
       "Failsafe RTH."
     ],
@@ -3249,6 +3301,8 @@
     "date": "5/12/2025",
     "time": "8:24:07.74 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -3456,6 +3510,8 @@
     "date": "5/12/2025",
     "time": "8:24:07.94 AM",
     "raw_message": "RTH in progress.",
+    "message_anomaly": "normal",
+    "message_eventId": "E24",
     "sentences": [
       "RTH in progress."
     ],
@@ -3519,6 +3575,8 @@
     "date": "5/12/2025",
     "time": "8:24:08.74 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -3726,6 +3784,8 @@
     "date": "5/12/2025",
     "time": "8:24:10.94 AM",
     "raw_message": "RTH ascending.",
+    "message_anomaly": "normal",
+    "message_eventId": "E28",
     "sentences": [
       "RTH ascending."
     ],
@@ -3789,6 +3849,8 @@
     "date": "5/12/2025",
     "time": "8:24:11.14 AM",
     "raw_message": "Controller triggered aircraft to descend. Auto RTH canceled.",
+    "message_anomaly": "medium",
+    "message_eventId": "E9",
     "sentences": [
       "Controller triggered aircraft to descend.",
       "Auto RTH canceled."
@@ -3876,6 +3938,8 @@
     "date": "5/12/2025",
     "time": "8:24:12.14 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -3939,6 +4003,8 @@
     "date": "5/12/2025",
     "time": "8:24:12.94 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -4122,6 +4188,8 @@
     "date": "5/12/2025",
     "time": "8:24:13.74 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -4257,6 +4325,8 @@
     "date": "5/12/2025",
     "time": "8:24:17.14 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -4392,6 +4462,8 @@
     "date": "5/12/2025",
     "time": "8:24:17.94 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -4575,6 +4647,8 @@
     "date": "5/12/2025",
     "time": "8:24:18.54 AM",
     "raw_message": "RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "RC signal lost.",
       "Aircraft braking.",
@@ -4758,6 +4832,8 @@
     "date": "5/12/2025",
     "time": "8:24:19.34 AM",
     "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak.",
       "Avoid blocking antennas and adjust antenna orientation."
@@ -4845,6 +4921,8 @@
     "date": "5/12/2025",
     "time": "8:24:24.34 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -4908,6 +4986,8 @@
     "date": "5/12/2025",
     "time": "8:24:25.14 AM",
     "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "message_anomaly": "normal",
+    "message_eventId": "E20",
     "sentences": [
       "Failsafe RTH.",
       "Flight mode changed to Go Home."
@@ -4995,6 +5075,8 @@
     "date": "5/12/2025",
     "time": "8:24:28.54 AM",
     "raw_message": "Failsafe RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E25",
     "sentences": [
       "Failsafe RTH."
     ],
@@ -5058,6 +5140,8 @@
     "date": "5/12/2025",
     "time": "8:24:32.14 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -5265,6 +5349,8 @@
     "date": "5/12/2025",
     "time": "8:24:32.94 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -5496,6 +5582,8 @@
     "date": "5/12/2025",
     "time": "8:24:33.34 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -5775,6 +5863,8 @@
     "date": "5/12/2025",
     "time": "8:24:34.94 AM",
     "raw_message": "RTH ascending.",
+    "message_anomaly": "normal",
+    "message_eventId": "E28",
     "sentences": [
       "RTH ascending."
     ],
@@ -5838,6 +5928,8 @@
     "date": "5/12/2025",
     "time": "8:24:35.74 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -6093,6 +6185,8 @@
     "date": "5/12/2025",
     "time": "8:24:36.34 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -6372,6 +6466,8 @@
     "date": "5/12/2025",
     "time": "8:24:37.14 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -6435,6 +6531,8 @@
     "date": "5/12/2025",
     "time": "8:24:38.34 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -6714,6 +6812,8 @@
     "date": "5/12/2025",
     "time": "8:24:39.34 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -6777,6 +6877,8 @@
     "date": "5/12/2025",
     "time": "8:24:40.14 AM",
     "raw_message": "RC signal weak.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak."
     ],
@@ -6840,6 +6942,8 @@
     "date": "5/12/2025",
     "time": "8:24:40.34 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -6903,6 +7007,8 @@
     "date": "5/12/2025",
     "time": "8:24:41.54 AM",
     "raw_message": "Image transmission signal weak.; RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak.",
       "RC signal lost."
@@ -6990,6 +7096,8 @@
     "date": "5/12/2025",
     "time": "8:24:43.14 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -7053,6 +7161,8 @@
     "date": "5/12/2025",
     "time": "8:24:44.74 AM",
     "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "message_anomaly": "normal",
+    "message_eventId": "E20",
     "sentences": [
       "Failsafe RTH.",
       "Flight mode changed to Go Home."
@@ -7140,6 +7250,8 @@
     "date": "5/12/2025",
     "time": "8:24:52.14 AM",
     "raw_message": "Failsafe RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E25",
     "sentences": [
       "Failsafe RTH."
     ],
@@ -7203,6 +7315,8 @@
     "date": "5/12/2025",
     "time": "8:24:52.34 AM",
     "raw_message": "Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.",
+    "message_anomaly": "low",
+    "message_eventId": "E11",
     "sentences": [
       "Press Brake button to cancel RTH.",
       "RC signal lost.",
@@ -7338,6 +7452,8 @@
     "date": "5/12/2025",
     "time": "8:24:52.94 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -7521,6 +7637,8 @@
     "date": "5/12/2025",
     "time": "8:24:53.14 AM",
     "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
@@ -7608,6 +7726,8 @@
     "date": "5/12/2025",
     "time": "8:24:53.34 AM",
     "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak.",
       "Avoid blocking antennas and adjust antenna orientation."
@@ -7695,6 +7815,8 @@
     "date": "5/12/2025",
     "time": "8:24:55.14 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -7902,6 +8024,8 @@
     "date": "5/12/2025",
     "time": "8:25:00.14 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -8109,6 +8233,8 @@
     "date": "5/12/2025",
     "time": "8:25:01.34 AM",
     "raw_message": "Failsafe RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E25",
     "sentences": [
       "Failsafe RTH."
     ],
@@ -8172,6 +8298,8 @@
     "date": "5/12/2025",
     "time": "8:25:04.54 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -8379,6 +8507,8 @@
     "date": "5/12/2025",
     "time": "8:25:05.34 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -8610,6 +8740,8 @@
     "date": "5/12/2025",
     "time": "8:25:05.54 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -8673,6 +8805,8 @@
     "date": "5/12/2025",
     "time": "8:25:06.34 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -8904,6 +9038,8 @@
     "date": "5/12/2025",
     "time": "8:25:08.54 AM",
     "raw_message": "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.",
+    "message_anomaly": "low",
+    "message_eventId": "E22",
     "sentences": [
       "RC signal weak.",
       "Aircraft braking.",
@@ -9087,6 +9223,8 @@
     "date": "5/12/2025",
     "time": "8:25:11.74 AM",
     "raw_message": "Failsafe RTH.; Flight mode changed to Go Home.",
+    "message_anomaly": "normal",
+    "message_eventId": "E20",
     "sentences": [
       "Failsafe RTH.",
       "Flight mode changed to Go Home."
@@ -9174,6 +9312,8 @@
     "date": "5/12/2025",
     "time": "8:25:12.54 AM",
     "raw_message": "Failsafe RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E25",
     "sentences": [
       "Failsafe RTH."
     ],
@@ -9237,6 +9377,8 @@
     "date": "5/12/2025",
     "time": "8:25:14.94 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -9396,6 +9538,8 @@
     "date": "5/12/2025",
     "time": "8:25:15.94 AM",
     "raw_message": "RTH in progress.",
+    "message_anomaly": "normal",
+    "message_eventId": "E24",
     "sentences": [
       "RTH in progress."
     ],
@@ -9459,6 +9603,8 @@
     "date": "5/12/2025",
     "time": "8:25:16.34 AM",
     "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak.",
       "Avoid blocking antennas and adjust antenna orientation."
@@ -9546,6 +9692,8 @@
     "date": "5/12/2025",
     "time": "8:25:17.94 AM",
     "raw_message": "RTH ascending.",
+    "message_anomaly": "normal",
+    "message_eventId": "E28",
     "sentences": [
       "RTH ascending."
     ],
@@ -9609,6 +9757,8 @@
     "date": "5/12/2025",
     "time": "8:25:18.34 AM",
     "raw_message": "Controller triggered aircraft to descend. Auto RTH canceled.",
+    "message_anomaly": "medium",
+    "message_eventId": "E9",
     "sentences": [
       "Controller triggered aircraft to descend.",
       "Auto RTH canceled."
@@ -9696,6 +9846,8 @@
     "date": "5/12/2025",
     "time": "8:25:18.94 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -9759,6 +9911,8 @@
     "date": "5/12/2025",
     "time": "8:25:19.54 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -10038,6 +10192,8 @@
     "date": "5/12/2025",
     "time": "8:25:20.34 AM",
     "raw_message": "RC signal lost.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E7",
     "sentences": [
       "RC signal lost.",
       "Controller triggered aircraft to descend.",
@@ -10293,6 +10449,8 @@
     "date": "5/12/2025",
     "time": "8:25:21.34 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -10356,6 +10514,8 @@
     "date": "5/12/2025",
     "time": "8:25:21.54 AM",
     "raw_message": "RC signal weak.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak."
     ],
@@ -10419,6 +10579,8 @@
     "date": "5/12/2025",
     "time": "8:25:29.34 AM",
     "raw_message": "RC signal weak.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak."
     ],
@@ -10482,6 +10644,8 @@
     "date": "5/12/2025",
     "time": "8:26:30.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -10545,6 +10709,8 @@
     "date": "5/12/2025",
     "time": "8:26:32.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -10608,6 +10774,8 @@
     "date": "5/12/2025",
     "time": "8:26:35.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -10671,6 +10839,8 @@
     "date": "5/12/2025",
     "time": "8:26:39.74 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -10806,6 +10976,8 @@
     "date": "5/12/2025",
     "time": "8:26:40.54 AM",
     "raw_message": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "message_anomaly": "medium",
+    "message_eventId": "E18",
     "sentences": [
       "RC signal lost.",
       "Aircraft will follow preset action for lost signal."
@@ -10893,6 +11065,8 @@
     "date": "5/12/2025",
     "time": "8:26:42.74 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -10956,6 +11130,8 @@
     "date": "5/12/2025",
     "time": "8:26:43.54 AM",
     "raw_message": "RC signal weak.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak."
     ],
@@ -11019,6 +11195,8 @@
     "date": "5/12/2025",
     "time": "8:26:44.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -11082,6 +11260,8 @@
     "date": "5/12/2025",
     "time": "8:26:47.94 AM",
     "raw_message": "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E22",
     "sentences": [
       "RC signal weak.",
       "Aircraft braking.",
@@ -11217,6 +11397,8 @@
     "date": "5/12/2025",
     "time": "8:26:49.14 AM",
     "raw_message": "RC signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "RC signal weak.",
       "Aircraft braking.",
@@ -11400,6 +11582,8 @@
     "date": "5/12/2025",
     "time": "8:26:56.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -11463,6 +11647,8 @@
     "date": "5/12/2025",
     "time": "8:26:59.54 AM",
     "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Aircraft braking.",
@@ -11598,6 +11784,8 @@
     "date": "5/12/2025",
     "time": "8:26:59.74 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -11661,6 +11849,8 @@
     "date": "5/12/2025",
     "time": "8:27:00.74 AM",
     "raw_message": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "message_anomaly": "medium",
+    "message_eventId": "E18",
     "sentences": [
       "RC signal lost.",
       "Aircraft will follow preset action for lost signal."
@@ -11748,6 +11938,8 @@
     "date": "5/12/2025",
     "time": "8:27:02.54 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -11811,6 +12003,8 @@
     "date": "5/12/2025",
     "time": "8:27:03.74 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -11874,6 +12068,8 @@
     "date": "5/12/2025",
     "time": "8:27:08.74 AM",
     "raw_message": "Image transmission signal weak.; RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak.",
       "RC signal lost."
@@ -11961,6 +12157,8 @@
     "date": "5/12/2025",
     "time": "8:27:10.74 AM",
     "raw_message": "Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E10",
     "sentences": [
       "Aircraft braking.",
       "Image transmission signal weak.",
@@ -12072,6 +12270,8 @@
     "date": "5/12/2025",
     "time": "8:27:14.74 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -12135,6 +12335,8 @@
     "date": "5/12/2025",
     "time": "8:27:15.14 AM",
     "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E6",
     "sentences": [
       "Image transmission signal weak.",
       "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
@@ -12222,6 +12424,8 @@
     "date": "5/12/2025",
     "time": "8:27:17.34 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -12285,6 +12489,8 @@
     "date": "5/12/2025",
     "time": "8:27:17.54 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -12348,6 +12554,8 @@
     "date": "5/12/2025",
     "time": "8:27:27.14 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -12411,6 +12619,8 @@
     "date": "5/12/2025",
     "time": "8:27:29.34 AM",
     "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E21",
     "sentences": [
       "Aircraft braking."
     ],
@@ -12474,6 +12684,8 @@
     "date": "5/12/2025",
     "time": "8:27:30.54 AM",
     "raw_message": "Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E10",
     "sentences": [
       "Aircraft braking.",
       "Image transmission signal weak.",
@@ -12585,6 +12797,8 @@
     "date": "5/12/2025",
     "time": "8:27:30.54 AM",
     "raw_message": "Downlink Lost.",
+    "message_anomaly": "low",
+    "message_eventId": "E15",
     "sentences": [
       "Downlink Lost."
     ],
@@ -12648,6 +12862,8 @@
     "date": "5/12/2025",
     "time": "8:27:36.34 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downlink Restored (after 0m 5.8s).; Flight mode changed to Go Home.",
+    "message_anomaly": "low",
+    "message_eventId": "E2",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -12879,6 +13095,8 @@
     "date": "5/12/2025",
     "time": "8:27:36.94 AM",
     "raw_message": "RTH in progress.",
+    "message_anomaly": "normal",
+    "message_eventId": "E24",
     "sentences": [
       "RTH in progress."
     ],
@@ -12942,6 +13160,8 @@
     "date": "5/12/2025",
     "time": "8:27:39.94 AM",
     "raw_message": "RTH ascending.",
+    "message_anomaly": "normal",
+    "message_eventId": "E28",
     "sentences": [
       "RTH ascending."
     ],
@@ -13005,6 +13225,8 @@
     "date": "5/12/2025",
     "time": "8:27:40.74 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -13260,6 +13482,8 @@
     "date": "5/12/2025",
     "time": "8:27:41.14 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -13491,6 +13715,8 @@
     "date": "5/12/2025",
     "time": "8:27:41.74 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -13554,6 +13780,8 @@
     "date": "5/12/2025",
     "time": "8:27:42.34 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to descend.",
@@ -13809,6 +14037,8 @@
     "date": "5/12/2025",
     "time": "8:27:45.74 AM",
     "raw_message": "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E22",
     "sentences": [
       "RC signal weak.",
       "Aircraft braking.",
@@ -13944,6 +14174,8 @@
     "date": "5/12/2025",
     "time": "8:27:49.14 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -14007,6 +14239,8 @@
     "date": "5/12/2025",
     "time": "8:27:49.54 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; No image transmission. Aircraft returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Flight mode changed to Go Home.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -14286,6 +14520,8 @@
     "date": "5/12/2025",
     "time": "8:27:49.94 AM",
     "raw_message": "Original route RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E17",
     "sentences": [
       "Original route RTH."
     ],
@@ -14349,6 +14585,8 @@
     "date": "5/12/2025",
     "time": "8:27:50.94 AM",
     "raw_message": "RTH in progress.",
+    "message_anomaly": "normal",
+    "message_eventId": "E24",
     "sentences": [
       "RTH in progress."
     ],
@@ -14412,6 +14650,8 @@
     "date": "5/12/2025",
     "time": "8:27:51.14 AM",
     "raw_message": "No image transmission. RTH.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH."
@@ -14499,6 +14739,8 @@
     "date": "5/12/2025",
     "time": "8:27:54.94 AM",
     "raw_message": "RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "message_anomaly": "normal",
+    "message_eventId": "E26",
     "sentences": [
       "RTH ascending.",
       "Controller triggered aircraft to descend.",
@@ -14610,6 +14852,8 @@
     "date": "5/12/2025",
     "time": "8:27:55.74 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -14673,6 +14917,8 @@
     "date": "5/12/2025",
     "time": "8:27:57.34 AM",
     "raw_message": "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -14808,6 +15054,8 @@
     "date": "5/12/2025",
     "time": "8:27:59.74 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -14871,6 +15119,8 @@
     "date": "5/12/2025",
     "time": "8:28:02.34 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -14934,6 +15184,8 @@
     "date": "5/12/2025",
     "time": "8:28:03.34 AM",
     "raw_message": "Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E10",
     "sentences": [
       "Aircraft braking.",
       "RC signal weak.",
@@ -15045,6 +15297,8 @@
     "date": "5/12/2025",
     "time": "8:28:04.34 AM",
     "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E14",
     "sentences": [
       "Image transmission signal weak."
     ],
@@ -15108,6 +15362,8 @@
     "date": "5/12/2025",
     "time": "8:28:04.34 AM",
     "raw_message": "Downlink Lost.",
+    "message_anomaly": "low",
+    "message_eventId": "E15",
     "sentences": [
       "Downlink Lost."
     ],
@@ -15171,6 +15427,8 @@
     "date": "5/12/2025",
     "time": "8:28:11.74 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Downlink Restored (after 0m 7.4s).; Flight mode changed to Go Home.",
+    "message_anomaly": "low",
+    "message_eventId": "E2",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -15402,6 +15660,8 @@
     "date": "5/12/2025",
     "time": "8:28:11.94 AM",
     "raw_message": "RTH ascending.",
+    "message_anomaly": "normal",
+    "message_eventId": "E28",
     "sentences": [
       "RTH ascending."
     ],
@@ -15465,6 +15725,8 @@
     "date": "5/12/2025",
     "time": "8:28:12.34 AM",
     "raw_message": "RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "message_anomaly": "low",
+    "message_eventId": "E3",
     "sentences": [
       "RC signal weak.",
       "Avoid blocking antennas and adjust antenna orientation."
@@ -15552,6 +15814,8 @@
     "date": "5/12/2025",
     "time": "8:28:13.14 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -15759,6 +16023,8 @@
     "date": "5/12/2025",
     "time": "8:28:16.34 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -15918,6 +16184,8 @@
     "date": "5/12/2025",
     "time": "8:28:18.14 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -16077,6 +16345,8 @@
     "date": "5/12/2025",
     "time": "8:28:18.14 AM",
     "raw_message": "Downlink Lost.",
+    "message_anomaly": "low",
+    "message_eventId": "E15",
     "sentences": [
       "Downlink Lost."
     ],
@@ -16140,6 +16410,8 @@
     "date": "5/12/2025",
     "time": "8:28:23.54 AM",
     "raw_message": "Downlink Restored (after 0m 5.4s).",
+    "message_anomaly": "normal",
+    "message_eventId": "E27",
     "sentences": [
       "Downlink Restored (after 0m 5.4s)."
     ],
@@ -16203,6 +16475,8 @@
     "date": "5/12/2025",
     "time": "8:28:23.74 AM",
     "raw_message": "Press Brake button to cancel RTH.; RC signal lost. Returning to home.",
+    "message_anomaly": "low",
+    "message_eventId": "E11",
     "sentences": [
       "Press Brake button to cancel RTH.",
       "RC signal lost.",
@@ -16314,6 +16588,8 @@
     "date": "5/12/2025",
     "time": "8:28:23.94 AM",
     "raw_message": "RTH in progress.",
+    "message_anomaly": "normal",
+    "message_eventId": "E24",
     "sentences": [
       "RTH in progress."
     ],
@@ -16377,6 +16653,8 @@
     "date": "5/12/2025",
     "time": "8:28:24.74 AM",
     "raw_message": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Press Brake button to cancel RTH.",
@@ -16536,6 +16814,8 @@
     "date": "5/12/2025",
     "time": "8:28:35.74 AM",
     "raw_message": "Failsafe RTH.; Aircraft braking.; RC signal lost. Returning to home.; RTH in progress.",
+    "message_anomaly": "medium",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Aircraft braking.",
@@ -16695,6 +16975,8 @@
     "date": "5/12/2025",
     "time": "8:28:35.94 AM",
     "raw_message": "Controller triggered aircraft to fly backward. Auto RTH canceled.",
+    "message_anomaly": "low",
+    "message_eventId": "E9",
     "sentences": [
       "Controller triggered aircraft to fly backward.",
       "Auto RTH canceled."
@@ -16782,6 +17064,8 @@
     "date": "5/12/2025",
     "time": "8:28:36.54 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -16845,6 +17129,8 @@
     "date": "5/12/2025",
     "time": "8:28:37.14 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to fly backward.",
@@ -17028,6 +17314,8 @@
     "date": "5/12/2025",
     "time": "8:28:37.74 AM",
     "raw_message": "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.",
+    "message_anomaly": "low",
+    "message_eventId": "E4",
     "sentences": [
       "Failsafe RTH.",
       "Controller triggered aircraft to fly backward.",
@@ -17187,6 +17475,8 @@
     "date": "5/12/2025",
     "time": "8:28:40.74 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Flight mode changed to Go Home.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -17370,6 +17660,8 @@
     "date": "5/12/2025",
     "time": "8:28:43.94 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -17553,6 +17845,8 @@
     "date": "5/12/2025",
     "time": "8:28:47.74 AM",
     "raw_message": "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -17736,6 +18030,8 @@
     "date": "5/12/2025",
     "time": "8:28:48.94 AM",
     "raw_message": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -17943,6 +18239,8 @@
     "date": "5/12/2025",
     "time": "8:28:49.54 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -18006,6 +18304,8 @@
     "date": "5/12/2025",
     "time": "8:28:50.34 AM",
     "raw_message": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -18213,6 +18513,8 @@
     "date": "5/12/2025",
     "time": "8:28:50.74 AM",
     "raw_message": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.",
+    "message_anomaly": "low",
+    "message_eventId": "E5",
     "sentences": [
       "No image transmission.",
       "RTH.",
@@ -18396,6 +18698,8 @@
     "date": "5/12/2025",
     "time": "8:28:51.54 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -18459,6 +18763,8 @@
     "date": "5/12/2025",
     "time": "8:28:53.54 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -18522,6 +18828,8 @@
     "date": "5/12/2025",
     "time": "8:28:58.54 AM",
     "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E21",
     "sentences": [
       "Aircraft braking."
     ],
@@ -18585,6 +18893,8 @@
     "date": "5/12/2025",
     "time": "8:28:59.94 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -18648,6 +18958,8 @@
     "date": "5/12/2025",
     "time": "8:29:06.54 AM",
     "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E21",
     "sentences": [
       "Aircraft braking."
     ],
@@ -18711,6 +19023,8 @@
     "date": "5/12/2025",
     "time": "8:29:08.14 AM",
     "raw_message": "RTH in progress.; Flight mode changed to Go Home.",
+    "message_anomaly": "normal",
+    "message_eventId": "E32",
     "sentences": [
       "RTH in progress.",
       "Flight mode changed to Go Home."
@@ -18798,6 +19112,8 @@
     "date": "5/12/2025",
     "time": "8:29:09.14 AM",
     "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E13",
     "sentences": [
       "RC signal lost."
     ],
@@ -18861,6 +19177,8 @@
     "date": "5/12/2025",
     "time": "8:29:09.74 AM",
     "raw_message": "Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E11",
     "sentences": [
       "Press Brake button to cancel RTH."
     ],
@@ -18924,6 +19242,8 @@
     "date": "5/12/2025",
     "time": "8:29:15.14 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19011,6 +19331,8 @@
     "date": "5/12/2025",
     "time": "8:29:15.54 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.; RC signal lost.",
+    "message_anomaly": "low",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH.",
@@ -19122,6 +19444,8 @@
     "date": "5/12/2025",
     "time": "8:29:16.74 AM",
     "raw_message": "RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E12",
     "sentences": [
       "RC signal lost.",
       "Press Brake button to cancel RTH.",
@@ -19233,6 +19557,8 @@
     "date": "5/12/2025",
     "time": "8:29:17.54 AM",
     "raw_message": "RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.",
+    "message_anomaly": "low",
+    "message_eventId": "E12",
     "sentences": [
       "RC signal lost.",
       "Press Brake button to cancel RTH.",
@@ -19344,6 +19670,8 @@
     "date": "5/12/2025",
     "time": "8:29:18.14 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19431,6 +19759,8 @@
     "date": "5/12/2025",
     "time": "8:29:18.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19518,6 +19848,8 @@
     "date": "5/12/2025",
     "time": "8:29:21.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19605,6 +19937,8 @@
     "date": "5/12/2025",
     "time": "8:29:24.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19692,6 +20026,8 @@
     "date": "5/12/2025",
     "time": "8:29:27.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19779,6 +20115,8 @@
     "date": "5/12/2025",
     "time": "8:29:30.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19866,6 +20204,8 @@
     "date": "5/12/2025",
     "time": "8:29:33.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -19953,6 +20293,8 @@
     "date": "5/12/2025",
     "time": "8:29:36.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -20040,6 +20382,8 @@
     "date": "5/12/2025",
     "time": "8:29:39.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -20127,6 +20471,8 @@
     "date": "5/12/2025",
     "time": "8:29:42.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -20214,6 +20560,8 @@
     "date": "5/12/2025",
     "time": "8:29:45.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -20301,6 +20649,8 @@
     "date": "5/12/2025",
     "time": "8:29:48.74 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH."
@@ -20388,6 +20738,8 @@
     "date": "5/12/2025",
     "time": "8:29:51.54 AM",
     "raw_message": "RTH in progress.; Press Brake button to cancel RTH.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
     "sentences": [
       "RTH in progress.",
       "Press Brake button to cancel RTH.",
@@ -20547,6 +20899,8 @@
     "date": "5/12/2025",
     "time": "8:29:52.74 AM",
     "raw_message": "Auto landing in progress.; Press brake button to cancel landing.; RTH in progress.",
+    "message_anomaly": "normal",
+    "message_eventId": "E30",
     "sentences": [
       "Auto landing in progress.",
       "Press brake button to cancel landing.",
@@ -20658,6 +21012,8 @@
     "date": "5/12/2025",
     "time": "8:30:43.74 AM",
     "raw_message": "Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "message_anomaly": "high",
+    "message_eventId": "E0",
     "sentences": [
       "Auto landing in progress.",
       "Area under aircraft unsuitable for landing.",
@@ -20769,6 +21125,8 @@
     "date": "5/12/2025",
     "time": "8:30:43.94 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
@@ -20832,6 +21190,8 @@
     "date": "5/12/2025",
     "time": "8:30:45.54 AM",
     "raw_message": "Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "message_anomaly": "high",
+    "message_eventId": "E0",
     "sentences": [
       "Auto landing in progress.",
       "Area under aircraft unsuitable for landing.",
@@ -20943,6 +21303,8 @@
     "date": "5/12/2025",
     "time": "8:30:53.74 AM",
     "raw_message": "Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "message_anomaly": "high",
+    "message_eventId": "E33",
     "sentences": [
       "Area under aircraft unsuitable for landing.",
       "Move to safe environment and try again."
@@ -21030,6 +21392,8 @@
     "date": "5/12/2025",
     "time": "8:30:57.74 AM",
     "raw_message": "Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E30",
     "sentences": [
       "Auto landing in progress.",
       "Press brake button to cancel landing.",
@@ -21141,6 +21505,8 @@
     "date": "5/12/2025",
     "time": "8:30:58.94 AM",
     "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E0",
     "sentences": [
       "Auto landing in progress.",
       "Make sure the area under the aircraft is safe for landing.",
@@ -21252,6 +21618,8 @@
     "date": "5/12/2025",
     "time": "8:31:13.34 AM",
     "raw_message": "Flight mode changed to Confirm Landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E29",
     "sentences": [
       "Flight mode changed to Confirm Landing."
     ],
@@ -21315,6 +21683,8 @@
     "date": "5/12/2025",
     "time": "8:31:14.94 AM",
     "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E0",
     "sentences": [
       "Auto landing in progress.",
       "Make sure the area under the aircraft is safe for landing.",
@@ -21426,6 +21796,8 @@
     "date": "5/12/2025",
     "time": "8:31:16.84 AM",
     "raw_message": "Flight mode changed to P-GPS (Brake).",
+    "message_anomaly": "low",
+    "message_eventId": "E23",
     "sentences": [
       "Flight mode changed to P-GPS (Brake)."
     ],
