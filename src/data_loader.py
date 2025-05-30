@@ -1,5 +1,5 @@
 import pandas as pd
-from typing import List, Dict, Tuple
+from typing import List
 from dataclasses import dataclass, field
 
 @dataclass
@@ -7,6 +7,8 @@ class LogRecord:
     date: str
     time: str
     raw_message: str
+    message_anomaly: str = field(default_factory=str)
+    message_eventId: str = field(default_factory=str)
     sentences: List[str] = field(default_factory=list)            # store the segmented sentences 
     sentence_types: List[str] = field(default_factory=list)       # store the sentence type (Event or NonEvent)
     eventIds: List[str] = field(default_factory=list)             # store the abstracted events with IDs (E## for Event, N## for NonEvent)

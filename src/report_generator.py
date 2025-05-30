@@ -362,21 +362,22 @@ class ReportGenerator:
         sentence_list = []
         
         for record in records_list:
-            # Logic to determine if record contains anomaly:
-            # If any anomaly level is not 'normal' or empty, mark as 'anomaly'
-            has_anomaly = any(
-                anomaly_level and 
-                anomaly_level.lower() not in ['normal', '', 'none'] 
-                for anomaly_level in record.anomalies
-            )
+            # # Logic to determine if record contains anomaly:
+            # # If any anomaly level is not 'normal' or empty, mark as 'anomaly'
+            # has_anomaly = any(
+            #     anomaly_level and 
+            #     anomaly_level.lower() not in ['normal', '', 'none'] 
+            #     for anomaly_level in record.anomalies
+            # )
             
-            anomaly_status = 'anomaly' if has_anomaly else 'normal'
+            # anomaly_status = 'anomaly' if has_anomaly else 'normal'
             # Add row to data
             message_list.append({
                 'date': record.date,
                 'time': record.time,
                 'message': record.raw_message,
-                'anomaly': anomaly_status
+                'anomaly': record.message_anomaly,
+                'eventId': record.message_eventId
             })
 
             # Add row to data
@@ -386,6 +387,7 @@ class ReportGenerator:
                     'time': record.time,
                     'message': record.raw_message,
                     'sentence': sentence,
+                    'eventId': record.eventIds[i],
                     'anomaly': record.anomalies[i]
                 })
         

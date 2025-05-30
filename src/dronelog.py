@@ -154,7 +154,16 @@ class AnomalyDetector(nn.Module):
         for record in records:
             if not record.sentences:
                 continue
-                
+            
+            # Message-level analysis
+            with torch.no_grad():
+                inputs = self.tokenizer(record.raw_message, padding=True, truncation=True, return_tensors="pt").to(device)
+                logits = self(inputs["input_ids"], inputs["attention_mask"])
+                pred_prob = torch.softmax(logits, dim=-1)
+                pred_label = torch.argmax(pred_prob, dim=-1).item()
+                record.message_anomaly = idx2label.get(pred_label)
+
+            # Sentence-level analysis
             for sentence in record.sentences:
                 with torch.no_grad():
                     inputs = self.tokenizer(sentence, padding=True, truncation=True, return_tensors="pt").to(device)

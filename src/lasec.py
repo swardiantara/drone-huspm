@@ -14,9 +14,12 @@ class LogAbstractor:
     def __init__(self, device, model_path: str = 'all-MiniLM-L6-v2'):
         self.embedding_model = SentenceTransformer(model_path, device=device)
         self.cluster_model = self._get_cluster_model()
-        self.cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
-        self.representative_log: DefaultDict[str, str] = defaultdict()
-        self.problem: DefaultDict[str, DefaultDict[str, str]] = self._construct_problem()
+        self.sentence_cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
+        self.message_cluster_members: DefaultDict[int, list[str]] = defaultdict(list)
+        self.sentence_representative_log: DefaultDict[str, str] = defaultdict()
+        self.message_representative_log: DefaultDict[str, str] = defaultdict()
+        self.sentence_problem: DefaultDict[str, DefaultDict[str, str]] = self._construct_problem()
+        self.message_problem: DefaultDict[str, DefaultDict[str, str]] = self._construct_problem()
         
     def _get_cluster_model(self, threshold: float = 0.2, linkage: str = 'average'):
         return AgglomerativeClustering(
@@ -38,60 +41,96 @@ class LogAbstractor:
         distance_matrix = pairwise_distances(corpus_embeddings, corpus_embeddings, metric=metric)
         return distance_matrix
         
-    def save_cluster_member(self, file_path):
+    def save_cluster_member(self, sentence_path, message_path):
         cleaned_cluster_members = {
             int(cid): list(set(members))
-            for cid, members in self.cluster_members.items()
+            for cid, members in self.sentence_cluster_members.items()
         }
-        with open(file_path, 'w') as f:
+        with open(sentence_path, 'w') as f:
+            json.dump(cleaned_cluster_members, f, indent=2)
+        cleaned_cluster_members = {
+            int(cid): list(set(members))
+            for cid, members in self.message_cluster_members.items()
+        }
+        with open(message_path, 'w') as f:
             json.dump(cleaned_cluster_members, f, indent=2)
 
-    def save_representative_log(self, file_path):
-        with open(file_path, 'w') as f:
-            json.dump(self.representative_log, f, indent=2)
+    def save_representative_log(self, sentence_path, message_path):
+        with open(sentence_path, 'w') as f:
+            json.dump(self.sentence_representative_log, f, indent=2)
+        with open(message_path, 'w') as f:
+            json.dump(self.message_representative_log, f, indent=2)
 
-    def save_problem(self, file_path):
-        with open(file_path, 'w') as f:
-            json.dump(self.problem, f, indent=2)
+    def save_problem(self, sentence_path, message_path):
+        with open(sentence_path, 'w') as f:
+            json.dump(self.sentence_problem, f, indent=2)
+        with open(message_path, 'w') as f:
+            json.dump(self.message_problem, f, indent=2)
 
     def abstract_messages(self, records: List[LogRecord]) -> List[LogRecord]:
         """Assign event IDs to each sentence via semantic clustering"""
         # Collect all sentences for batch processing
+        all_messages = []
         all_sentences = []
         sentence_refs = []  # To map back to original records
         
         for i, record in enumerate(records):
             for j, sentence in enumerate(record.sentences):
                 # if (record.sentence_types[j] == 'Event') and (not record.anomalies[j] == 'normal'):
+                all_messages.append(record.raw_message)
                 all_sentences.append(sentence)
                 sentence_refs.append((i, j))
+
+        # Generate message embeddings
+        message_embeddings = self.embedding_model.encode(all_messages, normalize_embeddings=True)
+        message_distance_matrix = self.compute_message_(message_embeddings)
+        message_clusters = self.cluster_model.fit_predict(message_distance_matrix)
+        # Assign event IDs back to records
+        for i, cluster_id in enumerate(message_clusters):
+            event_id = f"E{cluster_id}"
+            records[i].message_eventId = event_id
+            self.message_cluster_members[cluster_id].append(records[i].raw_message)
+
+            # store representative log
+            if not cluster_id in self.message_representative_log:
+                indices = np.where(message_clusters == cluster_id)[0]
+                cluster_embeds = message_embeddings[indices]
+                centroid = np.mean(cluster_embeds, axis=0)
+                distances = np.linalg.norm(cluster_embeds - centroid, axis=1)
+                self.message_representative_log[event_id] = all_messages[indices[np.argmin(distances)]]
+
+                if records[i].message_anomaly != 'normal':
+                    problem_id = f'{event_id}-{records[i].message_anomaly}'
+                    self.message_problem['multiclass'][problem_id] = self.message_representative_log[event_id]
+                    if not event_id in self.message_problem['binary']:
+                        self.message_problem['binary'][event_id] = self.message_representative_log[event_id]
         
-        # Generate embeddings
-        embeddings = self.embedding_model.encode(all_sentences, normalize_embeddings=True)
-        distance_matrix = self.compute_distance_matrix(embeddings)
-        cluster_labels = self.cluster_model.fit_predict(distance_matrix)
+        # Generate sentence embeddings
+        sentence_embeddings = self.embedding_model.encode(all_sentences, normalize_embeddings=True)
+        sentence_distance_matrix = self.compute_sentence_(sentence_embeddings)
+        sentence_clusters = self.cluster_model.fit_predict(sentence_distance_matrix)
         
         # Assign event IDs back to records
-        for (i, j), cluster_id in zip(sentence_refs, cluster_labels):
+        for (i, j), cluster_id in zip(sentence_refs, sentence_clusters):
             sentence_type = records[i].sentence_types[j]
             anomaly = records[i].anomalies[j]
             event_id = f"{sentence_type[0]}{cluster_id}" #'E' if sentence_type == 'event' else 'N'
             
             records[i].eventIds.append(event_id)
-            self.cluster_members[cluster_id].append(records[i].sentences[j])
+            self.sentence_cluster_members[cluster_id].append(records[i].sentences[j])
 
             # store representative log
-            if not cluster_id in self.representative_log:
-                indices = np.where(cluster_labels == cluster_id)[0]
-                cluster_embeds = embeddings[indices]
+            if not cluster_id in self.sentence_representative_log:
+                indices = np.where(sentence_clusters == cluster_id)[0]
+                cluster_embeds = sentence_embeddings[indices]
                 centroid = np.mean(cluster_embeds, axis=0)
                 distances = np.linalg.norm(cluster_embeds - centroid, axis=1)
-                self.representative_log[event_id] = all_sentences[indices[np.argmin(distances)]]
+                self.sentence_representative_log[event_id] = all_sentences[indices[np.argmin(distances)]]
 
                 if sentence_type == 'Event' and anomaly != 'normal':
                     problem_id = f'{event_id}-{anomaly}'
-                    self.problem['multiclass'][problem_id] = self.representative_log[event_id]
-                    if not event_id in self.problem['binary']:
-                        self.problem['binary'][event_id] = self.representative_log[event_id]
+                    self.sentence_problem['multiclass'][problem_id] = self.sentence_representative_log[event_id]
+                    if not event_id in self.sentence_problem['binary']:
+                        self.sentence_problem['binary'][event_id] = self.sentence_representative_log[event_id]
             
         return records
