@@ -19,9 +19,9 @@
   ],
   "1": [
     "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
     "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
-    "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
   ],
   "2": [
     "RC signal lost."
@@ -30,8 +30,8 @@
     "Image transmission signal weak."
   ],
   "0": [
-    "Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing.",
-    "Aircraft braking."
+    "Aircraft braking.",
+    "Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing."
   ],
   "3": [
     "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing."
