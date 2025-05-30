@@ -26,7 +26,7 @@ class ReportGenerator:
             # Fallback without microseconds
             return datetime.strptime(datetime_str, "%m/%d/%Y %I:%M:%S %p")
 
-    def create_timeline_chart(self, records_list: List[LogRecord], problems: dict, output_dir: str, type='sentence'):
+    def create_timeline_chart(self, records_list: List[LogRecord], problems: dict, output_dir: str, problem_level='sentence'):
         """Create a Gantt-style timeline chart showing drone problems"""
         self.output_dir = output_dir
         # Process all records and collect problem events
@@ -36,12 +36,12 @@ class ReportGenerator:
             # Parse datetime for each record
             timestamp = self.parse_datetime(record.date, record.time)
             
-            if type == 'message':
+            if problem_level == 'message':
                 if record.message_eventId in problems:
                     all_problem_events.append({
                         'timestamp': timestamp,
                         'event_id': record.message_eventId,
-                        'sentence': problems[event_id],
+                        'sentence': problems[record.message_eventId],
                         'anomaly_level': record.message_anomaly
                     })
             else:
