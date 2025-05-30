@@ -83,7 +83,7 @@ class LogAbstractor:
 
         # Generate message embeddings
         message_embeddings = self.embedding_model.encode(all_messages, normalize_embeddings=True)
-        message_distance_matrix = self.compute_message_(message_embeddings)
+        message_distance_matrix = self.compute_distance_matrix(message_embeddings)
         message_clusters = self.cluster_model.fit_predict(message_distance_matrix)
         # Assign event IDs back to records
         for i, cluster_id in enumerate(message_clusters):
@@ -107,7 +107,7 @@ class LogAbstractor:
         
         # Generate sentence embeddings
         sentence_embeddings = self.embedding_model.encode(all_sentences, normalize_embeddings=True)
-        sentence_distance_matrix = self.compute_sentence_(sentence_embeddings)
+        sentence_distance_matrix = self.compute_distance_matrix(sentence_embeddings)
         sentence_clusters = self.cluster_model.fit_predict(sentence_distance_matrix)
         
         # Assign event IDs back to records
