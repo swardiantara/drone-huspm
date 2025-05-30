@@ -75,9 +75,9 @@ class LogAbstractor:
         sentence_refs = []  # To map back to original records
         
         for i, record in enumerate(records):
+            all_messages.append(record.raw_message)
             for j, sentence in enumerate(record.sentences):
                 # if (record.sentence_types[j] == 'Event') and (not record.anomalies[j] == 'normal'):
-                all_messages.append(record.raw_message)
                 all_sentences.append(sentence)
                 sentence_refs.append((i, j))
 
