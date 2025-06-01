@@ -15,7 +15,7 @@
 
 ⚠️  SEVERITY BREAKDOWN:
    HIGH: 1 events
-   MEDIUM: 32 events
+   MEDIUM: 29 events
    LOW: 75 events
 
 🎯 TOP PROBLEM TYPES:

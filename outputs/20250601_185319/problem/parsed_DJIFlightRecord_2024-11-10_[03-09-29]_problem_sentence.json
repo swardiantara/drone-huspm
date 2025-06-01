@@ -1,13 +1,13 @@
 {
   "multiclass": {
-    "E0-medium": "Image transmission signal weak.",
-    "E3-low": "Aircraft braking.;",
-    "E1-medium": "RC signal lost.",
-    "E1-low": "RC signal lost."
+    "E1-medium": "Image transmission signal weak.",
+    "E4-low": "Aircraft braking.;",
+    "E2-medium": "RC signal lost.",
+    "E2-low": "RC signal lost."
   },
   "binary": {
-    "E0": "Image transmission signal weak.",
-    "E3": "Aircraft braking.;",
-    "E1": "RC signal lost."
+    "E1": "Image transmission signal weak.",
+    "E4": "Aircraft braking.;",
+    "E2": "RC signal lost."
   }
 }

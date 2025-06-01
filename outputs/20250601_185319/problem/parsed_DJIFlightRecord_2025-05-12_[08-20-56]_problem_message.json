@@ -8,7 +8,7 @@
     "E5-low": "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.",
     "E23-low": "Flight mode changed to P-GPS (Brake).",
     "E21-low": "Aircraft braking.",
-    "E18-medium": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "E18-": "RC signal lost. Aircraft will follow preset action for lost signal.",
     "E1-low": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
     "E9-medium": "Controller triggered aircraft to descend. Auto RTH canceled.",
     "E4-low": "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
@@ -23,7 +23,7 @@
     "E8-low": "RTH in progress.; Press Brake button to cancel RTH.",
     "E12-low": "RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.",
     "E0-high": "Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.",
-    "E33-high": "Area under aircraft unsuitable for landing. Move to safe environment and try again."
+    "E33-": "Area under aircraft unsuitable for landing. Move to safe environment and try again."
   },
   "binary": {
     "E14": "Image transmission signal weak.",

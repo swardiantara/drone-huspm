@@ -18,7 +18,7 @@
     "E5-low": "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.",
     "E10-low": "Gimbal pitch axis endpoint reached.; Aircraft braking.",
     "E28-high": "RC signal lost.; Aircraft braking.",
-    "E4-medium": "RC signal lost. Aircraft will follow preset action for lost signal.",
+    "E4-": "RC signal lost. Aircraft will follow preset action for lost signal.",
     "E30-low": "RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.",
     "E8-low": "Controller triggered aircraft to fly backward. Auto RTH canceled."
   },

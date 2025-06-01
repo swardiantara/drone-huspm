@@ -14,8 +14,8 @@
    Problem Rate: 18.34 problems/minute
 
 ⚠️  SEVERITY BREAKDOWN:
-   HIGH: 3 events
-   MEDIUM: 40 events
+   HIGH: 2 events
+   MEDIUM: 37 events
    LOW: 97 events
 
 🎯 TOP PROBLEM TYPES:
@@ -29,7 +29,7 @@
 
 💡 INVESTIGATION RECOMMENDATIONS:
    • IMMEDIATE INVESTIGATION REQUIRED
-   • ⚠️  3 HIGH severity events detected
+   • ⚠️  2 HIGH severity events detected
    • ⚠️  High problem frequency detected
 
 ================================================================================

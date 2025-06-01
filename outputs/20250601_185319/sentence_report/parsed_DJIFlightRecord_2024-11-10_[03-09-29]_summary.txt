@@ -18,9 +18,9 @@
    LOW: 7 events
 
 🎯 TOP PROBLEM TYPES:
-   1. E0 (11 times)
-   2. E3 (6 times)
-   3. E1 (2 times)
+   1. E1 (11 times)
+   2. E4 (6 times)
+   3. E2 (2 times)
 
 ⏰ TIMELINE:
    Start: 2024-11-10 03:10:21

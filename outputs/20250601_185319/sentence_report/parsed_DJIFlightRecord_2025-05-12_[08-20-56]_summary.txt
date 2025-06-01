@@ -8,18 +8,17 @@
    Risk Score: 100/100
 
 📈 KEY METRICS:
-   Total Problem Events: 240
+   Total Problem Events: 236
    Flight Duration: 10.2 minutes
-   Problem Density: 1.29 problems/record
-   Problem Rate: 23.56 problems/minute
+   Problem Density: 1.27 problems/record
+   Problem Rate: 23.17 problems/minute
 
 ⚠️  SEVERITY BREAKDOWN:
-   HIGH: 1 events
-   MEDIUM: 109 events
-   LOW: 130 events
+   MEDIUM: 129 events
+   LOW: 107 events
 
 🎯 TOP PROBLEM TYPES:
-   1. E2 (72 times)
+   1. E1 (69 times)
    2. E7 (50 times)
    3. E5 (33 times)
 
@@ -29,7 +28,6 @@
 
 💡 INVESTIGATION RECOMMENDATIONS:
    • IMMEDIATE INVESTIGATION REQUIRED
-   • ⚠️  1 HIGH severity events detected
    • ⚠️  High problem frequency detected
 
 ================================================================================
