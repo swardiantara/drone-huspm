@@ -1,0 +1,56 @@
+{
+  "15": [
+    "Motors starting.;"
+  ],
+  "6": [
+    "Flight mode changed to P-GPS."
+  ],
+  "16": [
+    "Data Recorder File Index is 80.;"
+  ],
+  "10": [
+    "Set Return to Home (RTH) altitude to 100 m (328 ft).;"
+  ],
+  "13": [
+    "Set maximum flight altitude to 500 m (1640 ft).;"
+  ],
+  "9": [
+    "Flight mode changed to Starting Motors."
+  ],
+  "7": [
+    "Flight mode changed to Manual Takeoff."
+  ],
+  "4": [
+    "Home point updated."
+  ],
+  "8": [
+    "Gimbal pitch axis endpoint reached."
+  ],
+  "0": [
+    "Image transmission signal weak.;",
+    "Image transmission signal weak."
+  ],
+  "5": [
+    "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+  ],
+  "3": [
+    "Aircraft braking.;",
+    "Aircraft braking."
+  ],
+  "1": [
+    "RC signal lost.",
+    "RC signal lost.;"
+  ],
+  "2": [
+    "Auto landing in progress.;"
+  ],
+  "12": [
+    "Flight mode changed to Auto Landing."
+  ],
+  "11": [
+    "Make sure the area under the aircraft is safe for landing."
+  ],
+  "14": [
+    "Push throttle down to use force landing."
+  ]
+}

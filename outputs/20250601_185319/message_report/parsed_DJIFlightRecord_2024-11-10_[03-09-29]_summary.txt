@@ -1,0 +1,33 @@
+
+================================================================================
+🔍 FLIGHT LOG INVESTIGATION SUMMARY
+================================================================================
+
+📊 RISK ASSESSMENT:
+   Risk Level: 🔴 CRITICAL
+   Risk Score: 81.8/100
+
+📈 KEY METRICS:
+   Total Problem Events: 12
+   Flight Duration: 2.9 minutes
+   Problem Density: 0.55 problems/record
+   Problem Rate: 4.16 problems/minute
+
+⚠️  SEVERITY BREAKDOWN:
+   MEDIUM: 3 events
+   LOW: 9 events
+
+🎯 TOP PROBLEM TYPES:
+   1. E1 (6 times)
+   2. E0 (3 times)
+   3. E9 (2 times)
+
+⏰ TIMELINE:
+   Start: 2024-11-10 03:10:21
+   End: 2024-11-10 03:13:14
+
+💡 INVESTIGATION RECOMMENDATIONS:
+   • IMMEDIATE INVESTIGATION REQUIRED
+   • ⚠️  High problem frequency detected
+
+================================================================================

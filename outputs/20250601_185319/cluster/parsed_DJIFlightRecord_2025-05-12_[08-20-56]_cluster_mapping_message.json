@@ -1,0 +1,152 @@
+{
+  "19": [
+    "Data Recorder File Index is 84.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 30 m (98 ft).; Flight mode changed to P-GPS (Brake)."
+  ],
+  "31": [
+    "Set maximum flight altitude to 500 m (1640 ft)."
+  ],
+  "14": [
+    "Image transmission signal weak.",
+    "Image transmission signal weak.; RC signal lost."
+  ],
+  "6": [
+    "RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Image transmission signal weak.; Aircraft braking.; RC signal lost.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "RC signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Image transmission signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+  ],
+  "13": [
+    "RC signal lost."
+  ],
+  "16": [
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.",
+    "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.",
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.",
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress."
+  ],
+  "7": [
+    "RC signal lost.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.",
+    "RC signal lost.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress."
+  ],
+  "5": [
+    "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH ascending.",
+    "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Flight mode changed to Go Home.",
+    "No image transmission. RTH.",
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.",
+    "No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.",
+    "No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; No image transmission. Aircraft returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Flight mode changed to Go Home.",
+    "No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home."
+  ],
+  "28": [
+    "RTH ascending."
+  ],
+  "23": [
+    "Flight mode changed to P-GPS (Brake)."
+  ],
+  "21": [
+    "Aircraft braking."
+  ],
+  "18": [
+    "RC signal lost. Aircraft will follow preset action for lost signal."
+  ],
+  "20": [
+    "Failsafe RTH.; Flight mode changed to Go Home."
+  ],
+  "25": [
+    "Failsafe RTH."
+  ],
+  "1": [
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.",
+    "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.; RTH in progress.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.",
+    "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending."
+  ],
+  "24": [
+    "RTH in progress."
+  ],
+  "9": [
+    "Controller triggered aircraft to fly backward. Auto RTH canceled.",
+    "Controller triggered aircraft to descend. Auto RTH canceled."
+  ],
+  "4": [
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.",
+    "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.",
+    "Failsafe RTH.; Aircraft braking.; RC signal lost. Returning to home.; RTH in progress.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH ascending.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.",
+    "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RTH ascending.",
+    "Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.",
+    "Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending."
+  ],
+  "3": [
+    "RC signal weak.",
+    "RC signal weak. Avoid blocking antennas and adjust antenna orientation."
+  ],
+  "11": [
+    "Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.",
+    "Press Brake button to cancel RTH.",
+    "Press Brake button to cancel RTH.; RC signal lost. Returning to home."
+  ],
+  "22": [
+    "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.",
+    "RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation."
+  ],
+  "10": [
+    "Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation."
+  ],
+  "15": [
+    "Downlink Lost."
+  ],
+  "2": [
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Downlink Restored (after 0m 7.4s).; Flight mode changed to Go Home.",
+    "Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downlink Restored (after 0m 5.8s).; Flight mode changed to Go Home."
+  ],
+  "17": [
+    "Original route RTH."
+  ],
+  "26": [
+    "RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled."
+  ],
+  "27": [
+    "Downlink Restored (after 0m 5.4s)."
+  ],
+  "32": [
+    "RTH in progress.; Flight mode changed to Go Home."
+  ],
+  "8": [
+    "RTH in progress.; Press Brake button to cancel RTH.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.",
+    "RTH in progress.; Press Brake button to cancel RTH.",
+    "RTH in progress.; Press Brake button to cancel RTH.; RC signal lost."
+  ],
+  "12": [
+    "RC signal lost.; Press Brake button to cancel RTH.; RTH in progress."
+  ],
+  "30": [
+    "Auto landing in progress.; Press brake button to cancel landing.; RTH in progress.",
+    "Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing."
+  ],
+  "0": [
+    "Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.",
+    "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing."
+  ],
+  "33": [
+    "Area under aircraft unsuitable for landing. Move to safe environment and try again."
+  ],
+  "29": [
+    "Flight mode changed to Confirm Landing."
+  ]
+}

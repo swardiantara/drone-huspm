@@ -1,0 +1,1984 @@
+[
+  {
+    "date": "11/10/2024",
+    "time": "3:09:29.82 AM",
+    "raw_message": "Motors starting.; Flight mode changed to P-GPS.",
+    "message_anomaly": "normal",
+    "message_eventId": "E10",
+    "sentences": [
+      "Motors starting.;",
+      "Flight mode changed to P-GPS."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event"
+    ],
+    "eventIds": [
+      "E15",
+      "E6"
+    ],
+    "anomalies": [
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.912815272808075,
+          0.02324722148478031,
+          0.031220661476254463,
+          0.032716888934373856
+        ]
+      ],
+      [
+        [
+          0.8602450489997864,
+          0.04981572926044464,
+          0.045731253921985626,
+          0.044208064675331116
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.032716888934373856,
+      0.044208064675331116
+    ],
+    "sum_attributions": [
+      -1.175734281539917,
+      -1.6775572299957275
+    ],
+    "max_attributions": [
+      0.34735432267189026,
+      0.22085177898406982
+    ],
+    "norm_attributions": [
+      -0.47999151047842936,
+      -0.5304901752069436
+    ],
+    "top3_attributions": [
+      0.3429670035839081,
+      0.37243297696113586
+    ],
+    "top5_attributions": [
+      -0.47754356265068054,
+      0.17945320904254913
+    ],
+    "snr_std": [
+      1.4080173331947126,
+      1.3893463235517167
+    ],
+    "snr_signed": [
+      0.3001619534486109,
+      0.18167549342110434
+    ],
+    "snr_normed": [
+      0.23086505557500295,
+      0.15374398188645474
+    ],
+    "snr_top3": [
+      0.15701577516186047,
+      0.15374398188645474
+    ],
+    "snr_top5": [
+      -0.21862707455706742,
+      0.07408004292644287
+    ],
+    "snr_entropy": [
+      0.6008997943633215,
+      0.4967494522166931
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:30.02 AM",
+    "raw_message": "Data Recorder File Index is 80.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.",
+    "message_anomaly": "normal",
+    "message_eventId": "E5",
+    "sentences": [
+      "Data Recorder File Index is 80.;",
+      "Set Return to Home (RTH) altitude to 100 m (328 ft).;",
+      "Set maximum flight altitude to 500 m (1640 ft).;",
+      "Flight mode changed to Starting Motors."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent",
+      "Event"
+    ],
+    "eventIds": [
+      "E16",
+      "N10",
+      "N13",
+      "E9"
+    ],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9168722033500671,
+          0.022370794788002968,
+          0.02940620481967926,
+          0.031350791454315186
+        ]
+      ],
+      [
+        [
+          0.915276825428009,
+          0.023721659556031227,
+          0.02970343828201294,
+          0.031298112124204636
+        ]
+      ],
+      [
+        [
+          0.8609138131141663,
+          0.05193457379937172,
+          0.04496454820036888,
+          0.04218713194131851
+        ]
+      ],
+      [
+        [
+          0.904988706111908,
+          0.027047552168369293,
+          0.032908160239458084,
+          0.03505558520555496
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.031350791454315186,
+      0.031298112124204636,
+      0.04218713194131851,
+      0.03505558520555496
+    ],
+    "sum_attributions": [
+      -1.8467997312545776,
+      -1.8950157165527344,
+      -2.4210638999938965,
+      -1.210764765739441
+    ],
+    "max_attributions": [
+      0.16184702515602112,
+      0.21344688534736633,
+      0.17228549718856812,
+      0.39038145542144775
+    ],
+    "norm_attributions": [
+      -0.5840093532951317,
+      -0.42373839606423874,
+      -0.625116010985356,
+      -0.4035882552464803
+    ],
+    "top3_attributions": [
+      0.25252044200897217,
+      0.5021340847015381,
+      0.2775031626224518,
+      0.5238075256347656
+    ],
+    "top5_attributions": [
+      0.1894541084766388,
+      0.6906530857086182,
+      0.21052339673042297,
+      0.41122591495513916
+    ],
+    "snr_std": [
+      0.9837299648020873,
+      3.6084490192085217,
+      1.3769651385806163,
+      1.7175129488959657
+    ],
+    "snr_signed": [
+      0.12028676959950403,
+      0.2783283247095171,
+      0.10283352126483263,
+      0.30198079849965986
+    ],
+    "snr_normed": [
+      0.10737141503470636,
+      0.21772835611130145,
+      0.09324482452943009,
+      0.23193950548848136
+    ],
+    "snr_top3": [
+      0.10737141503470636,
+      0.14959056025582124,
+      0.09324482452943009,
+      0.23193950548848136
+    ],
+    "snr_top5": [
+      0.08055567917369916,
+      0.20575217891247735,
+      0.07073871519862698,
+      0.18208889848071483
+    ],
+    "snr_entropy": [
+      0.5346199992499756,
+      0.3808377842005056,
+      0.41888229250269104,
+      0.5515715921988725
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:31.42 AM",
+    "raw_message": "Flight mode changed to Manual Takeoff.",
+    "message_anomaly": "normal",
+    "message_eventId": "E7",
+    "sentences": [
+      "Flight mode changed to Manual Takeoff."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E7"
+    ],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9168192148208618,
+          0.023183636367321014,
+          0.0285801999270916,
+          0.03141697868704796
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.03141697868704796
+    ],
+    "sum_attributions": [
+      -1.771095871925354
+    ],
+    "max_attributions": [
+      0.20672458410263062
+    ],
+    "norm_attributions": [
+      -0.5903652906417847
+    ],
+    "top3_attributions": [
+      0.2841787338256836
+    ],
+    "top5_attributions": [
+      0.014914363622665405
+    ],
+    "snr_std": [
+      1.1086456894041052
+    ],
+    "snr_signed": [
+      0.14413845367751274
+    ],
+    "snr_normed": [
+      0.12597989705060755
+    ],
+    "snr_top3": [
+      0.12002575866998007
+    ],
+    "snr_top5": [
+      0.006299232123359474
+    ],
+    "snr_entropy": [
+      0.5270305351194965
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:35.42 AM",
+    "raw_message": "Flight mode changed to P-GPS.",
+    "message_anomaly": "normal",
+    "message_eventId": "E4",
+    "sentences": [
+      "Flight mode changed to P-GPS."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E6"
+    ],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.8602450489997864,
+          0.04981572926044464,
+          0.045731253921985626,
+          0.044208064675331116
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.044208064675331116
+    ],
+    "sum_attributions": [
+      -1.6775572299957275
+    ],
+    "max_attributions": [
+      0.22085177898406982
+    ],
+    "norm_attributions": [
+      -0.5304901752069436
+    ],
+    "top3_attributions": [
+      0.37243297696113586
+    ],
+    "top5_attributions": [
+      0.17945320904254913
+    ],
+    "snr_std": [
+      1.3893463235517167
+    ],
+    "snr_signed": [
+      0.18167549342110434
+    ],
+    "snr_normed": [
+      0.15374398188645474
+    ],
+    "snr_top3": [
+      0.15374398188645474
+    ],
+    "snr_top5": [
+      0.07408004292644287
+    ],
+    "snr_entropy": [
+      0.4967494522166931
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:36.02 AM",
+    "raw_message": "Home point updated.",
+    "message_anomaly": "normal",
+    "message_eventId": "E6",
+    "sentences": [
+      "Home point updated."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E4"
+    ],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9145896434783936,
+          0.02328534796833992,
+          0.029805902391672134,
+          0.032319169491529465
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.032319169491529465
+    ],
+    "sum_attributions": [
+      -1.3686758279800415
+    ],
+    "max_attributions": [
+      0.3258475661277771
+    ],
+    "norm_attributions": [
+      -0.5587595669720642
+    ],
+    "top3_attributions": [
+      0.050203144550323486
+    ],
+    "top5_attributions": [
+      -0.5522012114524841
+    ],
+    "snr_std": [
+      0.962416004423942
+    ],
+    "snr_signed": [
+      0.19229452877619096
+    ],
+    "snr_normed": [
+      0.1612810580457224
+    ],
+    "snr_top3": [
+      0.024848478589290575
+    ],
+    "snr_top5": [
+      -0.2733167434562414
+    ],
+    "snr_entropy": [
+      0.6328894097971313
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:48.82 AM",
+    "raw_message": "Gimbal pitch axis endpoint reached.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
+    "sentences": [
+      "Gimbal pitch axis endpoint reached."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E8"
+    ],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9155938029289246,
+          0.023299651220440865,
+          0.02954666130244732,
+          0.031559932976961136
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.031559932976961136
+    ],
+    "sum_attributions": [
+      -1.6283129453659058
+    ],
+    "max_attributions": [
+      0.23229530453681946
+    ],
+    "norm_attributions": [
+      -0.4909548255506528
+    ],
+    "top3_attributions": [
+      0.358970582485199
+    ],
+    "top5_attributions": [
+      0.2873319387435913
+    ],
+    "snr_std": [
+      1.366610557267637
+    ],
+    "snr_signed": [
+      0.18063380901763562
+    ],
+    "snr_normed": [
+      0.15299733194536724
+    ],
+    "snr_top3": [
+      0.15299733194536724
+    ],
+    "snr_top5": [
+      0.1224641298072712
+    ],
+    "snr_entropy": [
+      0.5115667419104076
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:09:51.62 AM",
+    "raw_message": "Gimbal pitch axis endpoint reached.",
+    "message_anomaly": "normal",
+    "message_eventId": "E8",
+    "sentences": [
+      "Gimbal pitch axis endpoint reached."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E8"
+    ],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9155938029289246,
+          0.023299651220440865,
+          0.02954666130244732,
+          0.031559932976961136
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.031559932976961136
+    ],
+    "sum_attributions": [
+      -1.6283129453659058
+    ],
+    "max_attributions": [
+      0.23229530453681946
+    ],
+    "norm_attributions": [
+      -0.4909548255506528
+    ],
+    "top3_attributions": [
+      0.358970582485199
+    ],
+    "top5_attributions": [
+      0.2873319387435913
+    ],
+    "snr_std": [
+      1.366610557267637
+    ],
+    "snr_signed": [
+      0.18063380901763562
+    ],
+    "snr_normed": [
+      0.15299733194536724
+    ],
+    "snr_top3": [
+      0.15299733194536724
+    ],
+    "snr_top5": [
+      0.1224641298072712
+    ],
+    "snr_entropy": [
+      0.5115667419104076
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:21.02 AM",
+    "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
+    "sentences": [
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E0",
+      "N5"
+    ],
+    "anomalies": [
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ],
+      [
+        [
+          0.1710483282804489,
+          0.6824013590812683,
+          0.06024925038218498,
+          0.08630101382732391
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.10107439011335373,
+      0.08630101382732391
+    ],
+    "sum_attributions": [
+      1.1926733255386353,
+      1.4741358757019043
+    ],
+    "max_attributions": [
+      0.9777945280075073,
+      0.6926731467247009
+    ],
+    "norm_attributions": [
+      0.45078814495937275,
+      0.3685339689254761
+    ],
+    "top3_attributions": [
+      1.2073452472686768,
+      1.3383598327636719
+    ],
+    "top5_attributions": [
+      1.264137864112854,
+      1.8678803443908691
+    ],
+    "snr_std": [
+      3.746894887256632,
+      9.573833856901754
+    ],
+    "snr_signed": [
+      17.689037694966718,
+      2.9632697420532925
+    ],
+    "snr_normed": [
+      0.9464926549060635,
+      0.747683113595845
+    ],
+    "snr_top3": [
+      0.903970556468935,
+      0.44974026611376033
+    ],
+    "snr_top5": [
+      0.9464926549060635,
+      0.6276794794568151
+    ],
+    "snr_entropy": [
+      1.0486969933056387,
+      0.413267140483072
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:27.82 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E0",
+      "E3",
+      "E0",
+      "N5"
+    ],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.10012906044721603,
+          0.08827651292085648,
+          0.6971691846847534,
+          0.11442525684833527
+        ]
+      ],
+      [
+        [
+          0.05093791335821152,
+          0.8096449971199036,
+          0.0485784076154232,
+          0.09083874523639679
+        ]
+      ],
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ],
+      [
+        [
+          0.1710483282804489,
+          0.6824013590812683,
+          0.06024925038218498,
+          0.08630101382732391
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.11442525684833527,
+      0.09083874523639679,
+      0.10107439011335373,
+      0.08630101382732391
+    ],
+    "sum_attributions": [
+      1.087226152420044,
+      1.4190254211425781,
+      1.1926733255386353,
+      1.4741358757019043
+    ],
+    "max_attributions": [
+      0.986155092716217,
+      0.8937163949012756,
+      0.9777945280075073,
+      0.6926731467247009
+    ],
+    "norm_attributions": [
+      0.38439249252978597,
+      0.5793147023062208,
+      0.45078814495937275,
+      0.3685339689254761
+    ],
+    "top3_attributions": [
+      1.1804299354553223,
+      1.4398605823516846,
+      1.2073452472686768,
+      1.3383598327636719
+    ],
+    "top5_attributions": [
+      1.197829246520996,
+      1.4583284854888916,
+      1.264137864112854,
+      1.8678803443908691
+    ],
+    "snr_std": [
+      3.7019966708356673,
+      4.422140526493181,
+      3.746894887256632,
+      9.573833856901754
+    ],
+    "snr_signed": [
+      9.980302345300135,
+      28.02545994634006,
+      17.689037694966718,
+      2.9632697420532925
+    ],
+    "snr_normed": [
+      0.9089278163365123,
+      0.9655474528427659,
+      0.9464926549060635,
+      0.747683113595845
+    ],
+    "snr_top3": [
+      0.8879673980264636,
+      0.9447659169770648,
+      0.903970556468935,
+      0.44974026611376033
+    ],
+    "snr_top5": [
+      0.9010558673293706,
+      0.956883649524177,
+      0.9464926549060635,
+      0.6276794794568151
+    ],
+    "snr_entropy": [
+      0.9941422386875397,
+      0.9242736691032312,
+      1.0486969933056387,
+      0.413267140483072
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:30.82 AM",
+    "raw_message": "Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E0",
+      "E0",
+      "N5"
+    ],
+    "anomalies": [
+      "medium",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.10012906044721603,
+          0.08827651292085648,
+          0.6971691846847534,
+          0.11442525684833527
+        ]
+      ],
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ],
+      [
+        [
+          0.1710483282804489,
+          0.6824013590812683,
+          0.06024925038218498,
+          0.08630101382732391
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.11442525684833527,
+      0.10107439011335373,
+      0.08630101382732391
+    ],
+    "sum_attributions": [
+      1.087226152420044,
+      1.1926733255386353,
+      1.4741358757019043
+    ],
+    "max_attributions": [
+      0.986155092716217,
+      0.9777945280075073,
+      0.6926731467247009
+    ],
+    "norm_attributions": [
+      0.38439249252978597,
+      0.45078814495937275,
+      0.3685339689254761
+    ],
+    "top3_attributions": [
+      1.1804299354553223,
+      1.2073452472686768,
+      1.3383598327636719
+    ],
+    "top5_attributions": [
+      1.197829246520996,
+      1.264137864112854,
+      1.8678803443908691
+    ],
+    "snr_std": [
+      3.7019966708356673,
+      3.746894887256632,
+      9.573833856901754
+    ],
+    "snr_signed": [
+      9.980302345300135,
+      17.689037694966718,
+      2.9632697420532925
+    ],
+    "snr_normed": [
+      0.9089278163365123,
+      0.9464926549060635,
+      0.747683113595845
+    ],
+    "snr_top3": [
+      0.8879673980264636,
+      0.903970556468935,
+      0.44974026611376033
+    ],
+    "snr_top5": [
+      0.9010558673293706,
+      0.9464926549060635,
+      0.6276794794568151
+    ],
+    "snr_entropy": [
+      0.9941422386875397,
+      1.0486969933056387,
+      0.413267140483072
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:38.62 AM",
+    "raw_message": "Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
+    "sentences": [
+      "Image transmission signal weak.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E0",
+      "E3",
+      "E0",
+      "N5"
+    ],
+    "anomalies": [
+      "medium",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.10012906044721603,
+          0.08827651292085648,
+          0.6971691846847534,
+          0.11442525684833527
+        ]
+      ],
+      [
+        [
+          0.05093791335821152,
+          0.8096449971199036,
+          0.0485784076154232,
+          0.09083874523639679
+        ]
+      ],
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ],
+      [
+        [
+          0.1710483282804489,
+          0.6824013590812683,
+          0.06024925038218498,
+          0.08630101382732391
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.11442525684833527,
+      0.09083874523639679,
+      0.10107439011335373,
+      0.08630101382732391
+    ],
+    "sum_attributions": [
+      1.087226152420044,
+      1.4190254211425781,
+      1.1926733255386353,
+      1.4741358757019043
+    ],
+    "max_attributions": [
+      0.986155092716217,
+      0.8937163949012756,
+      0.9777945280075073,
+      0.6926731467247009
+    ],
+    "norm_attributions": [
+      0.38439249252978597,
+      0.5793147023062208,
+      0.45078814495937275,
+      0.3685339689254761
+    ],
+    "top3_attributions": [
+      1.1804299354553223,
+      1.4398605823516846,
+      1.2073452472686768,
+      1.3383598327636719
+    ],
+    "top5_attributions": [
+      1.197829246520996,
+      1.4583284854888916,
+      1.264137864112854,
+      1.8678803443908691
+    ],
+    "snr_std": [
+      3.7019966708356673,
+      4.422140526493181,
+      3.746894887256632,
+      9.573833856901754
+    ],
+    "snr_signed": [
+      9.980302345300135,
+      28.02545994634006,
+      17.689037694966718,
+      2.9632697420532925
+    ],
+    "snr_normed": [
+      0.9089278163365123,
+      0.9655474528427659,
+      0.9464926549060635,
+      0.747683113595845
+    ],
+    "snr_top3": [
+      0.8879673980264636,
+      0.9447659169770648,
+      0.903970556468935,
+      0.44974026611376033
+    ],
+    "snr_top5": [
+      0.9010558673293706,
+      0.956883649524177,
+      0.9464926549060635,
+      0.6276794794568151
+    ],
+    "snr_entropy": [
+      0.9941422386875397,
+      0.9242736691032312,
+      1.0486969933056387,
+      0.413267140483072
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:38.82 AM",
+    "raw_message": "RC signal lost.",
+    "message_anomaly": "medium",
+    "message_eventId": "E2",
+    "sentences": [
+      "RC signal lost."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E1"
+    ],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.07626856118440628,
+          0.14545296132564545,
+          0.5782325267791748,
+          0.20004592835903168
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.20004592835903168
+    ],
+    "sum_attributions": [
+      1.4251763820648193
+    ],
+    "max_attributions": [
+      0.9552773833274841
+    ],
+    "norm_attributions": [
+      0.5818258215874358
+    ],
+    "top3_attributions": [
+      1.3432756662368774
+    ],
+    "top5_attributions": [
+      1.4655828475952148
+    ],
+    "snr_std": [
+      4.413957016784918
+    ],
+    "snr_signed": [
+      36.27096823865153
+    ],
+    "snr_normed": [
+      0.9731694871434042
+    ],
+    "snr_top3": [
+      0.8919556430050464
+    ],
+    "snr_top5": [
+      0.9731694871434042
+    ],
+    "snr_entropy": [
+      0.8636456154347367
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:40.62 AM",
+    "raw_message": "RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
+    "sentences": [
+      "RC signal lost.;",
+      "Aircraft braking.;",
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E1",
+      "E3",
+      "E0",
+      "N5"
+    ],
+    "anomalies": [
+      "low",
+      "low",
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.0721554309129715,
+          0.412296324968338,
+          0.32341963052749634,
+          0.19212861359119415
+        ]
+      ],
+      [
+        [
+          0.05093791335821152,
+          0.8096449971199036,
+          0.0485784076154232,
+          0.09083874523639679
+        ]
+      ],
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ],
+      [
+        [
+          0.1710483282804489,
+          0.6824013590812683,
+          0.06024925038218498,
+          0.08630101382732391
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.19212861359119415,
+      0.09083874523639679,
+      0.10107439011335373,
+      0.08630101382732391
+    ],
+    "sum_attributions": [
+      1.2886117696762085,
+      1.4190254211425781,
+      1.1926733255386353,
+      1.4741358757019043
+    ],
+    "max_attributions": [
+      0.9672176241874695,
+      0.8937163949012756,
+      0.9777945280075073,
+      0.6926731467247009
+    ],
+    "norm_attributions": [
+      0.4870494684391558,
+      0.5793147023062208,
+      0.45078814495937275,
+      0.3685339689254761
+    ],
+    "top3_attributions": [
+      1.2564895153045654,
+      1.4398605823516846,
+      1.2073452472686768,
+      1.3383598327636719
+    ],
+    "top5_attributions": [
+      1.3855725526809692,
+      1.4583284854888916,
+      1.264137864112854,
+      1.8678803443908691
+    ],
+    "snr_std": [
+      4.209734707502406,
+      4.422140526493181,
+      3.746894887256632,
+      9.573833856901754
+    ],
+    "snr_signed": [
+      13.753405524443195,
+      28.02545994634006,
+      17.689037694966718,
+      2.9632697420532925
+    ],
+    "snr_normed": [
+      0.9322190393029449,
+      0.9655474528427659,
+      0.9464926549060635,
+      0.747683113595845
+    ],
+    "snr_top3": [
+      0.842889540544499,
+      0.9447659169770648,
+      0.903970556468935,
+      0.44974026611376033
+    ],
+    "snr_top5": [
+      0.9294821787965678,
+      0.956883649524177,
+      0.9464926549060635,
+      0.6276794794568151
+    ],
+    "snr_entropy": [
+      0.8421819444272013,
+      0.9242736691032312,
+      1.0486969933056387,
+      0.413267140483072
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:53.82 AM",
+    "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E9",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E0"
+    ],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.10107439011335373
+    ],
+    "sum_attributions": [
+      1.1926733255386353
+    ],
+    "max_attributions": [
+      0.9777945280075073
+    ],
+    "norm_attributions": [
+      0.45078814495937275
+    ],
+    "top3_attributions": [
+      1.2073452472686768
+    ],
+    "top5_attributions": [
+      1.264137864112854
+    ],
+    "snr_std": [
+      3.746894887256632
+    ],
+    "snr_signed": [
+      17.689037694966718
+    ],
+    "snr_normed": [
+      0.9464926549060635
+    ],
+    "snr_top3": [
+      0.903970556468935
+    ],
+    "snr_top5": [
+      0.9464926549060635
+    ],
+    "snr_entropy": [
+      1.0486969933056387
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:10:57.02 AM",
+    "raw_message": "Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.",
+    "message_anomaly": "low",
+    "message_eventId": "E1",
+    "sentences": [
+      "Image transmission signal weak.",
+      "Adjust antennas and make sure they are perpendicular to flight direction of aircraft."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E0",
+      "N5"
+    ],
+    "anomalies": [
+      "medium",
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ],
+      [
+        [
+          0.1710483282804489,
+          0.6824013590812683,
+          0.06024925038218498,
+          0.08630101382732391
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.10107439011335373,
+      0.08630101382732391
+    ],
+    "sum_attributions": [
+      1.1926733255386353,
+      1.4741358757019043
+    ],
+    "max_attributions": [
+      0.9777945280075073,
+      0.6926731467247009
+    ],
+    "norm_attributions": [
+      0.45078814495937275,
+      0.3685339689254761
+    ],
+    "top3_attributions": [
+      1.2073452472686768,
+      1.3383598327636719
+    ],
+    "top5_attributions": [
+      1.264137864112854,
+      1.8678803443908691
+    ],
+    "snr_std": [
+      3.746894887256632,
+      9.573833856901754
+    ],
+    "snr_signed": [
+      17.689037694966718,
+      2.9632697420532925
+    ],
+    "snr_normed": [
+      0.9464926549060635,
+      0.747683113595845
+    ],
+    "snr_top3": [
+      0.903970556468935,
+      0.44974026611376033
+    ],
+    "snr_top5": [
+      0.9464926549060635,
+      0.6276794794568151
+    ],
+    "snr_entropy": [
+      1.0486969933056387,
+      0.413267140483072
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:11:01.82 AM",
+    "raw_message": "Image transmission signal weak.",
+    "message_anomaly": "medium",
+    "message_eventId": "E9",
+    "sentences": [
+      "Image transmission signal weak."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E0"
+    ],
+    "anomalies": [
+      "medium"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.09278474748134613,
+          0.045617394149303436,
+          0.7605234384536743,
+          0.10107439011335373
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.10107439011335373
+    ],
+    "sum_attributions": [
+      1.1926733255386353
+    ],
+    "max_attributions": [
+      0.9777945280075073
+    ],
+    "norm_attributions": [
+      0.45078814495937275
+    ],
+    "top3_attributions": [
+      1.2073452472686768
+    ],
+    "top5_attributions": [
+      1.264137864112854
+    ],
+    "snr_std": [
+      3.746894887256632
+    ],
+    "snr_signed": [
+      17.689037694966718
+    ],
+    "snr_normed": [
+      0.9464926549060635
+    ],
+    "snr_top3": [
+      0.903970556468935
+    ],
+    "snr_top5": [
+      0.9464926549060635
+    ],
+    "snr_entropy": [
+      1.0486969933056387
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:12.42 AM",
+    "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E0",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E3"
+    ],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.08585803955793381,
+          0.666118323802948,
+          0.09567470103502274,
+          0.15234893560409546
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.15234893560409546
+    ],
+    "sum_attributions": [
+      1.2580833435058594
+    ],
+    "max_attributions": [
+      0.8497179746627808
+    ],
+    "norm_attributions": [
+      0.562631975487864
+    ],
+    "top3_attributions": [
+      1.388137698173523
+    ],
+    "top5_attributions": [
+      1.2580833435058594
+    ],
+    "snr_std": [
+      3.7546176425107105
+    ],
+    "snr_signed": [
+      10.673520772920092
+    ],
+    "snr_normed": [
+      0.9143360324435174
+    ],
+    "snr_top3": [
+      0.9143360324435174
+    ],
+    "snr_top5": [
+      0.8286720649529026
+    ],
+    "snr_entropy": [
+      0.9825588531150258
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:12.82 AM",
+    "raw_message": "Aircraft braking.",
+    "message_anomaly": "low",
+    "message_eventId": "E0",
+    "sentences": [
+      "Aircraft braking."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E3"
+    ],
+    "anomalies": [
+      "low"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.08585803955793381,
+          0.666118323802948,
+          0.09567470103502274,
+          0.15234893560409546
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.15234893560409546
+    ],
+    "sum_attributions": [
+      1.2580833435058594
+    ],
+    "max_attributions": [
+      0.8497179746627808
+    ],
+    "norm_attributions": [
+      0.562631975487864
+    ],
+    "top3_attributions": [
+      1.388137698173523
+    ],
+    "top5_attributions": [
+      1.2580833435058594
+    ],
+    "snr_std": [
+      3.7546176425107105
+    ],
+    "snr_signed": [
+      10.673520772920092
+    ],
+    "snr_normed": [
+      0.9143360324435174
+    ],
+    "snr_top3": [
+      0.9143360324435174
+    ],
+    "snr_top5": [
+      0.8286720649529026
+    ],
+    "snr_entropy": [
+      0.9825588531150258
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:14.22 AM",
+    "raw_message": "Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing.",
+    "message_anomaly": "low",
+    "message_eventId": "E0",
+    "sentences": [
+      "Aircraft braking.;",
+      "Auto landing in progress.;",
+      "Flight mode changed to Auto Landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "Event",
+      "Event"
+    ],
+    "eventIds": [
+      "E3",
+      "E2",
+      "E12"
+    ],
+    "anomalies": [
+      "low",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.05093791335821152,
+          0.8096449971199036,
+          0.0485784076154232,
+          0.09083874523639679
+        ]
+      ],
+      [
+        [
+          0.9170594811439514,
+          0.022638315334916115,
+          0.02887967973947525,
+          0.03142249211668968
+        ]
+      ],
+      [
+        [
+          0.9164432883262634,
+          0.02345629222691059,
+          0.028765443712472916,
+          0.03133491426706314
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.09083874523639679,
+      0.03142249211668968,
+      0.03133491426706314
+    ],
+    "sum_attributions": [
+      1.4190254211425781,
+      -1.818966031074524,
+      -2.120378255844116
+    ],
+    "max_attributions": [
+      0.8937163949012756,
+      0.022779464721679688,
+      0.11819303780794144
+    ],
+    "norm_attributions": [
+      0.5793147023062208,
+      -0.643101607660388,
+      -0.7067927519480387
+    ],
+    "top3_attributions": [
+      1.4398605823516846,
+      -0.0023226849734783173,
+      0.03343822807073593
+    ],
+    "top5_attributions": [
+      1.4583284854888916,
+      -0.2839031517505646,
+      -0.3289220631122589
+    ],
+    "snr_std": [
+      4.422140526493181,
+      0.11361976346085637,
+      0.5048368902408714
+    ],
+    "snr_signed": [
+      28.02545994634006,
+      0.01663050804455895,
+      0.05315836691779514
+    ],
+    "snr_normed": [
+      0.9655474528427659,
+      0.016358458211280406,
+      0.050475187379255375
+    ],
+    "snr_top3": [
+      0.9447659169770648,
+      -0.0012351488392809851,
+      0.014177955487017078
+    ],
+    "snr_top5": [
+      0.956883649524177,
+      -0.15097296979873742,
+      -0.13946439864092933
+    ],
+    "snr_entropy": [
+      0.9242736691032312,
+      0.6747134163355687,
+      0.531990929384701
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:15.82 AM",
+    "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E3",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Make sure the area under the aircraft is safe for landing.",
+      "Push throttle down to use force landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E2",
+      "N11",
+      "N14"
+    ],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9170594811439514,
+          0.022638315334916115,
+          0.02887967973947525,
+          0.03142249211668968
+        ]
+      ],
+      [
+        [
+          0.907642126083374,
+          0.026028286665678024,
+          0.032350316643714905,
+          0.03397929668426514
+        ]
+      ],
+      [
+        [
+          0.9129506945610046,
+          0.023910509422421455,
+          0.030961468815803528,
+          0.03217737004160881
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.03142249211668968,
+      0.03397929668426514,
+      0.03217737004160881
+    ],
+    "sum_attributions": [
+      -1.818966031074524,
+      -1.236249327659607,
+      -1.968148112297058
+    ],
+    "max_attributions": [
+      0.022779464721679688,
+      0.26183685660362244,
+      0.233751580119133
+    ],
+    "norm_attributions": [
+      -0.643101607660388,
+      -0.3304015306237062,
+      -0.6223830807419554
+    ],
+    "top3_attributions": [
+      -0.0023226849734783173,
+      0.5181447863578796,
+      0.21051229536533356
+    ],
+    "top5_attributions": [
+      -0.2839031517505646,
+      0.569848895072937,
+      -0.07355575263500214
+    ],
+    "snr_std": [
+      0.11361976346085637,
+      2.2590467504047234,
+      0.9654690391954748
+    ],
+    "snr_signed": [
+      0.01663050804455895,
+      0.3155138228218148,
+      0.10827183558505687
+    ],
+    "snr_normed": [
+      0.016358458211280406,
+      0.23984074468319314,
+      0.09769428363753455
+    ],
+    "snr_top3": [
+      -0.0012351488392809851,
+      0.21807924783173566,
+      0.08606089173853934
+    ],
+    "snr_top5": [
+      -0.15097296979873742,
+      0.23984071959650607,
+      -0.03007080253094873
+    ],
+    "snr_entropy": [
+      0.6747134163355687,
+      0.4969034048793448,
+      0.5086039263931846
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:41.82 AM",
+    "raw_message": "Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.",
+    "message_anomaly": "normal",
+    "message_eventId": "E3",
+    "sentences": [
+      "Auto landing in progress.;",
+      "Make sure the area under the aircraft is safe for landing.",
+      "Push throttle down to use force landing."
+    ],
+    "sentence_types": [
+      "Event",
+      "NonEvent",
+      "NonEvent"
+    ],
+    "eventIds": [
+      "E2",
+      "N11",
+      "N14"
+    ],
+    "anomalies": [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.9170594811439514,
+          0.022638315334916115,
+          0.02887967973947525,
+          0.03142249211668968
+        ]
+      ],
+      [
+        [
+          0.907642126083374,
+          0.026028286665678024,
+          0.032350316643714905,
+          0.03397929668426514
+        ]
+      ],
+      [
+        [
+          0.9129506945610046,
+          0.023910509422421455,
+          0.030961468815803528,
+          0.03217737004160881
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.03142249211668968,
+      0.03397929668426514,
+      0.03217737004160881
+    ],
+    "sum_attributions": [
+      -1.818966031074524,
+      -1.236249327659607,
+      -1.968148112297058
+    ],
+    "max_attributions": [
+      0.022779464721679688,
+      0.26183685660362244,
+      0.233751580119133
+    ],
+    "norm_attributions": [
+      -0.643101607660388,
+      -0.3304015306237062,
+      -0.6223830807419554
+    ],
+    "top3_attributions": [
+      -0.0023226849734783173,
+      0.5181447863578796,
+      0.21051229536533356
+    ],
+    "top5_attributions": [
+      -0.2839031517505646,
+      0.569848895072937,
+      -0.07355575263500214
+    ],
+    "snr_std": [
+      0.11361976346085637,
+      2.2590467504047234,
+      0.9654690391954748
+    ],
+    "snr_signed": [
+      0.01663050804455895,
+      0.3155138228218148,
+      0.10827183558505687
+    ],
+    "snr_normed": [
+      0.016358458211280406,
+      0.23984074468319314,
+      0.09769428363753455
+    ],
+    "snr_top3": [
+      -0.0012351488392809851,
+      0.21807924783173566,
+      0.08606089173853934
+    ],
+    "snr_top5": [
+      -0.15097296979873742,
+      0.23984071959650607,
+      -0.03007080253094873
+    ],
+    "snr_entropy": [
+      0.6747134163355687,
+      0.4969034048793448,
+      0.5086039263931846
+    ]
+  },
+  {
+    "date": "11/10/2024",
+    "time": "3:13:52.92 AM",
+    "raw_message": "Flight mode changed to P-GPS.",
+    "message_anomaly": "normal",
+    "message_eventId": "E4",
+    "sentences": [
+      "Flight mode changed to P-GPS."
+    ],
+    "sentence_types": [
+      "Event"
+    ],
+    "eventIds": [
+      "E6"
+    ],
+    "anomalies": [
+      "normal"
+    ],
+    "anomaly_probs": [
+      [
+        [
+          0.8602450489997864,
+          0.04981572926044464,
+          0.045731253921985626,
+          0.044208064675331116
+        ]
+      ]
+    ],
+    "severe_probs": [
+      0.044208064675331116
+    ],
+    "sum_attributions": [
+      -1.6775572299957275
+    ],
+    "max_attributions": [
+      0.22085177898406982
+    ],
+    "norm_attributions": [
+      -0.5304901752069436
+    ],
+    "top3_attributions": [
+      0.37243297696113586
+    ],
+    "top5_attributions": [
+      0.17945320904254913
+    ],
+    "snr_std": [
+      1.3893463235517167
+    ],
+    "snr_signed": [
+      0.18167549342110434
+    ],
+    "snr_normed": [
+      0.15374398188645474
+    ],
+    "snr_top3": [
+      0.15374398188645474
+    ],
+    "snr_top5": [
+      0.07408004292644287
+    ],
+    "snr_entropy": [
+      0.4967494522166931
+    ]
+  }
+]
