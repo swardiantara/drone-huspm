@@ -133,7 +133,7 @@ def main():
             'use_cuda': use_cuda,
             'device': device,
             'data_path': full_path,
-            'ner_model_path': 'ADFLER-albert-base-v2',
+            'ner_model_path': 'ADFLER-xlnet-base-cased',
             'embedding_model_path': 'swardiantara/drone-sbert',
             'birch_model_path': os.path.join(parsed_folder, 'birch_model.joblib'),
             'severity_model_path': 'swardiantara/drone-ordinal-all',
