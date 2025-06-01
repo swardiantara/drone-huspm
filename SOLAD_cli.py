@@ -64,8 +64,8 @@ class DroneLogAnalyzer:
         
         # 2. Segment messages
         logger.info(f'Start event recognition...')
-        # records = self.segmenter.segment_and_classify(records)
-        records = self.segmenter.syntactic_segmenter(records)
+        records = self.segmenter.segment_and_classify(records)
+        # records = self.segmenter.syntactic_segmenter(records)
         logger.info(f'Event recognition completed successfully!')
         
         # 3. Detect anomalies
